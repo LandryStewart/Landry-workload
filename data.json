@@ -5,8 +5,8 @@
     "To Do (Misc.)",
     "In Progress",
     "Under Review",
-    "Internal Legal",
-    "Title Objections"
+    "Title Objections",
+    "Internal Legal"
   ],
   "labels": [
     {
@@ -210,7 +210,7 @@
     {
       "title": "15' Coserv UE",
       "assignee": "",
-      "bucket": "To Do (Misc.)",
+      "bucket": "Title Objections",
       "due": "2026-05-07",
       "priority": "Medium",
       "pct": 50,
@@ -327,7 +327,7 @@
     {
       "title": "Legacy Fields - AT&T Easement",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Title Objections",
       "due": "2026-05-11",
       "priority": "Medium",
       "pct": 0,
@@ -340,7 +340,7 @@
     {
       "title": "Legacy Fields - EagleRidge SUA",
       "assignee": "",
-      "bucket": "To Do (Misc.)",
+      "bucket": "Title Objections",
       "due": "2026-05-11",
       "priority": "Medium",
       "pct": 0,
@@ -353,7 +353,7 @@
     {
       "title": "Legacy fields - Atmos Easement",
       "assignee": "",
-      "bucket": "To Do (Misc.)",
+      "bucket": "Title Objections",
       "due": "2026-05-12",
       "priority": "Medium",
       "pct": 0,
@@ -366,7 +366,7 @@
     {
       "title": "Legacy Fields - Oncor Easement",
       "assignee": "",
-      "bucket": "To Do (Misc.)",
+      "bucket": "Title Objections",
       "due": "2026-05-18",
       "priority": "Medium",
       "pct": 0,
