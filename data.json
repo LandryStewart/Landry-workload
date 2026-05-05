@@ -122,6 +122,13 @@
   "darkMode": false,
   "compact": false,
   "myName": "",
-  "folders": [],
-  "nextFolderId": 1
+  "folders": [
+    {
+      "id": 1,
+      "name": "Saddleside",
+      "created": "2026-05-05T15:15:36.509Z",
+      "updated": "2026-05-05T15:15:36.509Z"
+    }
+  ],
+  "nextFolderId": 2
 }
