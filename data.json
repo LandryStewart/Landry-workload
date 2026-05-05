@@ -1,7 +1,10 @@
 {
   "projectName": "My Project",
   "buckets": [
-    "To Do",
+    "To Do (ASAP)",
+    "To Do (Misc.)",
+    "Under Review",
+    "Internal Legal",
     "In Progress"
   ],
   "labels": [
