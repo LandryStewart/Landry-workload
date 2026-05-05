@@ -5,7 +5,8 @@
     "To Do (Misc.)",
     "In Progress",
     "Under Review",
-    "Internal Legal"
+    "Internal Legal",
+    "Title Objections"
   ],
   "labels": [
     {
@@ -361,6 +362,19 @@
       "checklist": [],
       "id": 25,
       "created": "2026-05-05"
+    },
+    {
+      "title": "Legacy Fields - Oncor Easement",
+      "assignee": "",
+      "bucket": "To Do (Misc.)",
+      "due": "2026-05-18",
+      "priority": "Medium",
+      "pct": 0,
+      "notes": "Kick off once we exit feasibility.",
+      "labels": [],
+      "checklist": [],
+      "id": 26,
+      "created": "2026-05-05"
     }
   ],
   "notes": [
@@ -373,7 +387,7 @@
       "updated": "2026-05-05T17:03:45.403Z"
     }
   ],
-  "nextId": 26,
+  "nextId": 27,
   "nextNoteId": 2,
   "darkMode": false,
   "compact": false,
