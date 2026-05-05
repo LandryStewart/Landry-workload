@@ -270,6 +270,19 @@
       "checklist": [],
       "id": 18,
       "created": "2026-05-05"
+    },
+    {
+      "title": "BVRT Insurance",
+      "assignee": "",
+      "bucket": "Internal Legal",
+      "due": "",
+      "priority": "High",
+      "pct": 0,
+      "notes": "Chelsea needing to approve WC",
+      "labels": [],
+      "checklist": [],
+      "id": 19,
+      "created": "2026-05-05"
     }
   ],
   "notes": [
@@ -282,7 +295,7 @@
       "updated": "2026-05-05T17:03:45.403Z"
     }
   ],
-  "nextId": 19,
+  "nextId": 20,
   "nextNoteId": 2,
   "darkMode": false,
   "compact": false,
