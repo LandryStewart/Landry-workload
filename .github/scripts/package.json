@@ -1,0 +1,9 @@
+{
+  "name": "workload-reminder",
+  "version": "1.0.0",
+  "description": "Sends daily task reminder emails from Workload Manager data",
+  "private": true,
+  "dependencies": {
+    "nodemailer": "^6.9.0"
+  }
+}
