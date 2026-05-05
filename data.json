@@ -322,6 +322,19 @@
       "checklist": [],
       "id": 22,
       "created": "2026-05-05"
+    },
+    {
+      "title": "Legacy Fields - AT&T Easement",
+      "assignee": "",
+      "bucket": "In Progress",
+      "due": "",
+      "priority": "Medium",
+      "pct": 0,
+      "notes": "Needing Ray to approve language in contract to release easements",
+      "labels": [],
+      "checklist": [],
+      "id": 23,
+      "created": "2026-05-05"
     }
   ],
   "notes": [
@@ -334,7 +347,7 @@
       "updated": "2026-05-05T17:03:45.403Z"
     }
   ],
-  "nextId": 23,
+  "nextId": 24,
   "nextNoteId": 2,
   "darkMode": false,
   "compact": false,
