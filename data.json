@@ -327,13 +327,26 @@
       "title": "Legacy Fields - AT&T Easement",
       "assignee": "",
       "bucket": "In Progress",
-      "due": "",
+      "due": "2026-05-11",
       "priority": "Medium",
       "pct": 0,
       "notes": "Needing Ray to approve language in contract to release easements",
       "labels": [],
       "checklist": [],
       "id": 23,
+      "created": "2026-05-05"
+    },
+    {
+      "title": "Legacy Fields - EagleRidge SUA",
+      "assignee": "",
+      "bucket": "To Do (Misc.)",
+      "due": "2026-05-11",
+      "priority": "Medium",
+      "pct": 0,
+      "notes": "Need to get with team to determine what price we go back to them with.",
+      "labels": [],
+      "checklist": [],
+      "id": 24,
       "created": "2026-05-05"
     }
   ],
@@ -347,7 +360,7 @@
       "updated": "2026-05-05T17:03:45.403Z"
     }
   ],
-  "nextId": 24,
+  "nextId": 25,
   "nextNoteId": 2,
   "darkMode": false,
   "compact": false,
