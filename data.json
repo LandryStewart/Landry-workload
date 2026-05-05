@@ -29,9 +29,56 @@
       "color": "#6b7280"
     }
   ],
-  "tasks": [],
+  "tasks": [
+    {
+      "title": "Lonestar 2A - ICA",
+      "assignee": "",
+      "bucket": "To Do (ASAP)",
+      "due": "",
+      "priority": "Critical",
+      "pct": 50,
+      "notes": "",
+      "labels": [],
+      "checklist": [
+        {
+          "text": "IC Cover Sheet",
+          "done": false
+        },
+        {
+          "text": "Proforma",
+          "done": false
+        },
+        {
+          "text": "Site Plan",
+          "done": false
+        },
+        {
+          "text": "DD Checklist",
+          "done": false
+        },
+        {
+          "text": "Entitlements  / Dev Tracker",
+          "done": false
+        },
+        {
+          "text": "Original Budget",
+          "done": false
+        },
+        {
+          "text": "PSA",
+          "done": false
+        },
+        {
+          "text": "ROFO",
+          "done": false
+        }
+      ],
+      "id": 1,
+      "created": "2026-05-05"
+    }
+  ],
   "notes": [],
-  "nextId": 1,
+  "nextId": 2,
   "nextNoteId": 1,
   "darkMode": false,
   "compact": false,
