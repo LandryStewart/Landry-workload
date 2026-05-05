@@ -72,6 +72,10 @@
         {
           "text": "ROFO - Do we need / have?",
           "done": false
+        },
+        {
+          "text": "CMA",
+          "done": true
         }
       ],
       "id": 1,
