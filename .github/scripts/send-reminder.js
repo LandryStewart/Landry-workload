@@ -79,6 +79,8 @@ const dateStr = today.toLocaleDateString('en-US', {
 
 const totalActive = overdue.length + dueToday.length + dueThisWk.length;
 
+let body = '';
+
 if (totalActive === 0) {
   body += '🎉 You\'re all clear! No tasks due this week.\n';
   body += 'Enjoy your day and stay ahead of the game!\n\n';
@@ -110,7 +112,7 @@ if (totalActive === 0) {
 }
 
 body += '\n🔗 Open Workload Manager: ' + SITE_URL + '\n';
-body += '\n— Your Workload Bot 🤖';
+body += '\n— Daily Workload 📋';
 
 let subject;
 if (overdue.length > 0) {
