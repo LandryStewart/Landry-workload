@@ -6,7 +6,7 @@
     "In Progress",
     "Under Review",
     "Title Objections",
-    "Internal Legal"
+    "Internal Legal Review"
   ],
   "labels": [
     {
@@ -236,7 +236,7 @@
     {
       "title": "Enlink Amendment",
       "assignee": "",
-      "bucket": "Internal Legal",
+      "bucket": "Internal Legal Review",
       "due": "2026-05-13",
       "priority": "High",
       "pct": 0,
@@ -275,7 +275,7 @@
     {
       "title": "BVRT Insurance / Initial Payment",
       "assignee": "",
-      "bucket": "Internal Legal",
+      "bucket": "Internal Legal Review",
       "due": "2026-05-08",
       "priority": "High",
       "pct": 0,
@@ -288,7 +288,7 @@
     {
       "title": "BVRT Permanent Easement",
       "assignee": "",
-      "bucket": "Internal Legal",
+      "bucket": "Internal Legal Review",
       "due": "2026-05-08",
       "priority": "Critical",
       "pct": 0,
@@ -423,7 +423,7 @@
     {
       "title": "Cemetery Access",
       "assignee": "",
-      "bucket": "Internal Legal",
+      "bucket": "Internal Legal Review",
       "due": "2026-05-07",
       "priority": "Critical",
       "pct": 0,
