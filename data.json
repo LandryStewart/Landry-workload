@@ -449,6 +449,14 @@
   ],
   "notes": [
     {
+      "id": 8,
+      "title": "",
+      "content": "",
+      "folderId": 5,
+      "created": "2026-05-05T19:36:51.347Z",
+      "updated": "2026-05-05T19:36:51.347Z"
+    },
+    {
       "id": 7,
       "title": "",
       "content": "",
@@ -474,7 +482,7 @@
     }
   ],
   "nextId": 32,
-  "nextNoteId": 8,
+  "nextNoteId": 9,
   "darkMode": false,
   "compact": false,
   "myName": "",
