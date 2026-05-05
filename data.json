@@ -4,8 +4,8 @@
     "To Do (ASAP)",
     "To Do (Misc.)",
     "In Progress",
-    "Under Review",
     "Title Objections",
+    "Outside Counsel Review",
     "Internal Legal Review"
   ],
   "labels": [
@@ -184,7 +184,7 @@
     {
       "title": "MVRK WSA",
       "assignee": "",
-      "bucket": "Under Review",
+      "bucket": "Outside Counsel Review",
       "due": "2026-05-08",
       "priority": "High",
       "pct": 0,
