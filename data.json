@@ -116,9 +116,18 @@
       "created": "2026-05-05"
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "id": 1,
+      "title": "Justin TIA Discussion (05/04/2026)",
+      "content": "",
+      "folderId": 2,
+      "created": "2026-05-05T15:16:30.917Z",
+      "updated": "2026-05-05T15:16:38.677Z"
+    }
+  ],
   "nextId": 5,
-  "nextNoteId": 1,
+  "nextNoteId": 2,
   "darkMode": false,
   "compact": false,
   "myName": "",
