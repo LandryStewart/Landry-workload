@@ -192,6 +192,19 @@
       "checklist": [],
       "id": 10,
       "created": "2026-05-05"
+    },
+    {
+      "title": "Gh",
+      "assignee": "",
+      "bucket": "In Progress",
+      "due": "",
+      "priority": "Medium",
+      "pct": 0,
+      "notes": "",
+      "labels": [],
+      "checklist": [],
+      "id": 11,
+      "created": "2026-05-05"
     }
   ],
   "notes": [
@@ -204,7 +217,7 @@
       "updated": "2026-05-05T15:18:31.365Z"
     }
   ],
-  "nextId": 11,
+  "nextId": 12,
   "nextNoteId": 2,
   "darkMode": false,
   "compact": false,
