@@ -55,11 +55,11 @@
         },
         {
           "text": "DD Checklist",
-          "done": false
+          "done": true
         },
         {
           "text": "Entitlements  / Dev Tracker",
-          "done": false
+          "done": true
         },
         {
           "text": "Original Budget",
@@ -436,6 +436,14 @@
   ],
   "notes": [
     {
+      "id": 6,
+      "title": "Lantana Commercial Discussion (05/05/2026)",
+      "content": "",
+      "folderId": 5,
+      "created": "2026-05-05T19:00:36.263Z",
+      "updated": "2026-05-05T19:00:49.875Z"
+    },
+    {
       "id": 1,
       "title": "Justin TIA Discussion (05/04/2026)",
       "content": "BNSF working through SS4A grant to improve Trail Creek, Downe, and Gulf. \n\nJustin wants TIA to be sent with counts, general phasing, and takedown.\n\nWWTP will be future public works building / are",
@@ -445,7 +453,7 @@
     }
   ],
   "nextId": 31,
-  "nextNoteId": 6,
+  "nextNoteId": 7,
   "darkMode": false,
   "compact": false,
   "myName": "",
