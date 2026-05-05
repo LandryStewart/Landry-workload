@@ -63,14 +63,14 @@
         },
         {
           "text": "Original Budget",
-          "done": false
+          "done": true
         },
         {
           "text": "PSA",
           "done": false
         },
         {
-          "text": "ROFO",
+          "text": "ROFO - Do we need / have?",
           "done": false
         }
       ],
