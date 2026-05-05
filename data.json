@@ -458,6 +458,19 @@
       "checklist": [],
       "id": 32,
       "created": "2026-05-05"
+    },
+    {
+      "title": "BVRT - Easement Language",
+      "assignee": "",
+      "bucket": "Outside Counsel Review",
+      "due": "2026-05-07",
+      "priority": "High",
+      "pct": 0,
+      "notes": "",
+      "labels": [],
+      "checklist": [],
+      "id": 33,
+      "created": "2026-05-05"
     }
   ],
   "notes": [
@@ -478,7 +491,7 @@
       "updated": "2026-05-05T18:39:52.567Z"
     }
   ],
-  "nextId": 33,
+  "nextId": 34,
   "nextNoteId": 11,
   "darkMode": false,
   "compact": false,
