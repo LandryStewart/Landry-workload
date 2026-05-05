@@ -179,6 +179,19 @@
       "checklist": [],
       "id": 8,
       "created": "2026-05-05"
+    },
+    {
+      "title": "tete",
+      "assignee": "",
+      "bucket": "In Progress",
+      "due": "",
+      "priority": "Medium",
+      "pct": 0,
+      "notes": "",
+      "labels": [],
+      "checklist": [],
+      "id": 10,
+      "created": "2026-05-05"
     }
   ],
   "notes": [
@@ -191,7 +204,7 @@
       "updated": "2026-05-05T15:18:31.365Z"
     }
   ],
-  "nextId": 10,
+  "nextId": 11,
   "nextNoteId": 2,
   "darkMode": false,
   "compact": false,
