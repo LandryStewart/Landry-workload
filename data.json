@@ -179,19 +179,6 @@
       "checklist": [],
       "id": 8,
       "created": "2026-05-05"
-    },
-    {
-      "title": "Test",
-      "assignee": "",
-      "bucket": "In Progress",
-      "due": "",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "",
-      "labels": [],
-      "checklist": [],
-      "id": 9,
-      "created": "2026-05-05"
     }
   ],
   "notes": [
