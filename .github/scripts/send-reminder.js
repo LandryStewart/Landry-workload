@@ -77,9 +77,6 @@ const dateStr = today.toLocaleDateString('en-US', {
   month: 'long', day: 'numeric', year: 'numeric'
 });
 
-let body = 'Landry,';
-body += 'Here are your task\'s for' + dayName + ', ' + dateStr + ':\n';
-
 const totalActive = overdue.length + dueToday.length + dueThisWk.length;
 
 if (totalActive === 0) {
