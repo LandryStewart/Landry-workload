@@ -76,6 +76,10 @@
         {
           "text": "CMA",
           "done": true
+        },
+        {
+          "text": "IC Memo",
+          "done": true
         }
       ],
       "id": 1,
