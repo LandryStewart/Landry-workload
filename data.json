@@ -449,20 +449,12 @@
   ],
   "notes": [
     {
-      "id": 8,
-      "title": "",
-      "content": "",
-      "folderId": 5,
-      "created": "2026-05-05T19:36:51.347Z",
-      "updated": "2026-05-05T19:36:51.347Z"
-    },
-    {
-      "id": 7,
-      "title": "",
-      "content": "",
-      "folderId": 5,
-      "created": "2026-05-05T19:36:34.086Z",
-      "updated": "2026-05-05T19:36:34.086Z"
+      "id": 9,
+      "title": "Test",
+      "content": "test\n",
+      "folderId": 2,
+      "created": "2026-05-05T19:37:04.246Z",
+      "updated": "2026-05-05T19:37:07.974Z"
     },
     {
       "id": 6,
@@ -482,7 +474,7 @@
     }
   ],
   "nextId": 32,
-  "nextNoteId": 9,
+  "nextNoteId": 10,
   "darkMode": false,
   "compact": false,
   "myName": "",
