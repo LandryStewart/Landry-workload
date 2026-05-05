@@ -3,9 +3,9 @@
   "buckets": [
     "To Do (ASAP)",
     "To Do (Misc.)",
+    "In Progress",
     "Under Review",
-    "Internal Legal",
-    "In Progress"
+    "Internal Legal"
   ],
   "labels": [
     {
@@ -92,13 +92,26 @@
     {
       "title": "BVRT Documents",
       "assignee": "",
-      "bucket": "To Do (ASAP)",
+      "bucket": "In Progress",
       "due": "",
-      "priority": "Medium",
+      "priority": "Critical",
       "pct": 0,
       "notes": "",
       "labels": [],
-      "checklist": [],
+      "checklist": [
+        {
+          "text": "Exhibit B - Permanent Easement",
+          "done": false
+        },
+        {
+          "text": "O&M Agreement",
+          "done": false
+        },
+        {
+          "text": "Initial Payment (MC Insurance)",
+          "done": false
+        }
+      ],
       "id": 3,
       "created": "2026-05-05"
     },
