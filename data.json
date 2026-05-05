@@ -375,6 +375,19 @@
       "checklist": [],
       "id": 26,
       "created": "2026-05-05"
+    },
+    {
+      "title": "Saddleside - Oncor",
+      "assignee": "",
+      "bucket": "Title Objections",
+      "due": "",
+      "priority": "Medium",
+      "pct": 0,
+      "notes": "Need to record final plat before they clear easement",
+      "labels": [],
+      "checklist": [],
+      "id": 27,
+      "created": "2026-05-05"
     }
   ],
   "notes": [
@@ -387,7 +400,7 @@
       "updated": "2026-05-05T17:03:45.403Z"
     }
   ],
-  "nextId": 27,
+  "nextId": 28,
   "nextNoteId": 2,
   "darkMode": false,
   "compact": false,
