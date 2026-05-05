@@ -3,9 +3,9 @@
   "buckets": [
     "To Do (ASAP)",
     "To Do (Misc.)",
-    "In Progress",
     "Under Review",
-    "Internal Legal"
+    "Internal Legal",
+    "In Progress"
   ],
   "labels": [
     {
