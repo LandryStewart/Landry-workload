@@ -257,6 +257,19 @@
       "checklist": [],
       "id": 17,
       "created": "2026-05-05"
+    },
+    {
+      "title": "Estrella Proposal",
+      "assignee": "",
+      "bucket": "In Progress",
+      "due": "",
+      "priority": "Medium",
+      "pct": 0,
+      "notes": "Waiting for Pape-Dawson to provide proposal",
+      "labels": [],
+      "checklist": [],
+      "id": 18,
+      "created": "2026-05-05"
     }
   ],
   "notes": [
@@ -269,7 +282,7 @@
       "updated": "2026-05-05T17:03:45.403Z"
     }
   ],
-  "nextId": 18,
+  "nextId": 19,
   "nextNoteId": 2,
   "darkMode": false,
   "compact": false,
