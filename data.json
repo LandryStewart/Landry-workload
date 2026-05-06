@@ -493,6 +493,19 @@
       "checklist": [],
       "id": 34,
       "created": "2026-05-05"
+    },
+    {
+      "title": "Headshot",
+      "assignee": "",
+      "bucket": "To Do (ASAP)",
+      "due": "",
+      "priority": "Medium",
+      "pct": 0,
+      "notes": "We",
+      "labels": [],
+      "checklist": [],
+      "id": 35,
+      "created": "2026-05-06"
     }
   ],
   "notes": [
@@ -513,7 +526,7 @@
       "updated": "2026-05-05T18:39:52.567Z"
     }
   ],
-  "nextId": 35,
+  "nextId": 36,
   "nextNoteId": 11,
   "darkMode": false,
   "compact": false,
