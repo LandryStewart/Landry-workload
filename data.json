@@ -664,6 +664,19 @@
       "checklist": [],
       "id": 44,
       "created": "2026-05-07"
+    },
+    {
+      "title": "Legado, Phase 2",
+      "assignee": "",
+      "bucket": "Internal Legal Review",
+      "due": "",
+      "priority": "Medium",
+      "pct": 0,
+      "notes": "Term sheet was signed, need to draft PSA. ",
+      "labels": [],
+      "checklist": [],
+      "id": 45,
+      "created": "2026-05-07"
     }
   ],
   "notes": [
@@ -692,7 +705,7 @@
       "updated": "2026-05-05T18:39:52.567Z"
     }
   ],
-  "nextId": 45,
+  "nextId": 46,
   "nextNoteId": 12,
   "darkMode": false,
   "compact": false,
