@@ -134,7 +134,9 @@
       "priority": "Medium",
       "pct": 0,
       "notes": "Followed up 05/05\n\nEmail sent to Melissa",
-      "labels": [],
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 4,
       "created": "2026-05-05"
@@ -279,7 +281,9 @@
       "priority": "Medium",
       "pct": 0,
       "notes": "Waiting for Pape-Dawson to provide proposal",
-      "labels": [],
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 18,
       "created": "2026-05-05"
@@ -305,7 +309,9 @@
       "priority": "Critical",
       "pct": 0,
       "notes": "Need this ASAP\n\nSent to BVRT 05/07",
-      "labels": [],
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 20,
       "created": "2026-05-05"
