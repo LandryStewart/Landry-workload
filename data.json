@@ -457,27 +457,27 @@
       "title": "Cemetery Access",
       "assignee": "",
       "bucket": "Internal Legal Review",
-      "due": "2026-05-07",
+      "due": "2026-05-14",
       "priority": "Critical",
       "pct": 0,
-      "notes": "Joanna leading the charge - Not insurable - Get all parties involved.\n\nTouch base with Rian ASAP",
+      "notes": "Joanna leading the charge - Not insurable - Get all parties involved.\n\nTouch base with Rian ASAP\n\nSent email to Carrie / Chelsea with path forward. Rian to take\n",
       "labels": [],
       "checklist": [
         {
           "text": "Land Dedication",
-          "done": false
+          "done": true
         },
         {
           "text": "Improvements",
-          "done": false
+          "done": true
         },
         {
           "text": "Closing Cost",
-          "done": false
+          "done": true
         },
         {
           "text": "Easement",
-          "done": false
+          "done": true
         }
       ],
       "id": 30,
