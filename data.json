@@ -255,7 +255,9 @@
       "priority": "High",
       "pct": 0,
       "notes": "Being reviewed by Chelsea",
-      "labels": [],
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 16,
       "created": "2026-05-05"
@@ -296,7 +298,9 @@
       "priority": "High",
       "pct": 0,
       "notes": "Chelsea needing to approve WC",
-      "labels": [],
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 19,
       "created": "2026-05-05"
