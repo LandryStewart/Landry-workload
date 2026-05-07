@@ -677,6 +677,19 @@
       "checklist": [],
       "id": 45,
       "created": "2026-05-07"
+    },
+    {
+      "title": "Lonestar, 2A - PSA",
+      "assignee": "",
+      "bucket": "Internal Legal Review",
+      "due": "",
+      "priority": "Medium",
+      "pct": 0,
+      "notes": "Chelsea needs to get final terms for review",
+      "labels": [],
+      "checklist": [],
+      "id": 46,
+      "created": "2026-05-07"
     }
   ],
   "notes": [
@@ -705,7 +718,7 @@
       "updated": "2026-05-05T18:39:52.567Z"
     }
   ],
-  "nextId": 46,
+  "nextId": 47,
   "nextNoteId": 12,
   "darkMode": false,
   "compact": false,
