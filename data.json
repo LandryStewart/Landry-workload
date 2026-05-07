@@ -225,11 +225,13 @@
       "title": "Saddleside - 15' Coserv UE",
       "assignee": "",
       "bucket": "Title Objections",
-      "due": "2026-05-07",
+      "due": "2026-05-14",
       "priority": "High",
       "pct": 50,
-      "notes": "Send revised easement exhibits",
-      "labels": [],
+      "notes": "Send revised easement exhibits\n\nSent updated exhibits 05/07",
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 14,
       "created": "2026-05-05"
