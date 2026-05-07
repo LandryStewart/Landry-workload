@@ -7,7 +7,8 @@
     "Title Objections",
     "Outside Counsel Review",
     "Internal Legal Review",
-    "Get Scheduled"
+    "Get Scheduled",
+    "Completed"
   ],
   "labels": [
     {
@@ -155,10 +156,10 @@
       "title": "Saddleside - Schoolsite Capacity",
       "assignee": "",
       "bucket": "In Progress",
-      "due": "2026-05-07",
+      "due": "",
       "priority": "Medium",
       "pct": 50,
-      "notes": "Waiting for tyler to respond",
+      "notes": "Waiting for tyler to respond\n\nTyler Responded",
       "labels": [],
       "checklist": [],
       "id": 6,
