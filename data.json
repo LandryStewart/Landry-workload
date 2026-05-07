@@ -519,7 +519,7 @@
       "bucket": "Completed",
       "due": "",
       "priority": "Medium",
-      "pct": 0,
+      "pct": 100,
       "notes": "We",
       "labels": [],
       "checklist": [],
