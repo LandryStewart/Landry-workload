@@ -690,6 +690,21 @@
       "checklist": [],
       "id": 46,
       "created": "2026-05-07"
+    },
+    {
+      "title": "Oncor - Signed MUD Document",
+      "assignee": "",
+      "bucket": "To Do (Misc.)",
+      "due": "2026-05-12",
+      "priority": "Medium",
+      "pct": 0,
+      "notes": "Has Oncor signed document with MUD?",
+      "labels": [
+        "Waiting on Response"
+      ],
+      "checklist": [],
+      "id": 47,
+      "created": "2026-05-07"
     }
   ],
   "notes": [
@@ -718,7 +733,7 @@
       "updated": "2026-05-05T18:39:52.567Z"
     }
   ],
-  "nextId": 47,
+  "nextId": 48,
   "nextNoteId": 12,
   "darkMode": false,
   "compact": false,
