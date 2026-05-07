@@ -298,8 +298,8 @@
       "bucket": "Internal Legal Review",
       "due": "2026-05-08",
       "priority": "High",
-      "pct": 0,
-      "notes": "Chelsea needing to approve WC\n\nApproved, need to get check cut",
+      "pct": 50,
+      "notes": "Chelsea needing to approve WC\n\nApproved, need to get check cut. Reach our to REServices",
       "labels": [
         "Waiting on Response"
       ],
