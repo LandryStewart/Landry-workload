@@ -349,7 +349,9 @@
       "priority": "Medium",
       "pct": 0,
       "notes": "Needing Ray to approve language in contract to release easements",
-      "labels": [],
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 23,
       "created": "2026-05-05"
@@ -375,7 +377,9 @@
       "priority": "Medium",
       "pct": 0,
       "notes": "touch base with Summer on status",
-      "labels": [],
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 25,
       "created": "2026-05-05"
