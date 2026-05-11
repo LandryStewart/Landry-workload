@@ -712,12 +712,14 @@
     {
       "title": "Terra Trace - Lien",
       "assignee": "",
-      "bucket": "To Do (Misc.)",
+      "bucket": "In Progress",
       "due": "2026-05-15",
       "priority": "Medium",
-      "pct": 0,
-      "notes": "Mechanics Lien ",
-      "labels": [],
+      "pct": 50,
+      "notes": "Mechanics Lien \n\nCompleted, just need recorded document.",
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 50,
       "created": "2026-05-11"
