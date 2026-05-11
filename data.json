@@ -169,14 +169,16 @@
       "created": "2026-05-05"
     },
     {
-      "title": "Ag Exemptions?",
+      "title": "Ag Exemptions",
       "assignee": "",
       "bucket": "In Progress",
       "due": "2026-05-15",
-      "priority": "Low",
+      "priority": "Medium",
       "pct": 0,
       "notes": "Email Courtney / Marylin to see if they know what parcels we have in Ag.\n\nEmail sent 05/11",
-      "labels": [],
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 7,
       "created": "2026-05-05"
