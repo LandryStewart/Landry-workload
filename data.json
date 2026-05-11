@@ -804,6 +804,19 @@
       "checklist": [],
       "id": 56,
       "created": "2026-05-11"
+    },
+    {
+      "title": "BVRT - O&M Agreement",
+      "assignee": "",
+      "bucket": "Internal Legal Review",
+      "due": "2026-05-14",
+      "priority": "Critical",
+      "pct": 0,
+      "notes": "Need Chelsea blessing before sending to BVRT.",
+      "labels": [],
+      "checklist": [],
+      "id": 57,
+      "created": "2026-05-11"
     }
   ],
   "notes": [
@@ -840,7 +853,7 @@
       "updated": "2026-05-05T18:39:52.567Z"
     }
   ],
-  "nextId": 57,
+  "nextId": 58,
   "nextNoteId": 13,
   "darkMode": false,
   "compact": false,
