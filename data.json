@@ -235,9 +235,10 @@
       "bucket": "Title Objections",
       "due": "2026-05-18",
       "priority": "High",
-      "pct": 50,
-      "notes": "Send revised easement exhibits\n\nSent updated exhibits 05/07\n\nSent email approval 05/11. waiting.",
+      "pct": 75,
+      "notes": "Send revised easement exhibits\n\nSent updated exhibits 05/07\n\nGetting invoiced paid. Once paid, Coserv can draft modification of easement.\n\nSent email approval 05/11. waiting.",
       "labels": [
+        "FOR Court",
         "Waiting on Response"
       ],
       "checklist": [],
