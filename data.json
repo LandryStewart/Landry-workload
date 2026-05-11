@@ -808,7 +808,9 @@
       "priority": "Critical",
       "pct": 0,
       "notes": "Need Chelsea blessing before sending to BVRT.",
-      "labels": [],
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 57,
       "created": "2026-05-11"
