@@ -754,7 +754,12 @@
       "pct": 0,
       "notes": "Property by property. need full detail",
       "labels": [],
-      "checklist": [],
+      "checklist": [
+        {
+          "text": "Ketchersid",
+          "done": false
+        }
+      ],
       "id": 52,
       "created": "2026-05-11"
     }
