@@ -107,7 +107,7 @@
       "bucket": "To Do (ASAP)",
       "due": "",
       "priority": "Critical",
-      "pct": 0,
+      "pct": 33,
       "notes": "Tyler - Did he work through the pond?",
       "labels": [],
       "checklist": [
@@ -121,7 +121,7 @@
         },
         {
           "text": "Initial Payment (MC Insurance)",
-          "done": false
+          "done": true
         }
       ],
       "id": 3,
