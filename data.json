@@ -201,7 +201,9 @@
       "priority": "High",
       "pct": 0,
       "notes": "Being reviewed by Coats Rose\n\nFollowed up 05/11",
-      "labels": [],
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 12,
       "created": "2026-05-05"
@@ -517,7 +519,9 @@
       "priority": "High",
       "pct": 0,
       "notes": "",
-      "labels": [],
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 33,
       "created": "2026-05-05"
