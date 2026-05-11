@@ -354,7 +354,11 @@
       "labels": [],
       "checklist": [
         {
-          "text": "Matthew - WasteConnection",
+          "text": "Matthew / Cory Glassburn  - WasteConnection",
+          "done": false
+        },
+        {
+          "text": "",
           "done": false
         }
       ],
