@@ -683,11 +683,13 @@
       "title": "TRA - Right of Entry Fee",
       "assignee": "",
       "bucket": "To Do (ASAP)",
-      "due": "2026-05-11",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "",
-      "labels": [],
+      "due": "2026-05-14",
+      "priority": "Critical",
+      "pct": 50,
+      "notes": "Sent 05/11",
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 48,
       "created": "2026-05-07"
