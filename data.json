@@ -771,7 +771,9 @@
       "priority": "Critical",
       "pct": 0,
       "notes": "",
-      "labels": [],
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 53,
       "created": "2026-05-11"
