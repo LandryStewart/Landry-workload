@@ -441,11 +441,13 @@
       "title": "TRA Alignment",
       "assignee": "",
       "bucket": "In Progress",
-      "due": "2026-05-11",
+      "due": "2026-05-18",
       "priority": "Medium",
       "pct": 25,
-      "notes": "Respond to TRA. Waiting for MBaacke Response\n\nResponded to TRA. Waiting for TRA to confirm.",
-      "labels": [],
+      "notes": "Respond to TRA. Waiting for MBaacke Response\n\nResponded to TRA. Waiting for TRA to confirm.\n\nFollowed up 5/11",
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 28,
       "created": "2026-05-05"
