@@ -470,26 +470,9 @@
       "due": "2026-05-14",
       "priority": "Critical",
       "pct": 0,
-      "notes": "Joanna leading the charge - Not insurable - Get all parties involved.\n\nTouch base with Rian ASAP\n\nSent email to Carrie / Chelsea with path forward. Rian to take\n",
+      "notes": "Joanna leading the charge - Not insurable - Get all parties involved.\n\nTouch base with Rian ASAP\n\nSent email to Carrie / Chelsea with path forward. Rian to take\n\nCompleted internally 05/08. Being sent to cemetery\n",
       "labels": [],
-      "checklist": [
-        {
-          "text": "Land Dedication",
-          "done": true
-        },
-        {
-          "text": "Improvements",
-          "done": true
-        },
-        {
-          "text": "Closing Cost",
-          "done": true
-        },
-        {
-          "text": "Easement",
-          "done": true
-        }
-      ],
+      "checklist": [],
       "id": 30,
       "created": "2026-05-05"
     },
