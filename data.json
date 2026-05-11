@@ -634,8 +634,10 @@
       "due": "",
       "priority": "Medium",
       "pct": 0,
-      "notes": "",
-      "labels": [],
+      "notes": "Waiting on clarity to completely overhaul or keep as is.",
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 44,
       "created": "2026-05-07"
