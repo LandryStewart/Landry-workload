@@ -731,10 +731,10 @@
     {
       "title": "Legacy Fields - Mineral Waiver",
       "assignee": "",
-      "bucket": "To Do (ASAP)",
+      "bucket": "Completed",
       "due": "2026-05-13",
       "priority": "Critical",
-      "pct": 80,
+      "pct": 100,
       "notes": "Who is signing these? when will these get signed?",
       "labels": [
         "Waiting on Response"
