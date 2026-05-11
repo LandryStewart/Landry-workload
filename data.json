@@ -794,6 +794,19 @@
       "checklist": [],
       "id": 54,
       "created": "2026-05-11"
+    },
+    {
+      "title": "Terra Trace - HOA Transfer",
+      "assignee": "",
+      "bucket": "To Do (Misc.)",
+      "due": "",
+      "priority": "Medium",
+      "pct": 0,
+      "notes": "$175 / lot  (Reduced down to $3,500)",
+      "labels": [],
+      "checklist": [],
+      "id": 55,
+      "created": "2026-05-11"
     }
   ],
   "notes": [
@@ -822,7 +835,7 @@
       "updated": "2026-05-05T18:39:52.567Z"
     }
   ],
-  "nextId": 55,
+  "nextId": 56,
   "nextNoteId": 12,
   "darkMode": false,
   "compact": false,
