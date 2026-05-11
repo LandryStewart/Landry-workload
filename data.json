@@ -572,14 +572,16 @@
       "created": "2026-05-06"
     },
     {
-      "title": "Email to Justin",
+      "title": "Legacy Fields - Trail Creek Lane",
       "assignee": "",
-      "bucket": "To Do (ASAP)",
-      "due": "2026-05-07",
+      "bucket": "In Progress",
+      "due": "2026-05-15",
       "priority": "Medium",
-      "pct": 0,
-      "notes": "width of Trail Creek Road",
-      "labels": [],
+      "pct": 50,
+      "notes": "width of Trail Creek Road\n\nEmail sent 05/11",
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 39,
       "created": "2026-05-06"
