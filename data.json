@@ -466,12 +466,14 @@
     {
       "title": "Legacy Fields - Cemetery Access",
       "assignee": "",
-      "bucket": "To Do (ASAP)",
+      "bucket": "In Progress",
       "due": "2026-05-14",
       "priority": "Critical",
-      "pct": 0,
+      "pct": 50,
       "notes": "Joanna leading the charge - Not insurable - Get all parties involved.\n\nTouch base with Rian ASAP\n\nSent email to Carrie / Chelsea with path forward. Rian to take\n\nCompleted internally 05/08. Being sent to cemetery\n",
-      "labels": [],
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 30,
       "created": "2026-05-05"
