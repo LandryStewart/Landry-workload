@@ -3,7 +3,7 @@
   "buckets": [
     "To Do (ASAP)",
     "To Do (Misc.)",
-    "In Progress",
+    "Email Progress",
     "Title Objections",
     "Outside Counsel Review",
     "Internal Legal Review",
@@ -38,7 +38,7 @@
     {
       "title": "Lonestar 2A - IC Memo",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "",
       "priority": "Critical",
       "pct": 75,
@@ -92,7 +92,7 @@
     {
       "title": "Terra Trace - Drainage Easement",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-05-14",
       "priority": "Medium",
       "pct": 50,
@@ -133,7 +133,7 @@
     {
       "title": "PSV Reimbursement",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-05-13",
       "priority": "Medium",
       "pct": 0,
@@ -174,7 +174,7 @@
     {
       "title": "Ag Exemptions",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-05-15",
       "priority": "Medium",
       "pct": 0,
@@ -189,7 +189,7 @@
     {
       "title": "Carter Jo Proposal",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-05-12",
       "priority": "Medium",
       "pct": 25,
@@ -281,7 +281,7 @@
     {
       "title": "Terra Trace Parkland Dedication",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-05-15",
       "priority": "Medium",
       "pct": 25,
@@ -294,7 +294,7 @@
     {
       "title": "Estrella Proposal",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "",
       "priority": "Medium",
       "pct": 50,
@@ -445,7 +445,7 @@
     {
       "title": "TRA Alignment",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-05-18",
       "priority": "Medium",
       "pct": 25,
@@ -473,7 +473,7 @@
     {
       "title": "Legacy Fields - Cemetery Access",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-05-14",
       "priority": "Critical",
       "pct": 50,
@@ -488,7 +488,7 @@
     {
       "title": "Legacy Fields - Geotech",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-05-21",
       "priority": "Medium",
       "pct": 0,
@@ -501,7 +501,7 @@
     {
       "title": "Lantana - Disposition",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-06-15",
       "priority": "Medium",
       "pct": 0,
@@ -553,7 +553,7 @@
     {
       "title": "Legacy Fields - Trail Creek Lane",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-05-15",
       "priority": "Medium",
       "pct": 50,
@@ -661,7 +661,7 @@
     {
       "title": "Oncor - Signed MUD Document",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-05-12",
       "priority": "Medium",
       "pct": 0,
@@ -691,7 +691,7 @@
     {
       "title": "Legacy Fields - CCN Decertification from Justin",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-05-18",
       "priority": "Medium",
       "pct": 0,
@@ -706,7 +706,7 @@
     {
       "title": "Terra Trace - Lien",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-05-15",
       "priority": "Medium",
       "pct": 50,
@@ -767,7 +767,7 @@
     {
       "title": "Lonestar 2A - Title Policy",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-05-18",
       "priority": "Medium",
       "pct": 50,
@@ -810,7 +810,7 @@
     {
       "title": "Saddleside - Access Road",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-05-15",
       "priority": "High",
       "pct": 50,
@@ -825,7 +825,7 @@
     {
       "title": "Lonestar 2A - ESA",
       "assignee": "",
-      "bucket": "In Progress",
+      "bucket": "Email Progress",
       "due": "2026-05-15",
       "priority": "High",
       "pct": 50,
