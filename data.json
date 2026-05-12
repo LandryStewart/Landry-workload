@@ -820,6 +820,19 @@
       "checklist": [],
       "id": 58,
       "created": "2026-05-11"
+    },
+    {
+      "title": "Lonestar 2A - ESA",
+      "assignee": "",
+      "bucket": "In Progress",
+      "due": "2026-05-15",
+      "priority": "High",
+      "pct": 50,
+      "notes": "Daniel Roebke (Aptim) for ESA",
+      "labels": [],
+      "checklist": [],
+      "id": 59,
+      "created": "2026-05-12"
     }
   ],
   "notes": [
@@ -864,7 +877,7 @@
       "updated": "2026-05-05T18:39:52.567Z"
     }
   ],
-  "nextId": 59,
+  "nextId": 60,
   "nextNoteId": 14,
   "darkMode": false,
   "compact": false,
