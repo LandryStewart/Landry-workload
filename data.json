@@ -319,7 +319,7 @@
       "created": "2026-05-05"
     },
     {
-      "title": "BVRT - Permanent Easement /Deed",
+      "title": "BVRT - Permanent Easement / Deed",
       "assignee": "",
       "bucket": "To Do (ASAP)",
       "due": "2026-05-13",
@@ -329,7 +329,12 @@
       "labels": [
         "Waiting on Response"
       ],
-      "checklist": [],
+      "checklist": [
+        {
+          "text": "5 Acre minimum - Brent to follow up",
+          "done": false
+        }
+      ],
       "id": 20,
       "created": "2026-05-05"
     },
