@@ -889,6 +889,14 @@
   ],
   "notes": [
     {
+      "id": 14,
+      "title": "Property Tax (05/13/2026)",
+      "content": "",
+      "folderId": null,
+      "created": "2026-05-13T18:33:03.547Z",
+      "updated": "2026-05-13T18:33:09.992Z"
+    },
+    {
       "id": 13,
       "title": "TRA Right of Entry (05/11/2026)",
       "content": "Heather to send packet to fill out (Need plans, tie in, etc...), the town will submit on our behalf.\n\nHow will Northlake bill us (Northlake only has one meter downstream for all flows)? \n\nacquisition could take 6 months to 2 years... Lets hope not 2 years.... Hoping to bid November.\n\nSet up a meeting with brokers, TRA, and FOR - negotiated easement",
@@ -930,7 +938,7 @@
     }
   ],
   "nextId": 64,
-  "nextNoteId": 14,
+  "nextNoteId": 15,
   "darkMode": false,
   "compact": false,
   "myName": "",
