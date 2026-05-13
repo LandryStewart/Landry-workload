@@ -567,8 +567,10 @@
       "due": "",
       "priority": "Medium",
       "pct": 0,
-      "notes": "",
-      "labels": [],
+      "notes": "With purchaser",
+      "labels": [
+        "Waiting on Response"
+      ],
       "checklist": [],
       "id": 40,
       "created": "2026-05-07"
