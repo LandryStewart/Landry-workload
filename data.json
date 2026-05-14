@@ -282,12 +282,25 @@
       "due": "2026-05-15",
       "priority": "Medium",
       "pct": 25,
-      "notes": "Need to receive updated title before I can send to Germaine / Lori",
+      "notes": "Need to receive updated title before I can send to Germaine / Lori\n\nLien needs to be cleared",
       "labels": [
         "FOR Court",
         "Waiting on Response"
       ],
-      "checklist": [],
+      "checklist": [
+        {
+          "text": "Environmental statement",
+          "done": false
+        },
+        {
+          "text": "Legal with Exhibit",
+          "done": true
+        },
+        {
+          "text": "SWD / title / Abs. Certificate",
+          "done": false
+        }
+      ],
       "id": 17,
       "created": "2026-05-05"
     },
