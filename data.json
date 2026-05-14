@@ -860,7 +860,7 @@
       "due": "2026-05-19",
       "priority": "Critical",
       "pct": 50,
-      "notes": "Sent 05/12. Waiting on response",
+      "notes": "Sent 05/12. Waiting on response\n\nMAnderson confirmed receipt. waiting on response",
       "labels": [
         "Waiting on Response"
       ],
