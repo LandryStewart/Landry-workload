@@ -40,7 +40,9 @@
       "priority": "Critical",
       "pct": 75,
       "notes": "Sent to colton. Will help where needed.\n\nColton to finalize\n\nNeed to address SB comments",
-      "labels": [],
+      "labels": [
+        "FOR Court"
+      ],
       "checklist": [
         {
           "text": "IC Cover Sheet",
