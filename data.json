@@ -1060,6 +1060,14 @@
     }
   ],
   "nextFolderId": 6,
-  "filterPresets": [],
+  "filterPresets": [
+    {
+      "name": "Items to Complete",
+      "search": "",
+      "assignee": "",
+      "priority": "",
+      "label": "FOR Court"
+    }
+  ],
   "sidebarCollapsed": false
 }
