@@ -1084,6 +1084,22 @@
       "assignee": "",
       "priority": "",
       "label": "FOR Court"
+    },
+    {
+      "name": "This Week",
+      "search": "",
+      "assignee": "",
+      "priority": "",
+      "label": "",
+      "dueDate": "thisweek"
+    },
+    {
+      "name": "Today",
+      "search": "",
+      "assignee": "",
+      "priority": "",
+      "label": "",
+      "dueDate": "thisweek"
     }
   ],
   "sidebarCollapsed": false
