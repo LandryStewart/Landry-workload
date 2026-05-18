@@ -494,6 +494,13 @@ input,select,textarea{font-family:inherit;color:var(--text);}
   .cal-day-hdr{font-size:8px;padding:4px 1px;}
 }
 
+
+/* Voice Note Mic Button */
+.voice-mic-btn{background:var(--accent);color:#fff;border:1px solid var(--accent);font-weight:600;}
+.voice-mic-btn:hover{background:var(--pri-d);border-color:var(--pri-d);}
+.voice-mic-btn.recording{background:#dc2626;border-color:#dc2626;animation:mic-pulse 1.2s infinite;}
+@keyframes mic-pulse{0%,100%{box-shadow:0 0 0 0 rgba(220,38,38,.5);}50%{box-shadow:0 0 0 8px rgba(220,38,38,0);}}
+
 </style>
 </head>
 <body>
@@ -593,6 +600,7 @@ input,select,textarea{font-family:inherit;color:var(--text);}
      <div class="notes-topbar-actions">
       <button onclick="newNote()">📝 New Note</button>
       <button onclick="newFolder()">📁 New Folder</button>
+ <button class="voice-mic-btn" onclick="toggleVoiceNote()" id="voiceMicBtn" title="Voice to Note — speak and auto-file into folders">🎙️ Voice Note</button>
      </div>
      <div class="notes-folder-tabs" id="notesFolderTabs"></div>
      <div class="notes-topbar-search"><input type="text" id="noteSearch" placeholder="🔍 Search all notes..." oninput="renderNotesSidebar()"></div>
@@ -863,6 +871,69 @@ function copyFilePath(){
     fp.select();document.execCommand('copy');showToast('File path copied!','success');
   });
 }
+
+/* ── Voice-to-Note (Web Speech API) ── */
+var voiceRecognition=null,isVoiceRecording=false,voiceTranscript='',voiceInterimTranscript='',voiceNoteId=null;
+
+function toggleVoiceNote(){if(isVoiceRecording){stopVoiceNote();}else{startVoiceNote();}}
+
+function startVoiceNote(){
+var SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+if(!SR){showToast('Voice recognition not supported. Use Chrome or Edge.');return;}
+voiceRecognition=new SR();
+voiceRecognition.continuous=true;
+voiceRecognition.interimResults=true;
+voiceRecognition.lang='en-US';
+voiceTranscript='';voiceInterimTranscript='';
+var fid=(activeFolderFilter&&activeFolderFilter!=='unfiled')?activeFolderFilter:null;
+var note={id:state.nextNoteId++,title:'\u{1F3A4} Voice Note \u2014 '+new Date().toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}),content:'',folderId:fid,linkedTaskId:null,created:new Date().toISOString(),updated:new Date().toISOString()};
+state.notes.unshift(note);activeNoteId=note.id;voiceNoteId=note.id;
+save();renderNotesView();
+voiceRecognition.onresult=function(ev){
+voiceInterimTranscript='';
+for(var i=ev.resultIndex;i<ev.results.length;i++){
+if(ev.results[i].isFinal){voiceTranscript+=ev.results[i][0].transcript+' ';}
+else{voiceInterimTranscript+=ev.results[i][0].transcript;}
+}
+var n=state.notes.find(function(x){return x.id===voiceNoteId;});
+if(n){n.content=voiceTranscript+(voiceInterimTranscript?'...'+voiceInterimTranscript:'');n.updated=new Date().toISOString();var ci=document.getElementById('noteContentInput');if(ci)ci.value=n.content;save();}
+};
+voiceRecognition.onerror=function(ev){if(ev.error!=='no-speech'&&ev.error!=='aborted'){showToast('Voice error: '+ev.error);}stopVoiceNote();};
+voiceRecognition.onend=function(){if(isVoiceRecording){try{voiceRecognition.start();}catch(e){stopVoiceNote();}}};
+try{voiceRecognition.start();isVoiceRecording=true;var btn=document.getElementById('voiceMicBtn');if(btn){btn.classList.add('recording');btn.innerHTML='\u23F9\uFE0F Stop';}showToast('\u{1F3A4} Listening... Speak now!');}catch(e){showToast('Could not start voice recognition.');}
+}
+
+function stopVoiceNote(){
+isVoiceRecording=false;
+if(voiceRecognition){try{voiceRecognition.stop();}catch(e){}voiceRecognition=null;}
+var btn=document.getElementById('voiceMicBtn');if(btn){btn.classList.remove('recording');btn.innerHTML='\u{1F3A4} Voice Note';}
+var n=state.notes.find(function(x){return x.id===voiceNoteId;});
+if(n){
+n.content=voiceTranscript.trim();n.updated=new Date().toISOString();
+autoSortVoiceNote(n);
+save();renderNotesView();
+var wc=voiceTranscript.trim().split(/\s+/).filter(Boolean).length;
+showToast('\u2705 Voice note saved! ('+wc+' words)'+(n.folderId?' \u2192 Auto-filed!':''));
+}
+voiceTranscript='';voiceInterimTranscript='';voiceNoteId=null;
+}
+
+function autoSortVoiceNote(note){
+if(note.folderId)return;
+var content=(note.title+' '+note.content).toLowerCase();
+var bestMatch=null,bestScore=0;
+state.folders.forEach(function(folder){
+var fn=folder.name.toLowerCase(),score=0;
+if(content.indexOf(fn)>=0)score+=10;
+var words=fn.split(/\s+/);
+words.forEach(function(w){if(w.length>2&&content.indexOf(w)>=0)score+=3;});
+var triggers=['folder '+fn,'file under '+fn,'put in '+fn,'save to '+fn,'move to '+fn,'category '+fn,'file in '+fn,'goes in '+fn,'belongs in '+fn];
+triggers.forEach(function(p){if(content.indexOf(p)>=0)score+=15;});
+if(score>bestScore){bestScore=score;bestMatch=folder;}
+});
+if(bestMatch&&bestScore>=3){note.folderId=bestMatch.id;}
+}
+
 </script>
 </body>
 </html>
