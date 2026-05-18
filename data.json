@@ -1020,6 +1020,15 @@
       ],
       "notes": [
         {
+          "id": 21,
+          "title": "🎤 Voice Note — May 18 at 5:19 PM",
+          "content": "",
+          "folderId": null,
+          "linkedTaskId": null,
+          "created": "2026-05-18T22:19:39.179Z",
+          "updated": "2026-05-18T22:19:41.875Z"
+        },
+        {
           "id": 20,
           "title": "🎤 Voice Note — May 18 at 5:19 PM",
           "content": "",
@@ -1102,7 +1111,7 @@
         }
       ],
       "nextId": 78,
-      "nextNoteId": 21,
+      "nextNoteId": 22,
       "darkMode": false,
       "compact": false,
       "myName": "",
