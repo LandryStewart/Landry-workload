@@ -1077,31 +1077,14 @@
     "personal": {
       "projectName": "My Project",
       "buckets": [
-        "To Do",
-        "In Progress",
-        "Under Review",
-        "Complete"
+        "ASAP",
+        "Random",
+        "Misc"
       ],
       "labels": [
         {
-          "name": "Entitlements",
-          "color": "#8b5cf6"
-        },
-        {
           "name": "Development",
           "color": "#0891b2"
-        },
-        {
-          "name": "Design",
-          "color": "#ec4899"
-        },
-        {
-          "name": "Engineering",
-          "color": "#f97316"
-        },
-        {
-          "name": "Admin",
-          "color": "#6b7280"
         }
       ],
       "tasks": [],
