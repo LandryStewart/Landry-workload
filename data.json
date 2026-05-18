@@ -1090,7 +1090,7 @@
           "dueDate": "today"
         }
       ],
-      "sidebarCollapsed": false
+      "sidebarCollapsed": true
     },
     "personal": {
       "projectName": "My Project",
@@ -1147,5 +1147,5 @@
       "sidebarCollapsed": false
     }
   },
-  "activeWorkspace": "personal"
+  "activeWorkspace": "work"
 }
