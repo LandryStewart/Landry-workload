@@ -954,7 +954,10 @@
           "labels": [],
           "checklist": [],
           "filePath": "",
-          "created": "2026-05-18"
+          "created": "2026-05-18",
+          "assignee": "",
+          "due": "2026-06-01",
+          "notes": "Dean working on. Summer following up"
         }
       ],
       "notes": [
