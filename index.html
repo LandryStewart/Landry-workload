@@ -686,7 +686,7 @@ input,select,textarea{font-family:inherit;color:var(--text);}
 <div class="settings-section"><h3>Labels</h3><div class="sett-list" id="settLabels"></div><button class="sett-add" onclick="addLabelSetting()">+ Add Label</button></div>
 <div class="settings-section"><h3>Preferences</h3><div class="toggle-row"><span>🌙 Dark Mode</span><label class="switch"><input type="checkbox" id="togDark" onchange="toggleDark()"><span class="slider"></span></label></div><div class="toggle-row"><span>📐 Compact Cards</span><label class="switch"><input type="checkbox" id="togCompact" onchange="toggleCompact()"><span class="slider"></span></label></div><div style="margin-top:8px"><label style="font-size:11px;font-weight:600;text-transform:uppercase;color:var(--text2)">My Name</label><input type="text" id="settMyName" style="width:100%;padding:6px 10px;border:1px solid var(--border);border-radius:6px;font-size:13px;background:var(--bg);margin-top:4px" placeholder="e.g. Landry Stewart"></div></div>
 <div class="settings-section"><h3>☁ Cloud Sync (GitHub)</h3><p style="font-size:11px;color:var(--text2);margin-bottom:8px">Enter a GitHub Personal Access Token to sync data across all devices.</p><input type="password" class="cloud-input" id="settGhToken" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"><div class="cloud-msg" id="cloudMsg"></div><button class="btn-save" onclick="testCloud()" style="width:100%;margin-top:6px;padding:8px">Test & Save Token</button></div>
-<div class="settings-section"><h3>🤖 AI Assistant</h3><p style="font-size:11px;color:var(--text2);margin-bottom:8px">Choose your AI provider. Keys stay in your browser only.</p><span class="ai-sett-label">Provider</span><select id="settAiProvider" class="cloud-input" onchange="toggleAiFields()" style="margin-bottom:8px"><option value="openai">OpenAI (api.openai.com)</option><option value="azure">Azure OpenAI (Copilot-powered)</option></select><div id="aiOpenaiFields"><span class="ai-sett-label">API Key</span><input type="password" class="cloud-input" id="settAiKey" placeholder="sk-xxxxxxxxxxxxxxxxxxxx"></div><div id="aiAzureFields" style="display:none"><span class="ai-sett-label">Azure Endpoint</span><input type="text" class="cloud-input" id="settAzureEndpoint" placeholder="https://YOUR-RESOURCE.openai.azure.com" style="margin-bottom:6px"><span class="ai-sett-label">API Key</span><input type="password" class="cloud-input" id="settAzureKey" placeholder="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" style="margin-bottom:6px"><span class="ai-sett-label">Deployment Name</span><input type="text" class="cloud-input" id="settAzureDeployment" placeholder="gpt-4o-mini" style="margin-bottom:6px"><p style="font-size:10px;color:var(--muted)">Find these in Azure Portal &rarr; your OpenAI resource &rarr; Keys and Endpoint</p></div><div class="cloud-msg" id="aiKeyMsg"></div><button class="btn-save" onclick="saveAiSettings()" style="width:100%;margin-top:6px;padding:8px">Save AI Settings</button></div>
+<div class="settings-section"><h3>🤖 AI Assistant</h3><p style="font-size:11px;color:var(--text2);margin-bottom:8px">Choose your AI provider. Keys stay in your browser only.</p><span class="ai-sett-label">Provider</span><select id="settAiProvider" class="cloud-input" onchange="toggleAiFields()" style="margin-bottom:8px"><option value="gemini">Google Gemini (Free)</option><option value="openai">OpenAI (api.openai.com)</option><option value="azure">Azure OpenAI (Copilot-powered)</option></select><div id="aiOpenaiFields"><span class="ai-sett-label">API Key</span><input type="password" class="cloud-input" id="settAiKey" placeholder="sk-xxxxxxxxxxxxxxxxxxxx"></div><div id="aiAzureFields" style="display:none"><span class="ai-sett-label">Azure Endpoint</span><input type="text" class="cloud-input" id="settAzureEndpoint" placeholder="https://YOUR-RESOURCE.openai.azure.com" style="margin-bottom:6px"><span class="ai-sett-label">API Key</span><input type="password" class="cloud-input" id="settAzureKey" placeholder="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" style="margin-bottom:6px"><span class="ai-sett-label">Deployment Name</span><input type="text" class="cloud-input" id="settAzureDeployment" placeholder="gpt-4o-mini" style="margin-bottom:6px"><p style="font-size:10px;color:var(--muted)">Find these in Azure Portal &rarr; your OpenAI resource &rarr; Keys and Endpoint</p></div><div id="aiGeminiFields"><span class="ai-sett-label">Gemini API Key</span><input type="password" class="cloud-input" id="settGeminiKey" placeholder="AIzaSy...your-gemini-key"><p style="font-size:10px;color:var(--muted);margin-top:4px">Get your free key at <a href="https://aistudio.google.com/apikey" target="_blank" style="color:var(--pri)">aistudio.google.com/apikey</a></p></div><div class="cloud-msg" id="aiKeyMsg"></div><button class="btn-save" onclick="saveAiSettings()" style="width:100%;margin-top:6px;padding:8px">Save AI Settings</button></div>
 <div class="settings-section" style="border:none"><button class="btn-delete" onclick="clearAllData()" style="width:100%;padding:10px">🗑 Clear All Data</button></div></div></div>
 <div class="shortcuts-modal" id="shortcutsModal">
  <div class="shortcuts-panel">
@@ -961,11 +961,12 @@ if(bestMatch&&bestScore>=3)note.folderId=bestMatch.id;
 /* ── AI Settings (OpenAI + Azure OpenAI) ── */
 function getAiConfig(){
 return{
-provider:localStorage.getItem('wm_ai_provider')||'openai',
+provider:localStorage.getItem('wm_ai_provider')||'gemini',
 key:localStorage.getItem('wm_ai_key')||'',
 azureEndpoint:localStorage.getItem('wm_ai_azure_endpoint')||'',
 azureKey:localStorage.getItem('wm_ai_azure_key')||'',
-azureDeployment:localStorage.getItem('wm_ai_azure_deployment')||'gpt-4o-mini'
+azureDeployment:localStorage.getItem('wm_ai_azure_deployment')||'gpt-4o-mini',
+geminiKey:localStorage.getItem('wm_ai_gemini_key')||''
 };
 }
 function saveAiSettings(){
@@ -976,7 +977,7 @@ if(provider==='openai'){
 var k=document.getElementById('settAiKey').value.trim();
 if(!k){msg.style.color='var(--crit)';msg.textContent='Enter an API key.';return;}
 localStorage.setItem('wm_ai_key',k);
-}else{
+}else if(provider==='azure'){
 var ep=document.getElementById('settAzureEndpoint').value.trim();
 var ak=document.getElementById('settAzureKey').value.trim();
 var dep=document.getElementById('settAzureDeployment').value.trim()||'gpt-4o-mini';
@@ -984,6 +985,10 @@ if(!ep||!ak){msg.style.color='var(--crit)';msg.textContent='Enter endpoint and A
 localStorage.setItem('wm_ai_azure_endpoint',ep);
 localStorage.setItem('wm_ai_azure_key',ak);
 localStorage.setItem('wm_ai_azure_deployment',dep);
+}else if(provider==='gemini'){
+var gk=document.getElementById('settGeminiKey').value.trim();
+if(!gk){msg.style.color='var(--crit)';msg.textContent='Enter your Gemini API key.';return;}
+localStorage.setItem('wm_ai_gemini_key',gk);
 }
 msg.style.color='var(--low)';msg.textContent='AI settings saved!';showToast('\u2705 AI settings saved!');
 }
@@ -994,14 +999,17 @@ var keyEl=document.getElementById('settAiKey');if(keyEl)keyEl.value=cfg.key;
 var epEl=document.getElementById('settAzureEndpoint');if(epEl)epEl.value=cfg.azureEndpoint;
 var akEl=document.getElementById('settAzureKey');if(akEl)akEl.value=cfg.azureKey;
 var depEl=document.getElementById('settAzureDeployment');if(depEl)depEl.value=cfg.azureDeployment;
+var gkEl=document.getElementById('settGeminiKey');if(gkEl)gkEl.value=cfg.geminiKey;
 toggleAiFields();
 }
 function toggleAiFields(){
 var p=document.getElementById('settAiProvider').value;
 var oF=document.getElementById('aiOpenaiFields');
 var aF=document.getElementById('aiAzureFields');
+var gF=document.getElementById('aiGeminiFields');
 if(oF)oF.style.display=p==='openai'?'block':'none';
 if(aF)aF.style.display=p==='azure'?'block':'none';
+if(gF)gF.style.display=p==='gemini'?'block':'none';
 }
 
 /* ── AI Core ── */
@@ -1032,6 +1040,15 @@ var ep=cfg.azureEndpoint.replace(/\/$/,'');
 url=ep+'/openai/deployments/'+encodeURIComponent(cfg.azureDeployment)+'/chat/completions?api-version=2024-08-01-preview';
 headers={'api-key':cfg.azureKey,'Content-Type':'application/json'};
 body=JSON.stringify({messages:messages,max_tokens:1000,temperature:0.7});
+}else if(cfg.provider==='gemini'){
+if(!cfg.geminiKey){showToast('Set your Gemini API key in Settings first.');return null;}
+url='https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key='+encodeURIComponent(cfg.geminiKey);
+headers={'Content-Type':'application/json'};
+var sysMsg='';var gemContents=[];
+messages.forEach(function(m){if(m.role==='system'){sysMsg+=m.content+'\n';}else{gemContents.push({role:m.role==='assistant'?'model':'user',parts:[{text:m.content}]});}});
+var gemBody={contents:gemContents,generationConfig:{maxOutputTokens:1000,temperature:0.7}};
+if(sysMsg)gemBody.systemInstruction={parts:[{text:sysMsg.trim()}]};
+body=JSON.stringify(gemBody);
 }else{
 if(!cfg.key){showToast('Set your OpenAI API key in Settings first.');return null;}
 url='https://api.openai.com/v1/chat/completions';
@@ -1041,7 +1058,9 @@ body=JSON.stringify({model:'gpt-4o-mini',messages:messages,max_tokens:1000,tempe
 try{
 var r=await fetch(url,{method:'POST',headers:headers,body:body});
 if(!r.ok){var err=await r.json().catch(function(){return {};});showToast('AI error: '+(err.error?err.error.message:'Request failed ('+r.status+')'));return null;}
-var d=await r.json();return d.choices[0].message.content;
+var d=await r.json();
+if(cfg.provider==='gemini'){try{return d.candidates[0].content.parts[0].text;}catch(e2){showToast('AI error: Unexpected Gemini response');return null;}}
+return d.choices[0].message.content;
 }catch(e){showToast('AI request failed: '+e.message);return null;}
 }
 
