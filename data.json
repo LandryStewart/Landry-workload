@@ -1087,10 +1087,25 @@
           "color": "#0891b2"
         }
       ],
-      "tasks": [],
+      "tasks": [
+        {
+          "title": "Dave & Gina - Arrival",
+          "assignee": "",
+          "bucket": "ASAP",
+          "due": "2026-05-21",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "7PM arrival",
+          "filePath": "",
+          "labels": [],
+          "checklist": [],
+          "id": 1,
+          "created": "2026-05-18"
+        }
+      ],
       "notes": [],
       "folders": [],
-      "nextId": 1,
+      "nextId": 2,
       "nextNoteId": 1,
       "nextFolderId": 1,
       "darkMode": false,
