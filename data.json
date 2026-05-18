@@ -672,21 +672,6 @@
       "created": "2026-05-07"
     },
     {
-      "title": "TRA - Right of Entry Fee",
-      "assignee": "",
-      "bucket": "To Do (ASAP)",
-      "due": "2026-05-18",
-      "priority": "Critical",
-      "pct": 75,
-      "notes": "Sent 05/11\n\nTypically gets passed through northlake. Need to reach out to Drew for how they do this.\nWater pump #2 and Sewer through TRA",
-      "labels": [
-        "FOR Court"
-      ],
-      "checklist": [],
-      "id": 48,
-      "created": "2026-05-07"
-    },
-    {
       "title": "Legacy Fields - CCN Decertification from Justin",
       "assignee": "",
       "bucket": "In Progress",
