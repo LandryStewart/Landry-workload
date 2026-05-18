@@ -975,6 +975,24 @@
       ],
       "notes": [
         {
+          "id": 18,
+          "title": "🎤 Voice Note — May 18, 3:04 PM",
+          "content": "",
+          "folderId": null,
+          "linkedTaskId": null,
+          "created": "2026-05-18T20:04:30.747Z",
+          "updated": "2026-05-18T20:04:30.747Z"
+        },
+        {
+          "id": 17,
+          "title": "",
+          "content": "",
+          "folderId": null,
+          "linkedTaskId": null,
+          "created": "2026-05-18T20:04:27.720Z",
+          "updated": "2026-05-18T20:04:27.720Z"
+        },
+        {
           "id": 15,
           "title": "WOUS (05/13/2026)",
           "content": "Looks like there is an updated WOUS report - Need to determine what the path forward is. Waiting on rudi to follow up.",
@@ -1039,7 +1057,7 @@
         }
       ],
       "nextId": 74,
-      "nextNoteId": 17,
+      "nextNoteId": 19,
       "darkMode": false,
       "compact": false,
       "myName": "",
