@@ -944,6 +944,17 @@
           "assignee": "",
           "due": "",
           "notes": ""
+        },
+        {
+          "id": 72,
+          "title": "Lone Star - Coserv Prelim",
+          "bucket": "In Progress",
+          "priority": "Medium",
+          "pct": 0,
+          "labels": [],
+          "checklist": [],
+          "filePath": "",
+          "created": "2026-05-18"
         }
       ],
       "notes": [
@@ -1011,7 +1022,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 72,
+      "nextId": 73,
       "nextNoteId": 16,
       "darkMode": false,
       "compact": false,
