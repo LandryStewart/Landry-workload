@@ -960,6 +960,17 @@
           "assignee": "",
           "due": "2026-06-01",
           "notes": "Dean working on. Summer following up"
+        },
+        {
+          "id": 74,
+          "title": "Email to title for SUA and Enlink",
+          "bucket": "To Do (ASAP)",
+          "priority": "Medium",
+          "pct": 0,
+          "labels": [],
+          "checklist": [],
+          "filePath": "",
+          "created": "2026-05-18"
         }
       ],
       "notes": [
@@ -1036,7 +1047,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 74,
+      "nextId": 75,
       "nextNoteId": 20,
       "darkMode": false,
       "compact": false,
