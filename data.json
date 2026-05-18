@@ -1,1074 +1,1121 @@
 {
-  "projectName": "My Project",
-  "buckets": [
-    "To Do (ASAP)",
-    "To Do (Misc.)",
-    "In Progress",
-    "Title Objections",
-    "Outside Counsel Review",
-    "Internal Legal Review",
-    "Substantial Completion",
-    "Development (Stay informed)",
-    "Get Scheduled",
-    "Upcoming Meetings",
-    "Completed"
-  ],
-  "labels": [
-    {
-      "name": "Entitlements",
-      "color": "#8b5cf6"
+  "workspaces": {
+    "work": {
+      "projectName": "My Project",
+      "buckets": [
+        "To Do (ASAP)",
+        "To Do (Misc.)",
+        "In Progress",
+        "Title Objections",
+        "Outside Counsel Review",
+        "Internal Legal Review",
+        "Substantial Completion",
+        "Development (Stay informed)",
+        "Get Scheduled",
+        "Upcoming Meetings",
+        "Completed"
+      ],
+      "labels": [
+        {
+          "name": "Entitlements",
+          "color": "#8b5cf6"
+        },
+        {
+          "name": "Development",
+          "color": "#0891b2"
+        },
+        {
+          "name": "FOR Court",
+          "color": "#f97316"
+        },
+        {
+          "name": "Waiting on Response",
+          "color": "#000000"
+        }
+      ],
+      "tasks": [
+        {
+          "title": "Lonestar 2A - IC Memo",
+          "assignee": "",
+          "bucket": "To Do (ASAP)",
+          "due": "2026-05-20",
+          "priority": "Critical",
+          "pct": 75,
+          "notes": "Sent to colton. Will help where needed.\n\nColton to finalize\n\nNeed to address SB comments",
+          "labels": [
+            "FOR Court"
+          ],
+          "checklist": [
+            {
+              "text": "IC Cover Sheet",
+              "done": true
+            },
+            {
+              "text": "Proforma",
+              "done": true
+            },
+            {
+              "text": "Site Plan",
+              "done": true
+            },
+            {
+              "text": "DD Checklist",
+              "done": true
+            },
+            {
+              "text": "Entitlements  / Dev Tracker",
+              "done": true
+            },
+            {
+              "text": "Original Budget",
+              "done": true
+            },
+            {
+              "text": "PSA",
+              "done": true
+            },
+            {
+              "text": "ROFO - Do we need / have?",
+              "done": true
+            },
+            {
+              "text": "CMA",
+              "done": true
+            },
+            {
+              "text": "IC Memo",
+              "done": true
+            }
+          ],
+          "id": 1,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Terra Trace - Drainage Easement",
+          "assignee": "",
+          "bucket": "In Progress",
+          "due": "2026-05-21",
+          "priority": "Medium",
+          "pct": 50,
+          "notes": "Sent email to Ron Frano.. Stephanie Cloud as first line of defense\n\nwaiting for Stephanie to response.\n\nFollowed up regarding signature authority 05/14\n\nSent to city. Waiting for response\n\nSent to Landon to relay to CoFW. \n\nComptroller for signature authority? If this doesnt work, reach out to Franco asking for incorportation documents for his autohrity.",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 2,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "BVRT Documents",
+          "assignee": "",
+          "bucket": "Completed",
+          "due": "",
+          "priority": "Critical",
+          "pct": 33,
+          "notes": "Tyler - Did he work through the pond?",
+          "labels": [],
+          "checklist": [
+            {
+              "text": "Exhibit B - Permanent Easement",
+              "done": false
+            },
+            {
+              "text": "O&M Agreement",
+              "done": false
+            },
+            {
+              "text": "Initial Payment (MC Insurance)",
+              "done": true
+            }
+          ],
+          "id": 3,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "PSV Reimbursement",
+          "assignee": "",
+          "bucket": "In Progress",
+          "due": "2026-05-27",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Followed up 05/05\n\nEmail sent to Melissa\n\nNeed to send Melissa CFA for city reimbursement\n\nWaiver needs to be executed by Burnsco.\n\nWaiver sent 05/11\n\nLeonel is closing our CFA per email 05/13. \"Allow for a couple of weeks\"",
+          "labels": [],
+          "checklist": [],
+          "id": 4,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Saddleside - Schoolsite Capacity",
+          "assignee": "",
+          "bucket": "Completed",
+          "due": "",
+          "priority": "Medium",
+          "pct": 100,
+          "notes": "Waiting for tyler to respond\n\nTyler Responded",
+          "labels": [],
+          "checklist": [],
+          "id": 6,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Ag Exemptions",
+          "assignee": "",
+          "bucket": "Upcoming Meetings",
+          "due": "2026-05-20",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Email Courtney / Marylin to see if they know what parcels we have in Ag.\n\nEmail sent 05/11",
+          "labels": [
+            "FOR Court"
+          ],
+          "checklist": [],
+          "id": 7,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Carter Jo Proposal",
+          "assignee": "",
+          "bucket": "In Progress",
+          "due": "2026-05-19",
+          "priority": "Medium",
+          "pct": 25,
+          "notes": "Send email to Pape-Dawson\n\nWaiting for response",
+          "labels": [],
+          "checklist": [],
+          "id": 8,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "MVRK WSA",
+          "assignee": "",
+          "bucket": "To Do (ASAP)",
+          "due": "2026-05-15",
+          "priority": "High",
+          "pct": 0,
+          "notes": "Being reviewed by Coats Rose\n\nFollowed up 05/11\n\nJosh sent 05/13. Need to review.",
+          "labels": [
+            "FOR Court"
+          ],
+          "checklist": [],
+          "id": 12,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Saddleside - First Amendment SUA",
+          "assignee": "",
+          "bucket": "Internal Legal Review",
+          "due": "2026-05-18",
+          "priority": "High",
+          "pct": 25,
+          "notes": "Follow up for word document\n\nFollowed up 05/07. If we dont get by 05/08, take it into our own hands",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [
+            {
+              "text": "KHA to update exhibits",
+              "done": false
+            }
+          ],
+          "id": 13,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Saddleside - 10' Coserv UE",
+          "assignee": "",
+          "bucket": "Title Objections",
+          "due": "2026-05-25",
+          "priority": "High",
+          "pct": 75,
+          "notes": "Send revised easement exhibits\n\nSent updated exhibits 05/07\n\nWaiting for payment before they can revise.\n\nGetting invoiced paid. Once paid, Coserv can draft modification of easement.\n\nSent email approval 05/11. waiting.\n\nFollowed up with Christi 05/18",
+          "labels": [
+            "FOR Court",
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 14,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Law Enforcement Agreement",
+          "assignee": "",
+          "bucket": "To Do (Misc.)",
+          "due": "2026-06-15",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Touch base with Fred offline",
+          "labels": [],
+          "checklist": [],
+          "id": 15,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Enlink - Easement Amendment",
+          "assignee": "",
+          "bucket": "Internal Legal Review",
+          "due": "2026-05-20",
+          "priority": "High",
+          "pct": 0,
+          "notes": "Being reviewed by Chelsea",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 16,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Terra Trace - Parkland Dedication",
+          "assignee": "",
+          "bucket": "To Do (Misc.)",
+          "due": "2026-05-20",
+          "priority": "Medium",
+          "pct": 25,
+          "notes": "Need to receive updated title before I can send to Germaine / Lori\n\nLien needs to be cleared (3-5 business days from 05/13)",
+          "labels": [
+            "FOR Court",
+            "Waiting on Response"
+          ],
+          "checklist": [
+            {
+              "text": "Environmental statement",
+              "done": false
+            },
+            {
+              "text": "Legal with Exhibit",
+              "done": true
+            },
+            {
+              "text": "SWD / title / Abs. Certificate",
+              "done": false
+            }
+          ],
+          "id": 17,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Estrella Proposal",
+          "assignee": "",
+          "bucket": "In Progress",
+          "due": "",
+          "priority": "Medium",
+          "pct": 50,
+          "notes": "Waiting for Pape-Dawson to provide proposal\n\nWaiting on LJA proposal",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 18,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "BVRT Insurance / Initial Payment",
+          "assignee": "",
+          "bucket": "Completed",
+          "due": "",
+          "priority": "High",
+          "pct": 100,
+          "notes": "Chelsea needing to approve WC\n\nApproved, need to get check cut. Reach our to REServices\n\nCoding sent. Waiting for check to be cut\n\nCoding sent to REservices 05/11",
+          "labels": [
+            "FOR Court"
+          ],
+          "checklist": [],
+          "id": 19,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "BVRT - Permanent Easement / Deed",
+          "assignee": "",
+          "bucket": "To Do (ASAP)",
+          "due": "2026-05-18",
+          "priority": "Critical",
+          "pct": 87,
+          "notes": "Need this ASAP\n\nSent to BVRT 05/07\n\nSet up call for Friday (MUD legal, FOR legal, BVRT legal)\nNeed final blessing from Chelsea. Sent 05/11.\n\nNot utility easement yet. Need to deed first (Parcel / Tract 1)",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [
+            {
+              "text": "5 Acre minimum - Brent to follow up",
+              "done": false
+            },
+            {
+              "text": "Permanent Easement - Need Ron and Steven to discuss...",
+              "done": false
+            }
+          ],
+          "id": 20,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "BVRT - Seperate Instrument",
+          "assignee": "",
+          "bucket": "Internal Legal Review",
+          "due": "2026-05-18",
+          "priority": "High",
+          "pct": 50,
+          "notes": "Easement Exhibits being done by KHA\nEasement Language being done by CR\n\nForwarded to Chelsea 05/11",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [
+            {
+              "text": "Saved Here - R:\\DFW\\b. Active\\Saddleside (Rockwood)\\08 - Development\\09 -Easements\\BVRT Seperate Instruments",
+              "done": false
+            }
+          ],
+          "id": 21,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Saddleside - Trash Services",
+          "assignee": "",
+          "bucket": "To Do (Misc.)",
+          "due": "2026-06-01",
+          "priority": "High",
+          "pct": 20,
+          "notes": "Summer running route with trash from town or as MUD.",
+          "labels": [],
+          "checklist": [
+            {
+              "text": "Matthew / Cory Glassburn  - WasteConnection",
+              "done": false
+            },
+            {
+              "text": "",
+              "done": false
+            }
+          ],
+          "id": 22,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Legacy Fields - AT&T Easement",
+          "assignee": "",
+          "bucket": "Title Objections",
+          "due": "2026-05-25",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Needing Ray to approve language in contract to release easements\n\nSent email 05/11\n\nGetting cleared.\n\nFollowing up 05/18",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 23,
+          "created": "2026-05-05",
+          "filePath": ""
+        },
+        {
+          "title": "Legacy Fields - EagleRidge SUA",
+          "assignee": "",
+          "bucket": "Title Objections",
+          "due": "2026-05-19",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Need to get with team to determine what price we go back to them with.\n\ncountered with $100k",
+          "labels": [],
+          "checklist": [],
+          "id": 24,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Legacy fields - Atmos Easement",
+          "assignee": "",
+          "bucket": "Title Objections",
+          "due": "2026-05-19",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "touch base with Summer on status\n\nCheryl Dunnahue for follow up.\n\n",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 25,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Legacy Fields - Oncor Easement",
+          "assignee": "",
+          "bucket": "Title Objections",
+          "due": "2026-05-18",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Kick off separate instrument once we exit feasibility.",
+          "labels": [
+            "FOR Court"
+          ],
+          "checklist": [],
+          "id": 26,
+          "created": "2026-05-05",
+          "filePath": ""
+        },
+        {
+          "title": "Saddleside - Oncor",
+          "assignee": "",
+          "bucket": "Title Objections",
+          "due": "2026-07-31",
+          "priority": "High",
+          "pct": 0,
+          "notes": "Need to record final plat before they clear easement",
+          "labels": [],
+          "checklist": [],
+          "id": 27,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "TRA Alignment",
+          "assignee": "",
+          "bucket": "To Do (Misc.)",
+          "due": "2026-06-01",
+          "priority": "Medium",
+          "pct": 50,
+          "notes": "Respond to TRA. Waiting for MBaacke Response\n\nResponded to TRA. Waiting for TRA to confirm.\n\nFollowed up 5/11. Good for now. Follow up \n\n",
+          "labels": [],
+          "checklist": [],
+          "id": 28,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Cooks Lane - MTP Rate Study??",
+          "assignee": "",
+          "bucket": "Completed",
+          "due": "",
+          "priority": "High",
+          "pct": 50,
+          "notes": "Waiting for response from city \n\nPer R.Hill - If the MTP gets passed by council, you have to build it. Now we just need to determine if this is credit elgible.",
+          "labels": [],
+          "checklist": [],
+          "id": 29,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Legacy Fields - Cemetery Access",
+          "assignee": "",
+          "bucket": "To Do (ASAP)",
+          "due": "2026-05-19",
+          "priority": "Critical",
+          "pct": 64,
+          "notes": "Joanna leading the charge - Not insurable - Get all parties involved.\n\nTouch base with Rian ASAP\n\nMarie responded 05/15\n\nSent email to Carrie / Chelsea with path forward. Rian to take\n\nCompleted internally 05/08. Being sent to cemetery\n\nIn Cemeterys court\n",
+          "labels": [
+            "FOR Court"
+          ],
+          "checklist": [],
+          "id": 30,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Legacy Fields - Geotech",
+          "assignee": "",
+          "bucket": "In Progress",
+          "due": "2026-05-21",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Working with Beth to get updated bores.\n\nSet for drilling thursday (05/07/2026)",
+          "labels": [],
+          "checklist": [],
+          "id": 31,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Lantana - Disposition",
+          "assignee": "",
+          "bucket": "In Progress",
+          "due": "2026-06-15",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "XTO - Gas Pad site (get cost for P&A)\nColton / Rian for selling 407 land",
+          "labels": [],
+          "checklist": [],
+          "id": 32,
+          "created": "2026-05-05"
+        },
+        {
+          "title": "Headshot",
+          "assignee": "",
+          "bucket": "Completed",
+          "due": "",
+          "priority": "Medium",
+          "pct": 100,
+          "notes": "We",
+          "labels": [],
+          "checklist": [],
+          "id": 35,
+          "created": "2026-05-06"
+        },
+        {
+          "title": "Intern Presentation",
+          "assignee": "",
+          "bucket": "Completed",
+          "due": "",
+          "priority": "Medium",
+          "pct": 100,
+          "notes": "Finish",
+          "labels": [],
+          "checklist": [],
+          "id": 38,
+          "created": "2026-05-06"
+        },
+        {
+          "title": "Legacy Fields - Trail Creek Lane",
+          "assignee": "",
+          "bucket": "In Progress",
+          "due": "2026-05-25",
+          "priority": "Medium",
+          "pct": 75,
+          "notes": "width of Trail Creek Road\n\nEmail sent 05/11\n\nFollowed up 05/18",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 39,
+          "created": "2026-05-06"
+        },
+        {
+          "title": "Summer Creek - Contract",
+          "assignee": "Colton",
+          "bucket": "Internal Legal Review",
+          "due": "",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "With purchaser",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 40,
+          "created": "2026-05-07"
+        },
+        {
+          "title": "Alpha Ranch - Easement",
+          "assignee": "Jordan",
+          "bucket": "Completed",
+          "due": "",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Did Centurion sign an easement on our property? Master sewer. Will eventually get assigned to the city of Fort Worth. ",
+          "labels": [],
+          "checklist": [],
+          "id": 41,
+          "created": "2026-05-07"
+        },
+        {
+          "title": "Lonestar 2A - CFA Process / Assignment",
+          "assignee": "",
+          "bucket": "To Do (Misc.)",
+          "due": "2026-05-21",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Get an update on this.",
+          "labels": [],
+          "checklist": [],
+          "id": 42,
+          "created": "2026-05-07"
+        },
+        {
+          "title": "Trails of Elizabeth Creek - Homeowner",
+          "assignee": "jordan",
+          "bucket": "Internal Legal Review",
+          "due": "",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Waiting on survey data, Blake running traps with CoFW.",
+          "labels": [],
+          "checklist": [],
+          "id": 43,
+          "created": "2026-05-07"
+        },
+        {
+          "title": "Legado Utility Agreement",
+          "assignee": "",
+          "bucket": "Internal Legal Review",
+          "due": "",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Waiting on clarity to completely overhaul or keep as is.",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 44,
+          "created": "2026-05-07"
+        },
+        {
+          "title": "Legado, Phase 2",
+          "assignee": "Stephen",
+          "bucket": "Internal Legal Review",
+          "due": "",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Term sheet was signed, need to draft PSA. ",
+          "labels": [],
+          "checklist": [],
+          "id": 45,
+          "created": "2026-05-07"
+        },
+        {
+          "title": "Lonestar, 2A - PSA",
+          "assignee": "Stephen",
+          "bucket": "Internal Legal Review",
+          "due": "",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Chelsea needs to get final terms for review",
+          "labels": [],
+          "checklist": [],
+          "id": 46,
+          "created": "2026-05-07"
+        },
+        {
+          "title": "Oncor - Signed MUD Document",
+          "assignee": "",
+          "bucket": "Completed",
+          "due": "",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Has Oncor signed document with MUD?",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 47,
+          "created": "2026-05-07"
+        },
+        {
+          "title": "Legacy Fields - CCN / TRA / Pump",
+          "assignee": "",
+          "bucket": "In Progress",
+          "due": "2026-05-25",
+          "priority": "Medium",
+          "pct": 50,
+          "notes": "Email sent to Drew 05/11.\n\nFollowed up 05/18 regarding TRA fees, Pump station, and CCN.\n\nDrew provided response 05/18",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 49,
+          "created": "2026-05-07"
+        },
+        {
+          "title": "Terra Trace - Lien",
+          "assignee": "",
+          "bucket": "Completed",
+          "due": "",
+          "priority": "Medium",
+          "pct": 50,
+          "notes": "Mechanics Lien \n\nCompleted, just need recorded document.",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 50,
+          "created": "2026-05-11"
+        },
+        {
+          "title": "Legacy Fields - Mineral Waiver",
+          "assignee": "",
+          "bucket": "Completed",
+          "due": "",
+          "priority": "Critical",
+          "pct": 100,
+          "notes": "Who is signing these? when will these get signed?",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 51,
+          "created": "2026-05-11"
+        },
+        {
+          "title": "Legacy Fields - Waterline",
+          "assignee": "",
+          "bucket": "Completed",
+          "due": "",
+          "priority": "Critical",
+          "pct": 100,
+          "notes": "Property by property. need full detail\n\nJosh Westrom? (how can we get this across the finish line)",
+          "labels": [],
+          "checklist": [
+            {
+              "text": "Ketchersid",
+              "done": false
+            }
+          ],
+          "id": 52,
+          "created": "2026-05-11"
+        },
+        {
+          "title": "Legacy Fields - Updated District Schedule",
+          "assignee": "",
+          "bucket": "Completed",
+          "due": "",
+          "priority": "Critical",
+          "pct": 100,
+          "notes": "",
+          "labels": [],
+          "checklist": [],
+          "id": 53,
+          "created": "2026-05-11"
+        },
+        {
+          "title": "Lonestar 2A - Title Policy",
+          "assignee": "",
+          "bucket": "In Progress",
+          "due": "2026-05-20",
+          "priority": "Medium",
+          "pct": 50,
+          "notes": "Do we need phase 2A title policy?\n\nKicked off. Jessica Peele completing",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 54,
+          "created": "2026-05-11"
+        },
+        {
+          "title": "BVRT - O&M Agreement",
+          "assignee": "",
+          "bucket": "In Progress",
+          "due": "2026-05-25",
+          "priority": "Critical",
+          "pct": 0,
+          "notes": "Need Chelsea blessing before sending to BVRT.\n\nSend to BVRT 05/18",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 57,
+          "created": "2026-05-11"
+        },
+        {
+          "title": "Saddleside - SUA Exhibit Update",
+          "assignee": "",
+          "bucket": "Completed",
+          "due": "",
+          "priority": "High",
+          "pct": 50,
+          "notes": "Needing Tyler to revise Exhibit E for first amendment",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 58,
+          "created": "2026-05-11"
+        },
+        {
+          "title": "Lonestar 2A - ESA",
+          "assignee": "",
+          "bucket": "In Progress",
+          "due": "2026-05-20",
+          "priority": "High",
+          "pct": 50,
+          "notes": "Daniel Roebke (Aptim) for ESA\n\nFollowed up 05/13",
+          "labels": [],
+          "checklist": [],
+          "id": 59,
+          "created": "2026-05-12"
+        },
+        {
+          "title": "Saddleside - Sanitary Control Easement",
+          "assignee": "",
+          "bucket": "Substantial Completion",
+          "due": "2026-05-19",
+          "priority": "Critical",
+          "pct": 50,
+          "notes": "Sent 05/12. Waiting on response\n\nMAnderson confirmed receipt. waiting on response",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 61,
+          "created": "2026-05-12"
+        },
+        {
+          "title": "Saddleside - 3B Dev Spend",
+          "assignee": "",
+          "bucket": "Completed",
+          "due": "",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Address Waseem Comments",
+          "labels": [],
+          "checklist": [],
+          "id": 62,
+          "created": "2026-05-13"
+        },
+        {
+          "title": "Terra Trace - Parkland Dedication",
+          "assignee": "",
+          "bucket": "To Do (ASAP)",
+          "due": "2026-05-20",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "HOA needs to maintain park after dedicated to CoFW. Adopt a park?",
+          "labels": [
+            "FOR Court"
+          ],
+          "checklist": [],
+          "id": 65,
+          "created": "2026-05-13"
+        },
+        {
+          "title": "Legacy Fields - Waterline",
+          "assignee": "Rian",
+          "bucket": "Internal Legal Review",
+          "due": "2026-05-21",
+          "priority": "High",
+          "pct": 0,
+          "notes": "Rian sent email to Chelsea. Needing for Excel.\n\nNeeding Ketchersid (with Falcon under contract) / H.A Smith  (want to match 1.03 of cemetery) / Hillwood\n\n\n",
+          "labels": [
+            "FOR Court"
+          ],
+          "checklist": [],
+          "id": 66,
+          "created": "2026-05-13"
+        },
+        {
+          "title": "Lantana - Commercial",
+          "assignee": "",
+          "bucket": "To Do (Misc.)",
+          "due": "2026-05-22",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Winstead answer to dissolve and exit ASAP?",
+          "labels": [
+            "FOR Court"
+          ],
+          "checklist": [],
+          "id": 67,
+          "created": "2026-05-13"
+        },
+        {
+          "title": "Jason Jones (DHI) - P&Z",
+          "assignee": "",
+          "bucket": "Get Scheduled",
+          "due": "",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "",
+          "labels": [],
+          "checklist": [],
+          "id": 68,
+          "created": "2026-05-14"
+        },
+        {
+          "title": "Actual reimbursements in BRW",
+          "assignee": "",
+          "bucket": "Get Scheduled",
+          "due": "",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Who's picked this up since CL left?",
+          "labels": [
+            "FOR Court"
+          ],
+          "checklist": [],
+          "id": 69,
+          "created": "2026-05-14"
+        },
+        {
+          "title": "Willowstone - Easement",
+          "assignee": "",
+          "bucket": "To Do (Misc.)",
+          "due": "2026-05-20",
+          "priority": "High",
+          "pct": 0,
+          "notes": "",
+          "labels": [
+            "FOR Court"
+          ],
+          "checklist": [],
+          "id": 70,
+          "created": "2026-05-14"
+        },
+        {
+          "id": 71,
+          "title": "HOA budgeting - Is this Stephen?",
+          "bucket": "Get Scheduled",
+          "priority": "Medium",
+          "pct": 0,
+          "labels": [],
+          "checklist": [],
+          "created": "2026-05-15",
+          "assignee": "",
+          "due": "",
+          "notes": ""
+        }
+      ],
+      "notes": [
+        {
+          "id": 15,
+          "title": "WOUS (05/13/2026)",
+          "content": "Looks like there is an updated WOUS report - Need to determine what the path forward is. Waiting on rudi to follow up.",
+          "folderId": 3,
+          "created": "2026-05-14T19:48:10.827Z",
+          "updated": "2026-05-14T19:50:08.764Z",
+          "linkedTaskId": null
+        },
+        {
+          "id": 14,
+          "title": "Property Tax / Ag Exempt / Rollback Estimates (05/13/2026)",
+          "content": "~Ag Exepmtions~\nTOEC - Phase 10 and common only active, no Ag and \nTerra Trace - Ph 1 common, 3 and 4 nothing in Ag, Rollbacks have been completed\nLegado - Ph 1 & common, 2,3, and 4 not platted, Nothing in ag, rollbacks have be completed\nHickory Grove - Ph 1a, 1b, 2 and 3 and commo, no ag, rollbacks have been done\nLonestar - Ph 1, nothing ag, rollbacks done\nAlpha - not in ag, notice of change, rollbacks have been triggered (Charlie Haynes)... SB was under impression this was in Ag.\nSaddleside - All in ag, no rollback trigger\nWillowstone - 4 parents, 3 of 4 in ag, no rollback trigger (254194 not in ag)\n\nAs we sell lots, when do we account for taxes?\nQuarterly FPNA gets liability spreadsheet for forecasted estimated. (March, June, September, December)\nCourtney trues it up every month, but can email property tax whenever for questions. \n\nTax protest savings - Courtney to send Stephen an update\n\n\n~Rollback Calculator~\nCourtney / Marilyn for estimator\n",
+          "folderId": 5,
+          "created": "2026-05-13T18:33:03.547Z",
+          "updated": "2026-05-13T18:49:30.353Z",
+          "linkedTaskId": null
+        },
+        {
+          "id": 13,
+          "title": "TRA Right of Entry (05/11/2026)",
+          "content": "Heather to send packet to fill out (Need plans, tie in, etc...), the town will submit on our behalf.\n\nHow will Northlake bill us (Northlake only has one meter downstream for all flows)? \n\nacquisition could take 6 months to 2 years... Lets hope not 2 years.... Hoping to bid November.\n\nSet up a meeting with brokers, TRA, and FOR - negotiated easement",
+          "folderId": 2,
+          "created": "2026-05-11T21:33:12.329Z",
+          "updated": "2026-05-11T21:38:56.155Z",
+          "linkedTaskId": null
+        },
+        {
+          "id": 12,
+          "title": "District Meeting - Justine (05/11/2026)",
+          "content": "Forward funding - portfolio sale was difficult. Underwriting rate at 6%, went up to 6.5%. Coverage ratio went to market at 1.5%, went up to 1.6%.\n\nWhen do we get preliminary numbers for AV / value added to the property? Up to FOR to push when we need bond sales and when we need it funded.\n\nPreliminary bonding (Dont want to issue bond for less than $1MM) from district attorney and FA. Will need to update FA monthly / quarterly for starts and sales to get better understanding of bond sales schedules.\n\nWater well = faster funding?\n\nAny district reimbursements / financing needs to go through Chris Hibbets\n\nPhase 1 road bond - Done previously but with larger phases and more infrastructure. How quickly can you build value before you actually get funding? Can take up to 6 months to get funding. (lots under contract is a huge component of bonding... Impacts interest rate and coverage ratio)\n\n\n\n\n\n\n\n\n",
+          "folderId": 5,
+          "created": "2026-05-11T18:03:13.706Z",
+          "updated": "2026-05-11T18:48:38.862Z",
+          "linkedTaskId": null
+        },
+        {
+          "id": 11,
+          "title": "Bi-Weekly (05/06/26)",
+          "content": "TIA recap - Need to button up phasing... Could we do north pod as TIA phase 1 and South as TIA phase 2? \n\nWe will more than likely beat BNSF regarding timing, so we need to account for this in our model.\n",
+          "folderId": 2,
+          "created": "2026-05-06T15:32:21.307Z",
+          "updated": "2026-05-06T15:40:35.506Z",
+          "linkedTaskId": null
+        },
+        {
+          "id": 6,
+          "title": "Lantana Commercial Discussion (05/05/2026)",
+          "content": "June 2025 looked to amend directors, but nothing ever got adopted or recorded.\n\nBylaws / CCR's would need to be updated before we find new directors (if this is what we wanted to complete).\n\nShanta asked to dissolve commercial association - Forestar owns one certain parcel (northwest corner), and there are undeveloped commercial lots... Is FOR land under residential or commercial? Residential not run by FOR. **Answer** - If commercial does not own any land, or have not been collecting assessments, then it can be dissolved.\n\nWe can appoint a new board to put owners on the board and have us get out, or partially terminate (or assign) our declarant rights.\n\nWe can assign ARC / review rights to other people / members.\n\nStep 1) Amend and restate bylaws to appoint board\nStep 2) Update agent through Secretary of State\n\n",
+          "folderId": 5,
+          "created": "2026-05-05T19:00:36.263Z",
+          "updated": "2026-05-05T19:29:34.068Z",
+          "linkedTaskId": null
+        },
+        {
+          "id": 1,
+          "title": "Justin TIA Discussion (05/04/2026)",
+          "content": "BNSF working through SS4A grant to improve Trail Creek, Downe, and Gulf. \n\nJustin wants TIA to be sent with counts, general phasing, and takedown.\n\nWWTP will be future public works building / are",
+          "folderId": 2,
+          "created": "2026-05-05T15:16:30.917Z",
+          "updated": "2026-05-05T18:39:52.567Z",
+          "linkedTaskId": null
+        }
+      ],
+      "nextId": 72,
+      "nextNoteId": 16,
+      "darkMode": false,
+      "compact": false,
+      "myName": "",
+      "folders": [
+        {
+          "id": 1,
+          "name": "Saddleside",
+          "created": "2026-05-05T15:15:36.509Z",
+          "updated": "2026-05-05T15:15:36.509Z"
+        },
+        {
+          "id": 2,
+          "name": "Legacy Fields",
+          "created": "2026-05-05T15:15:44.400Z",
+          "updated": "2026-05-05T15:15:44.401Z"
+        },
+        {
+          "id": 3,
+          "name": "Lone Star, 2A",
+          "created": "2026-05-05T15:15:49.344Z",
+          "updated": "2026-05-05T15:15:49.344Z"
+        },
+        {
+          "id": 4,
+          "name": "Legado",
+          "created": "2026-05-05T15:15:53.100Z",
+          "updated": "2026-05-05T15:15:53.100Z"
+        },
+        {
+          "id": 5,
+          "name": "General Notes",
+          "created": "2026-05-05T17:58:12.017Z",
+          "updated": "2026-05-05T17:58:12.017Z"
+        }
+      ],
+      "nextFolderId": 6,
+      "filterPresets": [
+        {
+          "name": "Items to Complete",
+          "search": "",
+          "assignee": "",
+          "priority": "",
+          "label": "FOR Court"
+        },
+        {
+          "name": "This Week",
+          "search": "",
+          "assignee": "",
+          "priority": "",
+          "label": "",
+          "dueDate": "thisweek"
+        },
+        {
+          "name": "Today",
+          "search": "",
+          "assignee": "",
+          "priority": "",
+          "label": "",
+          "dueDate": "today"
+        }
+      ],
+      "sidebarCollapsed": false
     },
-    {
-      "name": "Development",
-      "color": "#0891b2"
-    },
-    {
-      "name": "FOR Court",
-      "color": "#f97316"
-    },
-    {
-      "name": "Waiting on Response",
-      "color": "#000000"
+    "personal": {
+      "projectName": "My Project",
+      "buckets": [
+        "To Do",
+        "In Progress",
+        "Under Review",
+        "Complete"
+      ],
+      "labels": [
+        {
+          "name": "Entitlements",
+          "color": "#8b5cf6"
+        },
+        {
+          "name": "Development",
+          "color": "#0891b2"
+        },
+        {
+          "name": "Design",
+          "color": "#ec4899"
+        },
+        {
+          "name": "Engineering",
+          "color": "#f97316"
+        },
+        {
+          "name": "Admin",
+          "color": "#6b7280"
+        }
+      ],
+      "tasks": [],
+      "notes": [],
+      "folders": [],
+      "nextId": 1,
+      "nextNoteId": 1,
+      "nextFolderId": 1,
+      "darkMode": false,
+      "compact": false,
+      "myName": "",
+      "filterPresets": [],
+      "sidebarCollapsed": false
     }
-  ],
-  "tasks": [
-    {
-      "title": "Lonestar 2A - IC Memo",
-      "assignee": "",
-      "bucket": "To Do (ASAP)",
-      "due": "2026-05-20",
-      "priority": "Critical",
-      "pct": 75,
-      "notes": "Sent to colton. Will help where needed.\n\nColton to finalize\n\nNeed to address SB comments",
-      "labels": [
-        "FOR Court"
-      ],
-      "checklist": [
-        {
-          "text": "IC Cover Sheet",
-          "done": true
-        },
-        {
-          "text": "Proforma",
-          "done": true
-        },
-        {
-          "text": "Site Plan",
-          "done": true
-        },
-        {
-          "text": "DD Checklist",
-          "done": true
-        },
-        {
-          "text": "Entitlements  / Dev Tracker",
-          "done": true
-        },
-        {
-          "text": "Original Budget",
-          "done": true
-        },
-        {
-          "text": "PSA",
-          "done": true
-        },
-        {
-          "text": "ROFO - Do we need / have?",
-          "done": true
-        },
-        {
-          "text": "CMA",
-          "done": true
-        },
-        {
-          "text": "IC Memo",
-          "done": true
-        }
-      ],
-      "id": 1,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Terra Trace - Drainage Easement",
-      "assignee": "",
-      "bucket": "In Progress",
-      "due": "2026-05-21",
-      "priority": "Medium",
-      "pct": 50,
-      "notes": "Sent email to Ron Frano.. Stephanie Cloud as first line of defense\n\nwaiting for Stephanie to response.\n\nFollowed up regarding signature authority 05/14\n\nSent to city. Waiting for response\n\nSent to Landon to relay to CoFW. \n\nComptroller for signature authority? If this doesnt work, reach out to Franco asking for incorportation documents for his autohrity.",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 2,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "BVRT Documents",
-      "assignee": "",
-      "bucket": "Completed",
-      "due": "",
-      "priority": "Critical",
-      "pct": 33,
-      "notes": "Tyler - Did he work through the pond?",
-      "labels": [],
-      "checklist": [
-        {
-          "text": "Exhibit B - Permanent Easement",
-          "done": false
-        },
-        {
-          "text": "O&M Agreement",
-          "done": false
-        },
-        {
-          "text": "Initial Payment (MC Insurance)",
-          "done": true
-        }
-      ],
-      "id": 3,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "PSV Reimbursement",
-      "assignee": "",
-      "bucket": "In Progress",
-      "due": "2026-05-27",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Followed up 05/05\n\nEmail sent to Melissa\n\nNeed to send Melissa CFA for city reimbursement\n\nWaiver needs to be executed by Burnsco.\n\nWaiver sent 05/11\n\nLeonel is closing our CFA per email 05/13. \"Allow for a couple of weeks\"",
-      "labels": [],
-      "checklist": [],
-      "id": 4,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Saddleside - Schoolsite Capacity",
-      "assignee": "",
-      "bucket": "Completed",
-      "due": "",
-      "priority": "Medium",
-      "pct": 100,
-      "notes": "Waiting for tyler to respond\n\nTyler Responded",
-      "labels": [],
-      "checklist": [],
-      "id": 6,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Ag Exemptions",
-      "assignee": "",
-      "bucket": "Upcoming Meetings",
-      "due": "2026-05-20",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Email Courtney / Marylin to see if they know what parcels we have in Ag.\n\nEmail sent 05/11",
-      "labels": [
-        "FOR Court"
-      ],
-      "checklist": [],
-      "id": 7,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Carter Jo Proposal",
-      "assignee": "",
-      "bucket": "In Progress",
-      "due": "2026-05-19",
-      "priority": "Medium",
-      "pct": 25,
-      "notes": "Send email to Pape-Dawson\n\nWaiting for response",
-      "labels": [],
-      "checklist": [],
-      "id": 8,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "MVRK WSA",
-      "assignee": "",
-      "bucket": "To Do (ASAP)",
-      "due": "2026-05-15",
-      "priority": "High",
-      "pct": 0,
-      "notes": "Being reviewed by Coats Rose\n\nFollowed up 05/11\n\nJosh sent 05/13. Need to review.",
-      "labels": [
-        "FOR Court"
-      ],
-      "checklist": [],
-      "id": 12,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Saddleside - First Amendment SUA",
-      "assignee": "",
-      "bucket": "Internal Legal Review",
-      "due": "2026-05-18",
-      "priority": "High",
-      "pct": 25,
-      "notes": "Follow up for word document\n\nFollowed up 05/07. If we dont get by 05/08, take it into our own hands",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [
-        {
-          "text": "KHA to update exhibits",
-          "done": false
-        }
-      ],
-      "id": 13,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Saddleside - 10' Coserv UE",
-      "assignee": "",
-      "bucket": "Title Objections",
-      "due": "2026-05-25",
-      "priority": "High",
-      "pct": 75,
-      "notes": "Send revised easement exhibits\n\nSent updated exhibits 05/07\n\nWaiting for payment before they can revise.\n\nGetting invoiced paid. Once paid, Coserv can draft modification of easement.\n\nSent email approval 05/11. waiting.\n\nFollowed up with Christi 05/18",
-      "labels": [
-        "FOR Court",
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 14,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Law Enforcement Agreement",
-      "assignee": "",
-      "bucket": "To Do (Misc.)",
-      "due": "2026-06-15",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Touch base with Fred offline",
-      "labels": [],
-      "checklist": [],
-      "id": 15,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Enlink - Easement Amendment",
-      "assignee": "",
-      "bucket": "Internal Legal Review",
-      "due": "2026-05-20",
-      "priority": "High",
-      "pct": 0,
-      "notes": "Being reviewed by Chelsea",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 16,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Terra Trace - Parkland Dedication",
-      "assignee": "",
-      "bucket": "To Do (Misc.)",
-      "due": "2026-05-20",
-      "priority": "Medium",
-      "pct": 25,
-      "notes": "Need to receive updated title before I can send to Germaine / Lori\n\nLien needs to be cleared (3-5 business days from 05/13)",
-      "labels": [
-        "FOR Court",
-        "Waiting on Response"
-      ],
-      "checklist": [
-        {
-          "text": "Environmental statement",
-          "done": false
-        },
-        {
-          "text": "Legal with Exhibit",
-          "done": true
-        },
-        {
-          "text": "SWD / title / Abs. Certificate",
-          "done": false
-        }
-      ],
-      "id": 17,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Estrella Proposal",
-      "assignee": "",
-      "bucket": "In Progress",
-      "due": "",
-      "priority": "Medium",
-      "pct": 50,
-      "notes": "Waiting for Pape-Dawson to provide proposal\n\nWaiting on LJA proposal",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 18,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "BVRT Insurance / Initial Payment",
-      "assignee": "",
-      "bucket": "Completed",
-      "due": "",
-      "priority": "High",
-      "pct": 100,
-      "notes": "Chelsea needing to approve WC\n\nApproved, need to get check cut. Reach our to REServices\n\nCoding sent. Waiting for check to be cut\n\nCoding sent to REservices 05/11",
-      "labels": [
-        "FOR Court"
-      ],
-      "checklist": [],
-      "id": 19,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "BVRT - Permanent Easement / Deed",
-      "assignee": "",
-      "bucket": "To Do (ASAP)",
-      "due": "2026-05-18",
-      "priority": "Critical",
-      "pct": 87,
-      "notes": "Need this ASAP\n\nSent to BVRT 05/07\n\nSet up call for Friday (MUD legal, FOR legal, BVRT legal)\nNeed final blessing from Chelsea. Sent 05/11.\n\nNot utility easement yet. Need to deed first (Parcel / Tract 1)",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [
-        {
-          "text": "5 Acre minimum - Brent to follow up",
-          "done": false
-        },
-        {
-          "text": "Permanent Easement - Need Ron and Steven to discuss...",
-          "done": false
-        }
-      ],
-      "id": 20,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "BVRT - Seperate Instrument",
-      "assignee": "",
-      "bucket": "Internal Legal Review",
-      "due": "2026-05-18",
-      "priority": "High",
-      "pct": 50,
-      "notes": "Easement Exhibits being done by KHA\nEasement Language being done by CR\n\nForwarded to Chelsea 05/11",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [
-        {
-          "text": "Saved Here - R:\\DFW\\b. Active\\Saddleside (Rockwood)\\08 - Development\\09 -Easements\\BVRT Seperate Instruments",
-          "done": false
-        }
-      ],
-      "id": 21,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Saddleside - Trash Services",
-      "assignee": "",
-      "bucket": "To Do (Misc.)",
-      "due": "2026-06-01",
-      "priority": "High",
-      "pct": 20,
-      "notes": "Summer running route with trash from town or as MUD.",
-      "labels": [],
-      "checklist": [
-        {
-          "text": "Matthew / Cory Glassburn  - WasteConnection",
-          "done": false
-        },
-        {
-          "text": "",
-          "done": false
-        }
-      ],
-      "id": 22,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Legacy Fields - AT&T Easement",
-      "assignee": "",
-      "bucket": "Title Objections",
-      "due": "2026-05-25",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Needing Ray to approve language in contract to release easements\n\nSent email 05/11\n\nGetting cleared.\n\nFollowing up 05/18",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 23,
-      "created": "2026-05-05",
-      "filePath": ""
-    },
-    {
-      "title": "Legacy Fields - EagleRidge SUA",
-      "assignee": "",
-      "bucket": "Title Objections",
-      "due": "2026-05-19",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Need to get with team to determine what price we go back to them with.\n\ncountered with $100k",
-      "labels": [],
-      "checklist": [],
-      "id": 24,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Legacy fields - Atmos Easement",
-      "assignee": "",
-      "bucket": "Title Objections",
-      "due": "2026-05-19",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "touch base with Summer on status\n\nCheryl Dunnahue for follow up.\n\n",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 25,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Legacy Fields - Oncor Easement",
-      "assignee": "",
-      "bucket": "Title Objections",
-      "due": "2026-05-18",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Kick off separate instrument once we exit feasibility.",
-      "labels": [
-        "FOR Court"
-      ],
-      "checklist": [],
-      "id": 26,
-      "created": "2026-05-05",
-      "filePath": ""
-    },
-    {
-      "title": "Saddleside - Oncor",
-      "assignee": "",
-      "bucket": "Title Objections",
-      "due": "2026-07-31",
-      "priority": "High",
-      "pct": 0,
-      "notes": "Need to record final plat before they clear easement",
-      "labels": [],
-      "checklist": [],
-      "id": 27,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "TRA Alignment",
-      "assignee": "",
-      "bucket": "To Do (Misc.)",
-      "due": "2026-06-01",
-      "priority": "Medium",
-      "pct": 50,
-      "notes": "Respond to TRA. Waiting for MBaacke Response\n\nResponded to TRA. Waiting for TRA to confirm.\n\nFollowed up 5/11. Good for now. Follow up \n\n",
-      "labels": [],
-      "checklist": [],
-      "id": 28,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Cooks Lane - MTP Rate Study??",
-      "assignee": "",
-      "bucket": "Completed",
-      "due": "",
-      "priority": "High",
-      "pct": 50,
-      "notes": "Waiting for response from city \n\nPer R.Hill - If the MTP gets passed by council, you have to build it. Now we just need to determine if this is credit elgible.",
-      "labels": [],
-      "checklist": [],
-      "id": 29,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Legacy Fields - Cemetery Access",
-      "assignee": "",
-      "bucket": "To Do (ASAP)",
-      "due": "2026-05-19",
-      "priority": "Critical",
-      "pct": 64,
-      "notes": "Joanna leading the charge - Not insurable - Get all parties involved.\n\nTouch base with Rian ASAP\n\nMarie responded 05/15\n\nSent email to Carrie / Chelsea with path forward. Rian to take\n\nCompleted internally 05/08. Being sent to cemetery\n\nIn Cemeterys court\n",
-      "labels": [
-        "FOR Court"
-      ],
-      "checklist": [],
-      "id": 30,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Legacy Fields - Geotech",
-      "assignee": "",
-      "bucket": "In Progress",
-      "due": "2026-05-21",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Working with Beth to get updated bores.\n\nSet for drilling thursday (05/07/2026)",
-      "labels": [],
-      "checklist": [],
-      "id": 31,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Lantana - Disposition",
-      "assignee": "",
-      "bucket": "In Progress",
-      "due": "2026-06-15",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "XTO - Gas Pad site (get cost for P&A)\nColton / Rian for selling 407 land",
-      "labels": [],
-      "checklist": [],
-      "id": 32,
-      "created": "2026-05-05"
-    },
-    {
-      "title": "Headshot",
-      "assignee": "",
-      "bucket": "Completed",
-      "due": "",
-      "priority": "Medium",
-      "pct": 100,
-      "notes": "We",
-      "labels": [],
-      "checklist": [],
-      "id": 35,
-      "created": "2026-05-06"
-    },
-    {
-      "title": "Intern Presentation",
-      "assignee": "",
-      "bucket": "Completed",
-      "due": "",
-      "priority": "Medium",
-      "pct": 100,
-      "notes": "Finish",
-      "labels": [],
-      "checklist": [],
-      "id": 38,
-      "created": "2026-05-06"
-    },
-    {
-      "title": "Legacy Fields - Trail Creek Lane",
-      "assignee": "",
-      "bucket": "In Progress",
-      "due": "2026-05-25",
-      "priority": "Medium",
-      "pct": 75,
-      "notes": "width of Trail Creek Road\n\nEmail sent 05/11\n\nFollowed up 05/18",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 39,
-      "created": "2026-05-06"
-    },
-    {
-      "title": "Summer Creek - Contract",
-      "assignee": "Colton",
-      "bucket": "Internal Legal Review",
-      "due": "",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "With purchaser",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 40,
-      "created": "2026-05-07"
-    },
-    {
-      "title": "Alpha Ranch - Easement",
-      "assignee": "Jordan",
-      "bucket": "Completed",
-      "due": "",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Did Centurion sign an easement on our property? Master sewer. Will eventually get assigned to the city of Fort Worth. ",
-      "labels": [],
-      "checklist": [],
-      "id": 41,
-      "created": "2026-05-07"
-    },
-    {
-      "title": "Lonestar 2A - CFA Process / Assignment",
-      "assignee": "",
-      "bucket": "To Do (Misc.)",
-      "due": "2026-05-21",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Get an update on this.",
-      "labels": [],
-      "checklist": [],
-      "id": 42,
-      "created": "2026-05-07"
-    },
-    {
-      "title": "Trails of Elizabeth Creek - Homeowner",
-      "assignee": "jordan",
-      "bucket": "Internal Legal Review",
-      "due": "",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Waiting on survey data, Blake running traps with CoFW.",
-      "labels": [],
-      "checklist": [],
-      "id": 43,
-      "created": "2026-05-07"
-    },
-    {
-      "title": "Legado Utility Agreement",
-      "assignee": "",
-      "bucket": "Internal Legal Review",
-      "due": "",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Waiting on clarity to completely overhaul or keep as is.",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 44,
-      "created": "2026-05-07"
-    },
-    {
-      "title": "Legado, Phase 2",
-      "assignee": "Stephen",
-      "bucket": "Internal Legal Review",
-      "due": "",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Term sheet was signed, need to draft PSA. ",
-      "labels": [],
-      "checklist": [],
-      "id": 45,
-      "created": "2026-05-07"
-    },
-    {
-      "title": "Lonestar, 2A - PSA",
-      "assignee": "Stephen",
-      "bucket": "Internal Legal Review",
-      "due": "",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Chelsea needs to get final terms for review",
-      "labels": [],
-      "checklist": [],
-      "id": 46,
-      "created": "2026-05-07"
-    },
-    {
-      "title": "Oncor - Signed MUD Document",
-      "assignee": "",
-      "bucket": "Completed",
-      "due": "",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Has Oncor signed document with MUD?",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 47,
-      "created": "2026-05-07"
-    },
-    {
-      "title": "Legacy Fields - CCN / TRA / Pump",
-      "assignee": "",
-      "bucket": "In Progress",
-      "due": "2026-05-25",
-      "priority": "Medium",
-      "pct": 50,
-      "notes": "Email sent to Drew 05/11.\n\nFollowed up 05/18 regarding TRA fees, Pump station, and CCN.\n\nDrew provided response 05/18",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 49,
-      "created": "2026-05-07"
-    },
-    {
-      "title": "Terra Trace - Lien",
-      "assignee": "",
-      "bucket": "Completed",
-      "due": "",
-      "priority": "Medium",
-      "pct": 50,
-      "notes": "Mechanics Lien \n\nCompleted, just need recorded document.",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 50,
-      "created": "2026-05-11"
-    },
-    {
-      "title": "Legacy Fields - Mineral Waiver",
-      "assignee": "",
-      "bucket": "Completed",
-      "due": "",
-      "priority": "Critical",
-      "pct": 100,
-      "notes": "Who is signing these? when will these get signed?",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 51,
-      "created": "2026-05-11"
-    },
-    {
-      "title": "Legacy Fields - Waterline",
-      "assignee": "",
-      "bucket": "Completed",
-      "due": "",
-      "priority": "Critical",
-      "pct": 100,
-      "notes": "Property by property. need full detail\n\nJosh Westrom? (how can we get this across the finish line)",
-      "labels": [],
-      "checklist": [
-        {
-          "text": "Ketchersid",
-          "done": false
-        }
-      ],
-      "id": 52,
-      "created": "2026-05-11"
-    },
-    {
-      "title": "Legacy Fields - Updated District Schedule",
-      "assignee": "",
-      "bucket": "Completed",
-      "due": "",
-      "priority": "Critical",
-      "pct": 100,
-      "notes": "",
-      "labels": [],
-      "checklist": [],
-      "id": 53,
-      "created": "2026-05-11"
-    },
-    {
-      "title": "Lonestar 2A - Title Policy",
-      "assignee": "",
-      "bucket": "In Progress",
-      "due": "2026-05-20",
-      "priority": "Medium",
-      "pct": 50,
-      "notes": "Do we need phase 2A title policy?\n\nKicked off. Jessica Peele completing",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 54,
-      "created": "2026-05-11"
-    },
-    {
-      "title": "BVRT - O&M Agreement",
-      "assignee": "",
-      "bucket": "In Progress",
-      "due": "2026-05-25",
-      "priority": "Critical",
-      "pct": 0,
-      "notes": "Need Chelsea blessing before sending to BVRT.\n\nSend to BVRT 05/18",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 57,
-      "created": "2026-05-11"
-    },
-    {
-      "title": "Saddleside - SUA Exhibit Update",
-      "assignee": "",
-      "bucket": "Completed",
-      "due": "",
-      "priority": "High",
-      "pct": 50,
-      "notes": "Needing Tyler to revise Exhibit E for first amendment",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 58,
-      "created": "2026-05-11"
-    },
-    {
-      "title": "Lonestar 2A - ESA",
-      "assignee": "",
-      "bucket": "In Progress",
-      "due": "2026-05-20",
-      "priority": "High",
-      "pct": 50,
-      "notes": "Daniel Roebke (Aptim) for ESA\n\nFollowed up 05/13",
-      "labels": [],
-      "checklist": [],
-      "id": 59,
-      "created": "2026-05-12"
-    },
-    {
-      "title": "Saddleside - Sanitary Control Easement",
-      "assignee": "",
-      "bucket": "Substantial Completion",
-      "due": "2026-05-19",
-      "priority": "Critical",
-      "pct": 50,
-      "notes": "Sent 05/12. Waiting on response\n\nMAnderson confirmed receipt. waiting on response",
-      "labels": [
-        "Waiting on Response"
-      ],
-      "checklist": [],
-      "id": 61,
-      "created": "2026-05-12"
-    },
-    {
-      "title": "Saddleside - 3B Dev Spend",
-      "assignee": "",
-      "bucket": "Completed",
-      "due": "",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Address Waseem Comments",
-      "labels": [],
-      "checklist": [],
-      "id": 62,
-      "created": "2026-05-13"
-    },
-    {
-      "title": "Terra Trace - Parkland Dedication",
-      "assignee": "",
-      "bucket": "To Do (ASAP)",
-      "due": "2026-05-20",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "HOA needs to maintain park after dedicated to CoFW. Adopt a park?",
-      "labels": [
-        "FOR Court"
-      ],
-      "checklist": [],
-      "id": 65,
-      "created": "2026-05-13"
-    },
-    {
-      "title": "Legacy Fields - Waterline",
-      "assignee": "Rian",
-      "bucket": "Internal Legal Review",
-      "due": "2026-05-21",
-      "priority": "High",
-      "pct": 0,
-      "notes": "Rian sent email to Chelsea. Needing for Excel.\n\nNeeding Ketchersid (with Falcon under contract) / H.A Smith  (want to match 1.03 of cemetery) / Hillwood\n\n\n",
-      "labels": [
-        "FOR Court"
-      ],
-      "checklist": [],
-      "id": 66,
-      "created": "2026-05-13"
-    },
-    {
-      "title": "Lantana - Commercial",
-      "assignee": "",
-      "bucket": "To Do (Misc.)",
-      "due": "2026-05-22",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Winstead answer to dissolve and exit ASAP?",
-      "labels": [
-        "FOR Court"
-      ],
-      "checklist": [],
-      "id": 67,
-      "created": "2026-05-13"
-    },
-    {
-      "title": "Jason Jones (DHI) - P&Z",
-      "assignee": "",
-      "bucket": "Get Scheduled",
-      "due": "",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "",
-      "labels": [],
-      "checklist": [],
-      "id": 68,
-      "created": "2026-05-14"
-    },
-    {
-      "title": "Actual reimbursements in BRW",
-      "assignee": "",
-      "bucket": "Get Scheduled",
-      "due": "",
-      "priority": "Medium",
-      "pct": 0,
-      "notes": "Who's picked this up since CL left?",
-      "labels": [
-        "FOR Court"
-      ],
-      "checklist": [],
-      "id": 69,
-      "created": "2026-05-14"
-    },
-    {
-      "title": "Willowstone - Easement",
-      "assignee": "",
-      "bucket": "To Do (Misc.)",
-      "due": "2026-05-20",
-      "priority": "High",
-      "pct": 0,
-      "notes": "",
-      "labels": [
-        "FOR Court"
-      ],
-      "checklist": [],
-      "id": 70,
-      "created": "2026-05-14"
-    },
-    {
-      "id": 71,
-      "title": "HOA budgeting - Is this Stephen?",
-      "bucket": "Get Scheduled",
-      "priority": "Medium",
-      "pct": 0,
-      "labels": [],
-      "checklist": [],
-      "created": "2026-05-15",
-      "assignee": "",
-      "due": "",
-      "notes": ""
-    }
-  ],
-  "notes": [
-    {
-      "id": 15,
-      "title": "WOUS (05/13/2026)",
-      "content": "Looks like there is an updated WOUS report - Need to determine what the path forward is. Waiting on rudi to follow up.",
-      "folderId": 3,
-      "created": "2026-05-14T19:48:10.827Z",
-      "updated": "2026-05-14T19:50:08.764Z",
-      "linkedTaskId": null
-    },
-    {
-      "id": 14,
-      "title": "Property Tax / Ag Exempt / Rollback Estimates (05/13/2026)",
-      "content": "~Ag Exepmtions~\nTOEC - Phase 10 and common only active, no Ag and \nTerra Trace - Ph 1 common, 3 and 4 nothing in Ag, Rollbacks have been completed\nLegado - Ph 1 & common, 2,3, and 4 not platted, Nothing in ag, rollbacks have be completed\nHickory Grove - Ph 1a, 1b, 2 and 3 and commo, no ag, rollbacks have been done\nLonestar - Ph 1, nothing ag, rollbacks done\nAlpha - not in ag, notice of change, rollbacks have been triggered (Charlie Haynes)... SB was under impression this was in Ag.\nSaddleside - All in ag, no rollback trigger\nWillowstone - 4 parents, 3 of 4 in ag, no rollback trigger (254194 not in ag)\n\nAs we sell lots, when do we account for taxes?\nQuarterly FPNA gets liability spreadsheet for forecasted estimated. (March, June, September, December)\nCourtney trues it up every month, but can email property tax whenever for questions. \n\nTax protest savings - Courtney to send Stephen an update\n\n\n~Rollback Calculator~\nCourtney / Marilyn for estimator\n",
-      "folderId": 5,
-      "created": "2026-05-13T18:33:03.547Z",
-      "updated": "2026-05-13T18:49:30.353Z",
-      "linkedTaskId": null
-    },
-    {
-      "id": 13,
-      "title": "TRA Right of Entry (05/11/2026)",
-      "content": "Heather to send packet to fill out (Need plans, tie in, etc...), the town will submit on our behalf.\n\nHow will Northlake bill us (Northlake only has one meter downstream for all flows)? \n\nacquisition could take 6 months to 2 years... Lets hope not 2 years.... Hoping to bid November.\n\nSet up a meeting with brokers, TRA, and FOR - negotiated easement",
-      "folderId": 2,
-      "created": "2026-05-11T21:33:12.329Z",
-      "updated": "2026-05-11T21:38:56.155Z",
-      "linkedTaskId": null
-    },
-    {
-      "id": 12,
-      "title": "District Meeting - Justine (05/11/2026)",
-      "content": "Forward funding - portfolio sale was difficult. Underwriting rate at 6%, went up to 6.5%. Coverage ratio went to market at 1.5%, went up to 1.6%.\n\nWhen do we get preliminary numbers for AV / value added to the property? Up to FOR to push when we need bond sales and when we need it funded.\n\nPreliminary bonding (Dont want to issue bond for less than $1MM) from district attorney and FA. Will need to update FA monthly / quarterly for starts and sales to get better understanding of bond sales schedules.\n\nWater well = faster funding?\n\nAny district reimbursements / financing needs to go through Chris Hibbets\n\nPhase 1 road bond - Done previously but with larger phases and more infrastructure. How quickly can you build value before you actually get funding? Can take up to 6 months to get funding. (lots under contract is a huge component of bonding... Impacts interest rate and coverage ratio)\n\n\n\n\n\n\n\n\n",
-      "folderId": 5,
-      "created": "2026-05-11T18:03:13.706Z",
-      "updated": "2026-05-11T18:48:38.862Z",
-      "linkedTaskId": null
-    },
-    {
-      "id": 11,
-      "title": "Bi-Weekly (05/06/26)",
-      "content": "TIA recap - Need to button up phasing... Could we do north pod as TIA phase 1 and South as TIA phase 2? \n\nWe will more than likely beat BNSF regarding timing, so we need to account for this in our model.\n",
-      "folderId": 2,
-      "created": "2026-05-06T15:32:21.307Z",
-      "updated": "2026-05-06T15:40:35.506Z",
-      "linkedTaskId": null
-    },
-    {
-      "id": 6,
-      "title": "Lantana Commercial Discussion (05/05/2026)",
-      "content": "June 2025 looked to amend directors, but nothing ever got adopted or recorded.\n\nBylaws / CCR's would need to be updated before we find new directors (if this is what we wanted to complete).\n\nShanta asked to dissolve commercial association - Forestar owns one certain parcel (northwest corner), and there are undeveloped commercial lots... Is FOR land under residential or commercial? Residential not run by FOR. **Answer** - If commercial does not own any land, or have not been collecting assessments, then it can be dissolved.\n\nWe can appoint a new board to put owners on the board and have us get out, or partially terminate (or assign) our declarant rights.\n\nWe can assign ARC / review rights to other people / members.\n\nStep 1) Amend and restate bylaws to appoint board\nStep 2) Update agent through Secretary of State\n\n",
-      "folderId": 5,
-      "created": "2026-05-05T19:00:36.263Z",
-      "updated": "2026-05-05T19:29:34.068Z",
-      "linkedTaskId": null
-    },
-    {
-      "id": 1,
-      "title": "Justin TIA Discussion (05/04/2026)",
-      "content": "BNSF working through SS4A grant to improve Trail Creek, Downe, and Gulf. \n\nJustin wants TIA to be sent with counts, general phasing, and takedown.\n\nWWTP will be future public works building / are",
-      "folderId": 2,
-      "created": "2026-05-05T15:16:30.917Z",
-      "updated": "2026-05-05T18:39:52.567Z",
-      "linkedTaskId": null
-    }
-  ],
-  "nextId": 72,
-  "nextNoteId": 16,
-  "darkMode": false,
-  "compact": false,
-  "myName": "",
-  "folders": [
-    {
-      "id": 1,
-      "name": "Saddleside",
-      "created": "2026-05-05T15:15:36.509Z",
-      "updated": "2026-05-05T15:15:36.509Z"
-    },
-    {
-      "id": 2,
-      "name": "Legacy Fields",
-      "created": "2026-05-05T15:15:44.400Z",
-      "updated": "2026-05-05T15:15:44.401Z"
-    },
-    {
-      "id": 3,
-      "name": "Lone Star, 2A",
-      "created": "2026-05-05T15:15:49.344Z",
-      "updated": "2026-05-05T15:15:49.344Z"
-    },
-    {
-      "id": 4,
-      "name": "Legado",
-      "created": "2026-05-05T15:15:53.100Z",
-      "updated": "2026-05-05T15:15:53.100Z"
-    },
-    {
-      "id": 5,
-      "name": "General Notes",
-      "created": "2026-05-05T17:58:12.017Z",
-      "updated": "2026-05-05T17:58:12.017Z"
-    }
-  ],
-  "nextFolderId": 6,
-  "filterPresets": [
-    {
-      "name": "Items to Complete",
-      "search": "",
-      "assignee": "",
-      "priority": "",
-      "label": "FOR Court"
-    },
-    {
-      "name": "This Week",
-      "search": "",
-      "assignee": "",
-      "priority": "",
-      "label": "",
-      "dueDate": "thisweek"
-    },
-    {
-      "name": "Today",
-      "search": "",
-      "assignee": "",
-      "priority": "",
-      "label": "",
-      "dueDate": "today"
-    }
-  ],
-  "sidebarCollapsed": false
+  },
+  "activeWorkspace": "personal"
 }
