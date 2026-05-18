@@ -960,6 +960,17 @@
           "assignee": "",
           "due": "2026-06-01",
           "notes": "Dean working on. Summer following up"
+        },
+        {
+          "id": 73,
+          "title": "Can it listen to microphone and summarize?",
+          "bucket": "To Do (ASAP)",
+          "priority": "Medium",
+          "pct": 0,
+          "labels": [],
+          "checklist": [],
+          "filePath": "",
+          "created": "2026-05-18"
         }
       ],
       "notes": [
@@ -1027,7 +1038,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 73,
+      "nextId": 74,
       "nextNoteId": 16,
       "darkMode": false,
       "compact": false,
