@@ -1101,7 +1101,7 @@
           "dueDate": "today"
         }
       ],
-      "sidebarCollapsed": true
+      "sidebarCollapsed": false
     },
     "personal": {
       "projectName": "My Project",
