@@ -391,16 +391,17 @@
       "title": "Legacy Fields - AT&T Easement",
       "assignee": "",
       "bucket": "Title Objections",
-      "due": "2026-05-18",
+      "due": "2026-05-25",
       "priority": "Medium",
       "pct": 0,
-      "notes": "Needing Ray to approve language in contract to release easements\n\nSent email 05/11\n\nGetting cleared.",
+      "notes": "Needing Ray to approve language in contract to release easements\n\nSent email 05/11\n\nGetting cleared.\n\nFollowing up 05/18",
       "labels": [
         "Waiting on Response"
       ],
       "checklist": [],
       "id": 23,
-      "created": "2026-05-05"
+      "created": "2026-05-05",
+      "filePath": ""
     },
     {
       "title": "Legacy Fields - EagleRidge SUA",
