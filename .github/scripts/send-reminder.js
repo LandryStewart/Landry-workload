@@ -10,8 +10,16 @@ if (!fs.existsSync(filePath)) {
   console.error('Data file not found: ' + filePath);
   process.exit(1);
 }
-const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-const tasks = data.tasks || [];
+const raw = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+// Support both old format (raw.tasks) and new workspace format (raw.workspaces)
+let tasks;
+if (raw.workspaces && raw.workspaces.work) {
+  tasks = raw.workspaces.work.tasks || [];
+  // To also include personal tasks, uncomment next line:
+  // tasks = tasks.concat(raw.workspaces.personal ? raw.workspaces.personal.tasks || [] : []);
+} else {
+  tasks = raw.tasks || [];
+}
 
 const today = new Date();
 today.setHours(0, 0, 0, 0);
