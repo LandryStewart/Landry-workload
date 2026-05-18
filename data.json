@@ -950,8 +950,10 @@
           "title": "Lone Star - Coserv Prelim",
           "bucket": "In Progress",
           "priority": "Medium",
-          "pct": 0,
-          "labels": [],
+          "pct": 50,
+          "labels": [
+            "Waiting on Response"
+          ],
           "checklist": [],
           "filePath": "",
           "created": "2026-05-18",
