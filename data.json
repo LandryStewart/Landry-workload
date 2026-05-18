@@ -1117,7 +1117,8 @@
       "buckets": [
         "ASAP",
         "Random",
-        "Misc"
+        "Misc",
+        "On The Calendar"
       ],
       "labels": [
         {
@@ -1129,7 +1130,7 @@
         {
           "title": "Dave & Gina - Arrival",
           "assignee": "",
-          "bucket": "Random",
+          "bucket": "On The Calendar",
           "due": "2026-05-21",
           "priority": "Medium",
           "pct": 0,
@@ -1143,7 +1144,7 @@
         {
           "title": "Dave & Gina - Departure",
           "assignee": "",
-          "bucket": "Random",
+          "bucket": "On The Calendar",
           "due": "2026-05-25",
           "priority": "Medium",
           "pct": 0,
@@ -1167,5 +1168,5 @@
       "sidebarCollapsed": false
     }
   },
-  "activeWorkspace": "work"
+  "activeWorkspace": "personal"
 }
