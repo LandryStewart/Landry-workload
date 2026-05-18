@@ -385,15 +385,9 @@ input,select,textarea{font-family:inherit;color:var(--text);}
 .sidebar-backdrop{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:85;opacity:0;transition:opacity .25s;}
 .sidebar-backdrop.show{display:block;opacity:1;}
 
-/* ────────────────────────────────────
-   MOBILE RESPONSIVE (≤768px)
-   ──────────────────────────────────── */
 @media(max-width:768px){
-  /* === Workspace Tabs === */
   .workspace-tabs{padding:0 8px;height:40px;justify-content:center;gap:2px;}
   .workspace-tab{padding:8px 20px;font-size:13px;border-radius:8px 8px 0 0;}
-
-  /* === Topbar === */
   .topbar{padding:0 8px;height:auto;min-height:var(--hdr);flex-wrap:wrap;gap:4px;padding-top:6px;padding-bottom:6px;}
   .topbar .logo{font-size:14px;letter-spacing:0;}
   .proj-name{width:100px;font-size:12px;padding:3px 8px;order:2;}
@@ -406,17 +400,11 @@ input,select,textarea{font-family:inherit;color:var(--text);}
   .dark-toggle{font-size:16px;}
   .today-badge{font-size:9px;padding:2px 6px;}
   .sync-status{display:none;}
-  /* Hide less-essential top buttons on mobile */
-  #syncBtn,.top-btn[onclick*="exportJSON"],.top-btn[onclick*="importFile"],.top-btn[onclick*="openShortcuts"],.top-btn[onclick*="showMyTasks"]{display:none;}
-
-  /* === Sidebar === */
+  #syncBtn,.top-btn[onclick*="exportJSON"],.top-btn[onclick*="importFile"],.top-btn[onclick*="openShortcuts"],.top-btn[onclick*="showMyTasks"],.top-btn[onclick*="exportOutlookCSV"]{display:none;}
   .sidebar{position:fixed;left:0;top:0;bottom:0;z-index:90;width:85vw!important;max-width:320px;min-width:0!important;transform:translateX(-100%);transition:transform .28s ease;box-shadow:none;border-right:none;}
   .sidebar.mobile-open{transform:translateX(0);box-shadow:4px 0 24px rgba(0,0,0,.25);}
   .sidebar.collapsed{width:0!important;min-width:0!important;transform:translateX(-100%);}
   .sidebar-toggle{display:none;}
-  /* Close sidebar on nav click handled by JS */
-
-  /* === Board View === */
   .board{padding:8px;gap:10px;scroll-snap-type:x mandatory;}
   .bucket{min-width:82vw;max-width:90vw;width:82vw;scroll-snap-align:start;border-radius:10px;}
   .bucket-hdr{padding:10px;}
@@ -430,22 +418,14 @@ input,select,textarea{font-family:inherit;color:var(--text);}
   .quick-add-input{padding:10px 12px;font-size:14px;}
   .add-bucket-col{min-width:82vw;width:82vw;}
   .add-bucket-btn{height:80px;font-size:13px;}
-
-  /* === Filter Chips Bar === */
   .filter-chips-bar{padding:6px 8px;gap:4px;}
   .filter-chip{font-size:10px;padding:3px 8px;}
-
-  /* === Stats Bar === */
   .stats-bar-container{padding:6px 8px;gap:8px;font-size:10px;flex-wrap:wrap;}
   .stat-bar-bg{width:70px;}
-
-  /* === List View === */
   .list-view{padding:8px;}
   .list-view table{font-size:12px;display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;}
   .list-view th{padding:8px 6px;font-size:10px;white-space:nowrap;position:sticky;top:0;}
   .list-view td{padding:8px 6px;white-space:nowrap;}
-
-  /* === Calendar View === */
   .calendar-view{padding:8px;}
   .cal-header{gap:6px;margin-bottom:8px;}
   .cal-header h2{font-size:16px;min-width:auto;}
@@ -457,8 +437,6 @@ input,select,textarea{font-family:inherit;color:var(--text);}
   .cal-date{font-size:10px;}
   .cal-task{font-size:9px;padding:2px 4px;}
   .cal-expand-btn{font-size:9px;}
-
-  /* === Notes View (stack vertically) === */
   .notes-content{flex-direction:column;}
   .notes-list{width:100%!important;max-width:100%!important;min-width:0!important;border-right:none;border-bottom:1px solid var(--border);max-height:45vh;overflow-y:auto;}
   .notes-resize-handle{display:none;}
@@ -476,8 +454,6 @@ input,select,textarea{font-family:inherit;color:var(--text);}
   .note-content-input{padding:10px 12px;font-size:14px;}
   .note-item{padding:12px 14px;}
   .note-item-title{font-size:14px;}
-
-  /* === Modals (full-screen on mobile) === */
   .modal-overlay,.settings-overlay,.shortcuts-modal,.cal-day-modal{padding:0;align-items:stretch;}
   .modal,.settings-panel,.shortcuts-panel,.cal-day-panel{width:100%;max-width:100%;max-height:100vh;border-radius:0;height:100vh;}
   .modal-hdr,.shortcuts-hdr{padding:14px 16px;}
@@ -495,28 +471,19 @@ input,select,textarea{font-family:inherit;color:var(--text);}
   .sett-item input[type=text]{padding:8px 10px;font-size:14px;}
   .sc-list{padding:12px 16px;}
   .sc-row{padding:10px 0;}
-
-  /* === Bulk Bar === */
   .bulk-bar{left:8px;right:8px;transform:none;width:auto;padding:10px 12px;flex-wrap:wrap;gap:8px;border-radius:10px;}
   .bulk-bar.hidden{transform:translateY(20px);}
   .bulk-bar select{padding:8px;font-size:13px;flex:1;min-width:0;}
   .bulk-bar button{padding:8px 12px;font-size:12px;flex:1;}
-
-  /* === Auth Card === */
   .auth-card{padding:30px 24px;width:92vw;}
   .auth-card input[type=password]{padding:12px 14px;font-size:15px;}
   .auth-card .auth-btn{padding:13px;font-size:15px;}
-
-  /* === General Touch Improvements === */
-  button,select,.nav-item,.preset-item,.note-item,.folder-tab,.cal-cell,.cal-task{
-    -webkit-tap-highlight-color:transparent;
-  }
+  button,select,.nav-item,.preset-item,.note-item,.folder-tab,.cal-cell,.cal-task{-webkit-tap-highlight-color:transparent;}
   select{font-size:14px;padding:8px;min-height:40px;}
   .sidebar-filter select{min-height:40px;font-size:14px;}
   .nav-item{padding:12px 12px;font-size:14px;min-height:44px;}
 }
 
-/* ── Small phones (≤400px) ── */
 @media(max-width:400px){
   .workspace-tabs{height:36px;padding:0 4px;}
   .workspace-tab{padding:6px 14px;font-size:12px;gap:4px;}
@@ -560,6 +527,7 @@ input,select,textarea{font-family:inherit;color:var(--text);}
  <button class="top-btn accent" onclick="openNewTask()">＋ New Task</button>
  <button class="top-btn" onclick="openSettings()">⚙</button>
  <button class="top-btn" onclick="exportJSON()" title="Export">📥</button>
+ <button class="top-btn" onclick="exportOutlookCSV()" title="Export to Outlook Tasks">📬 Outlook</button>
  <button class="top-btn" onclick="document.getElementById('importFile').click()" title="Import">📤</button>
  <input type="file" id="importFile" accept=".json" class="hidden" onchange="importJSON(event)">
  <button class="top-btn" onclick="openShortcuts()" title="Keyboard shortcuts">?</button>
@@ -710,7 +678,7 @@ function getToken(){return localStorage.getItem('wm_gh_token')||'';}
 function setSyncUI(icon,text){document.getElementById('syncBtn').innerHTML=icon;document.getElementById('syncTime').textContent=text;}
 async function cloudSave(){const token=getToken();if(!token){setSyncUI('⬤','offline');return;}setSyncUI('🔄','syncing...');try{save();const allWs=JSON.parse(localStorage.getItem('wm_workspaces')||'{}');const payload={workspaces:allWs,activeWorkspace:currentWorkspace};const content=btoa(unescape(encodeURIComponent(JSON.stringify(payload,null,2))));const body={message:'sync',content};if(ghSha)body.sha=ghSha;const r=await fetch('https://api.github.com/repos/'+GH_REPO+'/contents/'+GH_FILE,{method:'PUT',headers:{'Authorization':'Bearer '+token,'Content-Type':'application/json'},body:JSON.stringify(body)});if(r.ok){const d=await r.json();ghSha=d.content.sha;lastSyncTime=new Date();setSyncUI('☁️','synced '+lastSyncTime.toLocaleTimeString());}else{setSyncUI('❌','sync failed');}}catch(e){setSyncUI('❌','error');}}
 function debouncedCloudSave(){if(syncTimer)clearTimeout(syncTimer);syncTimer=setTimeout(()=>cloudSave(),5000);}
-async function cloudLoad(){const token=getToken();if(!token){setSyncUI('⬤','offline');return;}try{const r=await fetch('https://api.github.com/repos/'+GH_REPO+'/contents/'+GH_FILE,{headers:{'Authorization':'Bearer '+token}});if(r.ok){const d=await r.json();ghSha=d.sha;const txt=decodeURIComponent(escape(atob(d.content.replace(/\n/g,''))));const cloud=JSON.parse(txt);if(cloud.workspaces){localStorage.setItem('wm_workspaces',JSON.stringify(cloud.workspaces));load();}else if(cloud.tasks){let allWs=JSON.parse(localStorage.getItem('wm_workspaces')||'{}');allWs['work']=cloud;if(!allWs['personal'])allWs['personal']=getDefaultState();localStorage.setItem('wm_workspaces',JSON.stringify(allWs));load();}lastSyncTime=new Date();setSyncUI('☁️','synced '+lastSyncTime.toLocaleTimeString());}else if(r.status===404){setSyncUI('☁️','no cloud data');}else{setSyncUI('❌','load failed');}}catch(e){setSyncUI('❌','error');}}
+async function cloudLoad(){const token=getToken();if(!token){setSyncUI('⬤','offline');return;}try{const r=await fetch('https://api.github.com/repos/'+GH_REPO+'/contents/'+GH_FILE,{headers:{'Authorization':'Bearer '+token}});if(r.ok){const d=await r.json();ghSha=d.sha;const txt=decodeURIComponent(escape(atob(d.content.replace(/\\n/g,''))));const cloud=JSON.parse(txt);if(cloud.workspaces){localStorage.setItem('wm_workspaces',JSON.stringify(cloud.workspaces));load();}else if(cloud.tasks){let allWs=JSON.parse(localStorage.getItem('wm_workspaces')||'{}');allWs['work']=cloud;if(!allWs['personal'])allWs['personal']=getDefaultState();localStorage.setItem('wm_workspaces',JSON.stringify(allWs));load();}lastSyncTime=new Date();setSyncUI('☁️','synced '+lastSyncTime.toLocaleTimeString());}else if(r.status===404){setSyncUI('☁️','no cloud data');}else{setSyncUI('❌','load failed');}}catch(e){setSyncUI('❌','error');}}
 function manualSync(){cloudSave();}
 async function testCloud(){const token=document.getElementById('settGhToken').value.trim();const msg=document.getElementById('cloudMsg');if(!token){msg.style.color='var(--crit)';msg.textContent='Enter a token.';return;}try{const r=await fetch('https://api.github.com/repos/'+GH_REPO,{headers:{'Authorization':'Bearer '+token}});if(r.ok){localStorage.setItem('wm_gh_token',token);msg.style.color='var(--low)';msg.textContent='Connected!';cloudSave();}else{msg.style.color='var(--crit)';msg.textContent='Failed.';}}catch(e){msg.style.color='var(--crit)';msg.textContent='Network error.';}}
 function isOverdue(t){if(!t.due||t.pct>=100)return false;return new Date(t.due+'T23:59:59')<new Date();}
@@ -730,6 +698,32 @@ function switchWorkspace(ws){if(ws===currentWorkspace)return;save();currentWorks
 function isMobile(){return window.innerWidth<=768;}
 function toggleMobileSidebar(){var sb=document.getElementById('sidebar'),bd=document.getElementById('sidebarBackdrop');if(sb.classList.contains('mobile-open')){closeMobileSidebar();}else{sb.classList.add('mobile-open');sb.classList.remove('collapsed');bd.classList.add('show');}}
 function closeMobileSidebar(){var sb=document.getElementById('sidebar'),bd=document.getElementById('sidebarBackdrop');sb.classList.remove('mobile-open');bd.classList.remove('show');}
+function exportOutlookCSV(){function csvEsc(v){v=String(v==null?'':v);if(v.indexOf(',')>=0||v.indexOf('"')>=0||v.indexOf('\n')>=0)return '"'+v.replace(/"/g,'""')+'"';return v;}
+var headers=['Subject','Start Date','Due Date','Status','Priority','% Complete','Notes','Categories','Sensitivity','Assigned To'];
+var rows=[headers.join(',')];
+state.tasks.forEach(function(t){
+var status='Not Started';var pct=t.pct||0;
+if(pct>=100)status='Completed';
+else if(t.bucket&&t.bucket.toLowerCase().indexOf('review')>=0)status='Waiting on someone else';
+else if(t.bucket&&(t.bucket.toLowerCase().indexOf('progress')>=0||t.bucket.toLowerCase().indexOf('in prog')>=0))status='In Progress';
+else if(pct>0)status='In Progress';
+var pri='Normal';
+if(t.priority==='Critical'||t.priority==='High')pri='High';
+else if(t.priority==='Low')pri='Low';
+var startDate=t.created||'';
+var dueDate=t.due||'';
+if(startDate){var sd=new Date(startDate+'T00:00:00');if(!isNaN(sd))startDate=(sd.getMonth()+1)+'/'+sd.getDate()+'/'+sd.getFullYear();}
+if(dueDate){var dd=new Date(dueDate+'T00:00:00');if(!isNaN(dd))dueDate=(dd.getMonth()+1)+'/'+dd.getDate()+'/'+dd.getFullYear();}
+var cats=(t.labels||[]).join(';');
+var notes=(t.notes||'')+(t.filePath?'\nFile: '+t.filePath:'')+(t.bucket?'\nBucket: '+t.bucket:'');
+var row=[csvEsc(t.title),csvEsc(startDate),csvEsc(dueDate),csvEsc(status),csvEsc(pri),csvEsc(pct+'%'),csvEsc(notes.trim()),csvEsc(cats),csvEsc('Normal'),csvEsc(t.assignee||'')];
+rows.push(row.join(','));
+});
+var csvContent=rows.join('\r\n');
+var blob=new Blob([csvContent],{type:'text/csv;charset=utf-8;'});
+var a=document.createElement('a');a.href=URL.createObjectURL(blob);
+a.download=(state.projectName||'workload').replace(/[^a-zA-Z0-9 _-]/g,'')+'_outlook_tasks.csv';
+a.click();showToast('Exported '+state.tasks.length+' tasks for Outlook!');}
 
 function getFilteredTasks(){const q=document.getElementById('searchBox').value.toLowerCase(),fa=document.getElementById('filterAssignee').value,fp=document.getElementById('filterPriority').value,fl=document.getElementById('filterLabel').value;return state.tasks.filter(t=>{if(q&&!t.title.toLowerCase().includes(q)&&!(t.assignee||'').toLowerCase().includes(q)&&!(t.labels||[]).some(l=>l.toLowerCase().includes(q)))return false;if(fa&&t.assignee!==fa)return false;if(fp&&t.priority!==fp)return false;if(fl&&!(t.labels||[]).includes(fl))return false;var fd=document.getElementById('filterDueDate').value;if(fd){var now=new Date(),ts2=todayStr();if(fd==='overdue'&&!isOverdue(t))return false;if(fd==='today'&&t.due!==ts2)return false;if(fd==='thisweek'){var dw=new Date(now);dw.setDate(dw.getDate()-dw.getDay());var ws=dw.getFullYear()+'-'+String(dw.getMonth()+1).padStart(2,'0')+'-'+String(dw.getDate()).padStart(2,'0');dw.setDate(dw.getDate()+6);var we=dw.getFullYear()+'-'+String(dw.getMonth()+1).padStart(2,'0')+'-'+String(dw.getDate()).padStart(2,'0');if(!t.due||t.due<ws||t.due>we)return false;}if(fd==='nextweek'){var d2=new Date(now);d2.setDate(d2.getDate()-d2.getDay()+7);var nws=d2.getFullYear()+'-'+String(d2.getMonth()+1).padStart(2,'0')+'-'+String(d2.getDate()).padStart(2,'0');d2.setDate(d2.getDate()+6);var nwe=d2.getFullYear()+'-'+String(d2.getMonth()+1).padStart(2,'0')+'-'+String(d2.getDate()).padStart(2,'0');if(!t.due||t.due<nws||t.due>nwe)return false;}if(fd==='thismonth'){var ms=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-01';var lday=new Date(now.getFullYear(),now.getMonth()+1,0).getDate();var me=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(lday).padStart(2,'0');if(!t.due||t.due<ms||t.due>me)return false;}if(fd==='nodate'&&t.due)return false;if(fd==='hasdate'&&!t.due)return false;}return true;});}
 function toggleSidebar(){if(isMobile()){toggleMobileSidebar();return;}const sb=document.getElementById('sidebar');sb.classList.toggle('collapsed');state.sidebarCollapsed=sb.classList.contains('collapsed');save();}
