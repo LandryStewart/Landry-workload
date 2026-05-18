@@ -965,12 +965,15 @@
           "id": 74,
           "title": "Email to title for SUA and Enlink",
           "bucket": "To Do (ASAP)",
-          "priority": "Medium",
+          "priority": "Critical",
           "pct": 0,
           "labels": [],
           "checklist": [],
           "filePath": "",
-          "created": "2026-05-18"
+          "created": "2026-05-18",
+          "assignee": "",
+          "due": "2026-05-19",
+          "notes": ""
         }
       ],
       "notes": [
