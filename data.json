@@ -411,14 +411,17 @@
           "title": "Legacy Fields - EagleRidge SUA",
           "assignee": "",
           "bucket": "Title Objections",
-          "due": "2026-05-19",
+          "due": "2026-05-26",
           "priority": "Medium",
           "pct": 0,
-          "notes": "Need to get with team to determine what price we go back to them with.\n\ncountered with $100k",
-          "labels": [],
+          "notes": "Need to get with team to determine what price we go back to them with.\n\ncountered with $100k\n\nGoing back and forth. ",
+          "labels": [
+            "Waiting on Response"
+          ],
           "checklist": [],
           "id": 24,
-          "created": "2026-05-05"
+          "created": "2026-05-05",
+          "filePath": ""
         },
         {
           "title": "Legacy fields - Atmos Easement",
