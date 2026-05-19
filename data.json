@@ -1038,6 +1038,15 @@
       ],
       "notes": [
         {
+          "id": 22,
+          "title": "",
+          "content": "",
+          "folderId": null,
+          "linkedTaskId": null,
+          "created": "2026-05-19T14:07:01.901Z",
+          "updated": "2026-05-19T14:07:01.901Z"
+        },
+        {
           "id": 19,
           "title": "Lone Star CFA (05/18/2026)",
           "content": "At Pre-con, give 'move in date' for when CFA gets assigned.\n\nDHI primed PD to assign CFA to FOR as soon as its executed.\n\nPD to update all parties with what will happen via assignment.\n\nSales this week - 25 / mo at the 18th\n\nTrails (TOEC) - 1 this month\n\n\n\n",
@@ -1111,7 +1120,7 @@
         }
       ],
       "nextId": 79,
-      "nextNoteId": 22,
+      "nextNoteId": 23,
       "darkMode": false,
       "compact": false,
       "myName": "",
@@ -1173,7 +1182,7 @@
           "dueDate": "today"
         }
       ],
-      "sidebarCollapsed": false
+      "sidebarCollapsed": true
     },
     "personal": {
       "projectName": "My Project",
