@@ -424,16 +424,17 @@
           "title": "Legacy fields - Atmos Easement",
           "assignee": "",
           "bucket": "Title Objections",
-          "due": "2026-05-19",
+          "due": "2026-06-02",
           "priority": "Medium",
           "pct": 0,
-          "notes": "touch base with Summer on status\n\nCheryl Dunnahue for follow up.\n\n",
+          "notes": "touch base with Summer on status\n\nCheryl Dunnahue for follow up. can take up to 45 days per 05/13 email.\n\n",
           "labels": [
             "Waiting on Response"
           ],
           "checklist": [],
           "id": 25,
-          "created": "2026-05-05"
+          "created": "2026-05-05",
+          "filePath": ""
         },
         {
           "title": "Legacy Fields - Oncor Easement",
