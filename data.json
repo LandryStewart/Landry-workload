@@ -1045,6 +1045,22 @@
           "checklist": [],
           "filePath": "",
           "created": "2026-05-19"
+        },
+        {
+          "title": "BVRT - NSSA Amendment",
+          "assignee": "",
+          "bucket": "To Do (ASAP)",
+          "due": "2026-05-26",
+          "priority": "Critical",
+          "pct": 0,
+          "notes": "Email sent to Josh for 50-year term instead of 25",
+          "filePath": "",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 81,
+          "created": "2026-05-19"
         }
       ],
       "notes": [
@@ -1130,7 +1146,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 81,
+      "nextId": 82,
       "nextNoteId": 23,
       "darkMode": false,
       "compact": false,
