@@ -969,7 +969,7 @@
         {
           "id": 75,
           "title": "Legado - FHA Exhibit",
-          "bucket": "To Do (ASAP)",
+          "bucket": "Completed",
           "priority": "Medium",
           "pct": 0,
           "labels": [],
@@ -977,7 +977,7 @@
           "filePath": "",
           "created": "2026-05-18",
           "assignee": "",
-          "due": "2026-05-19",
+          "due": "",
           "notes": ""
         },
         {
