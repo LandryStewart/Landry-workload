@@ -1034,6 +1034,17 @@
           "checklist": [],
           "filePath": "",
           "created": "2026-05-19"
+        },
+        {
+          "id": 80,
+          "title": "Hickory grove rollback taxes for all parcels",
+          "bucket": "To Do (ASAP)",
+          "priority": "Medium",
+          "pct": 0,
+          "labels": [],
+          "checklist": [],
+          "filePath": "",
+          "created": "2026-05-19"
         }
       ],
       "notes": [
@@ -1119,7 +1130,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 80,
+      "nextId": 81,
       "nextNoteId": 23,
       "darkMode": false,
       "compact": false,
