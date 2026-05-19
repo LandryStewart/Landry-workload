@@ -967,20 +967,6 @@
           "notes": "Dean working on. Summer following up"
         },
         {
-          "id": 74,
-          "title": "Email to title for SUA and Enlink",
-          "bucket": "To Do (ASAP)",
-          "priority": "Critical",
-          "pct": 0,
-          "labels": [],
-          "checklist": [],
-          "filePath": "",
-          "created": "2026-05-18",
-          "assignee": "",
-          "due": "2026-05-19",
-          "notes": ""
-        },
-        {
           "id": 75,
           "title": "Legado - FHA Exhibit",
           "bucket": "To Do (ASAP)",
