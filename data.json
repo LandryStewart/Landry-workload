@@ -1039,12 +1039,12 @@
       "notes": [
         {
           "id": 22,
-          "title": "",
+          "title": "Acquisition Meeting (05/19/2026)",
           "content": "",
-          "folderId": null,
+          "folderId": 6,
           "linkedTaskId": null,
           "created": "2026-05-19T14:07:01.901Z",
-          "updated": "2026-05-19T14:07:01.901Z"
+          "updated": "2026-05-19T14:07:34.642Z"
         },
         {
           "id": 19,
@@ -1154,9 +1154,15 @@
           "name": "General Notes",
           "created": "2026-05-05T17:58:12.017Z",
           "updated": "2026-05-05T17:58:12.017Z"
+        },
+        {
+          "id": 6,
+          "name": "Acquisition Meetings",
+          "created": "2026-05-19T14:07:31.098Z",
+          "updated": "2026-05-19T14:07:31.098Z"
         }
       ],
-      "nextFolderId": 6,
+      "nextFolderId": 7,
       "filterPresets": [
         {
           "name": "Items to Complete",
