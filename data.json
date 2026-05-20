@@ -1064,6 +1064,17 @@
           "checklist": [],
           "id": 81,
           "created": "2026-05-19"
+        },
+        {
+          "id": 82,
+          "title": "Terra Trace - ROW Easement",
+          "bucket": "To Do (ASAP)",
+          "priority": "Medium",
+          "pct": 0,
+          "labels": [],
+          "checklist": [],
+          "filePath": "",
+          "created": "2026-05-20"
         }
       ],
       "notes": [
@@ -1149,7 +1160,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 82,
+      "nextId": 83,
       "nextNoteId": 23,
       "darkMode": false,
       "compact": false,
