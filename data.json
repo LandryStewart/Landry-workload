@@ -1083,6 +1083,20 @@
           "assignee": "",
           "due": "2026-05-22",
           "notes": "Need to get this updated and signed by Stephen. Why do we need this?"
+        },
+        {
+          "title": "Legacy Fields - Waterline Easements",
+          "assignee": "",
+          "bucket": "To Do (ASAP)",
+          "due": "",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "",
+          "filePath": "",
+          "labels": [],
+          "checklist": [],
+          "id": 83,
+          "created": "2026-05-20"
         }
       ],
       "notes": [
@@ -1168,7 +1182,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 83,
+      "nextId": 84,
       "nextNoteId": 23,
       "darkMode": false,
       "compact": false,
