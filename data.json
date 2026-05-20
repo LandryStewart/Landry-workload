@@ -1118,6 +1118,17 @@
           ],
           "id": 83,
           "created": "2026-05-20"
+        },
+        {
+          "id": 84,
+          "title": "Cemetery Easement",
+          "bucket": "To Do (Misc.)",
+          "priority": "Medium",
+          "pct": 0,
+          "labels": [],
+          "checklist": [],
+          "filePath": "",
+          "created": "2026-05-20"
         }
       ],
       "notes": [
@@ -1203,7 +1214,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 84,
+      "nextId": 85,
       "nextNoteId": 23,
       "darkMode": false,
       "compact": false,
