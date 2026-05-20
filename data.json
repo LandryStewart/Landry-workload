@@ -636,16 +636,17 @@
           "title": "Legado Utility Agreement",
           "assignee": "",
           "bucket": "To Do (ASAP)",
-          "due": "",
+          "due": "2026-05-21",
           "priority": "Medium",
           "pct": 0,
-          "notes": "Waiting on clarity to completely overhaul or keep as is.",
+          "notes": "Waiting on clarity to completely overhaul or keep as is.\n\nupdate and finalize!!!",
           "labels": [
             "Waiting on Response"
           ],
           "checklist": [],
           "id": 44,
-          "created": "2026-05-07"
+          "created": "2026-05-07",
+          "filePath": ""
         },
         {
           "title": "Legado, Phase 2",
