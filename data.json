@@ -1126,9 +1126,29 @@
           "priority": "Medium",
           "pct": 0,
           "labels": [],
-          "checklist": [],
+          "checklist": [
+            {
+              "text": "H.A Smith",
+              "done": false
+            },
+            {
+              "text": "Terra Soulutions",
+              "done": false
+            },
+            {
+              "text": "Justin Cemetery",
+              "done": false
+            },
+            {
+              "text": "GE Manufacturing",
+              "done": false
+            }
+          ],
           "filePath": "",
-          "created": "2026-05-20"
+          "created": "2026-05-20",
+          "assignee": "Rian",
+          "due": "",
+          "notes": "Draft easement that honors prescriptive ROW shown in deeds?"
         }
       ],
       "notes": [
