@@ -813,14 +813,17 @@
           "title": "Lonestar 2A - ESA",
           "assignee": "",
           "bucket": "In Progress",
-          "due": "2026-05-20",
+          "due": "2026-05-27",
           "priority": "High",
           "pct": 50,
-          "notes": "Daniel Roebke (Aptim) for ESA\n\nFollowed up 05/13",
-          "labels": [],
+          "notes": "Daniel Roebke (Aptim) for ESA\n\nFollowed up 05/13 - Received verbal 05/19",
+          "labels": [
+            "Waiting on Response"
+          ],
           "checklist": [],
           "id": 59,
-          "created": "2026-05-12"
+          "created": "2026-05-12",
+          "filePath": ""
         },
         {
           "title": "Saddleside - Sanitary Control Easement",
