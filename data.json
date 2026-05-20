@@ -1002,20 +1002,6 @@
           "notes": ""
         },
         {
-          "id": 77,
-          "title": "Legal Priority - Email summary with everything",
-          "bucket": "To Do (ASAP)",
-          "priority": "Medium",
-          "pct": 0,
-          "labels": [],
-          "checklist": [],
-          "filePath": "",
-          "created": "2026-05-18",
-          "assignee": "",
-          "due": "2026-05-19",
-          "notes": "Also want stuff not yet on her desk but a heads up"
-        },
-        {
           "title": "Saddleside - SUA / Enlink Title Email",
           "assignee": "",
           "bucket": "To Do (ASAP)",
