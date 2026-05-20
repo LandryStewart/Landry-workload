@@ -1089,12 +1089,33 @@
           "assignee": "",
           "bucket": "To Do (ASAP)",
           "due": "",
-          "priority": "Medium",
+          "priority": "Critical",
           "pct": 0,
           "notes": "",
-          "filePath": "",
+          "filePath": "R:\\DFW\\d. Prospective\\Northlake - Pistone\\3 - Entitlements\\8 - Easements\\Proposed Waterline",
           "labels": [],
-          "checklist": [],
+          "checklist": [
+            {
+              "text": "H.A Smith",
+              "done": false
+            },
+            {
+              "text": "ketchersid",
+              "done": false
+            },
+            {
+              "text": "AIL North (Hillwood)",
+              "done": false
+            },
+            {
+              "text": "Excel",
+              "done": false
+            },
+            {
+              "text": "Texas Industries",
+              "done": false
+            }
+          ],
           "id": 83,
           "created": "2026-05-20"
         }
