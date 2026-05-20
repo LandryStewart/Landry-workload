@@ -37,10 +37,10 @@
         {
           "title": "Lonestar 2A - IC Memo",
           "assignee": "",
-          "bucket": "To Do (ASAP)",
+          "bucket": "Completed",
           "due": "2026-05-20",
           "priority": "Critical",
-          "pct": 75,
+          "pct": 100,
           "notes": "Sent to colton. Will help where needed.\n\nColton to finalize\n\nNeed to address SB comments",
           "labels": [
             "FOR Court"
@@ -88,7 +88,8 @@
             }
           ],
           "id": 1,
-          "created": "2026-05-05"
+          "created": "2026-05-05",
+          "filePath": ""
         },
         {
           "title": "Terra Trace - Drainage Easement",
