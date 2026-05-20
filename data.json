@@ -767,16 +767,17 @@
           "title": "Lonestar 2A - Title Policy",
           "assignee": "",
           "bucket": "In Progress",
-          "due": "2026-05-20",
+          "due": "2026-05-27",
           "priority": "Medium",
           "pct": 50,
-          "notes": "Do we need phase 2A title policy?\n\nKicked off. Jessica Peele completing",
+          "notes": "Do we need phase 2A title policy?\n\nKicked off. Jessica Peele completing\n\nFollowed up 05/20",
           "labels": [
             "Waiting on Response"
           ],
           "checklist": [],
           "id": 54,
-          "created": "2026-05-11"
+          "created": "2026-05-11",
+          "filePath": ""
         },
         {
           "title": "BVRT - O&M Agreement",
