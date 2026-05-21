@@ -271,10 +271,10 @@
           "title": "Terra Trace - Parkland Dedication",
           "assignee": "",
           "bucket": "To Do (Misc.)",
-          "due": "2026-05-20",
+          "due": "2026-05-25",
           "priority": "Medium",
           "pct": 25,
-          "notes": "Need to receive updated title before I can send to Germaine / Lori\n\nLien needs to be cleared (3-5 business days from 05/13)",
+          "notes": "Need to receive updated title before I can send to Germaine / Lori\n\nLien needs to be cleared (3-5 business days from 05/13)\n\nFollowed up 05/21",
           "labels": [
             "FOR Court",
             "Waiting on Response"
@@ -294,7 +294,8 @@
             }
           ],
           "id": 17,
-          "created": "2026-05-05"
+          "created": "2026-05-05",
+          "filePath": ""
         },
         {
           "title": "Estrella Proposal",
