@@ -327,10 +327,10 @@
           "created": "2026-05-05"
         },
         {
-          "title": "BVRT - Permanent Easement / Deed",
+          "title": "BVRT - Permanent Easement",
           "assignee": "",
           "bucket": "To Do (ASAP)",
-          "due": "2026-05-18",
+          "due": "2026-05-26",
           "priority": "Critical",
           "pct": 87,
           "notes": "Need this ASAP\n\nSent to BVRT 05/07\n\nSet up call for Friday (MUD legal, FOR legal, BVRT legal)\nNeed final blessing from Chelsea. Sent 05/11.\n\nNot utility easement yet. Need to deed first (Parcel / Tract 1)",
@@ -340,7 +340,7 @@
           "checklist": [
             {
               "text": "5 Acre minimum - Brent to follow up",
-              "done": false
+              "done": true
             },
             {
               "text": "Permanent Easement - Need Ron and Steven to discuss...",
@@ -348,7 +348,8 @@
             }
           ],
           "id": 20,
-          "created": "2026-05-05"
+          "created": "2026-05-05",
+          "filePath": ""
         },
         {
           "title": "BVRT - Seperate Instrument",
@@ -853,21 +854,6 @@
           "labels": [],
           "checklist": [],
           "id": 62,
-          "created": "2026-05-13"
-        },
-        {
-          "title": "Terra Trace - Parkland Dedication",
-          "assignee": "",
-          "bucket": "To Do (ASAP)",
-          "due": "2026-05-20",
-          "priority": "Medium",
-          "pct": 0,
-          "notes": "HOA needs to maintain park after dedicated to CoFW. Adopt a park?",
-          "labels": [
-            "FOR Court"
-          ],
-          "checklist": [],
-          "id": 65,
           "created": "2026-05-13"
         },
         {
