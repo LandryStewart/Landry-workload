@@ -614,14 +614,15 @@
           "title": "Lonestar 2A - CFA Process / Assignment",
           "assignee": "",
           "bucket": "To Do (Misc.)",
-          "due": "2026-05-21",
+          "due": "2026-05-28",
           "priority": "Medium",
           "pct": 0,
-          "notes": "Get an update on this.",
+          "notes": "Get an update on this.\n\nCFA executed by CoFW 05/21. Need pre-con and assignment. When is pre-con?",
           "labels": [],
           "checklist": [],
           "id": 42,
-          "created": "2026-05-07"
+          "created": "2026-05-07",
+          "filePath": ""
         },
         {
           "title": "Trails of Elizabeth Creek - Homeowner",
