@@ -926,16 +926,17 @@
           "title": "Willowstone - Easement",
           "assignee": "",
           "bucket": "To Do (Misc.)",
-          "due": "2026-05-20",
+          "due": "2026-06-01",
           "priority": "High",
           "pct": 0,
-          "notes": "",
+          "notes": "Wait for clarity on project before proceeding",
           "labels": [
             "FOR Court"
           ],
           "checklist": [],
           "id": 70,
-          "created": "2026-05-14"
+          "created": "2026-05-14",
+          "filePath": ""
         },
         {
           "id": 71,
