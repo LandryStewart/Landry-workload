@@ -257,17 +257,18 @@
         {
           "title": "Enlink - Easement Amendment",
           "assignee": "",
-          "bucket": "Internal Legal Review",
-          "due": "2026-05-20",
+          "bucket": "Outside Counsel Review",
+          "due": "2026-05-27",
           "priority": "High",
           "pct": 0,
-          "notes": "Being reviewed by Chelsea",
+          "notes": "Being reviewed by Chelsea\nSent to JAE for review",
           "labels": [
             "Waiting on Response"
           ],
           "checklist": [],
           "id": 16,
-          "created": "2026-05-05"
+          "created": "2026-05-05",
+          "filePath": ""
         },
         {
           "title": "Terra Trace - Parkland Dedication",
