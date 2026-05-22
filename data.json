@@ -161,8 +161,8 @@
         {
           "title": "Ag Exemptions",
           "assignee": "",
-          "bucket": "Upcoming Meetings",
-          "due": "2026-05-20",
+          "bucket": "Completed",
+          "due": "",
           "priority": "Medium",
           "pct": 0,
           "notes": "Email Courtney / Marylin to see if they know what parcels we have in Ag.\n\nEmail sent 05/11",
@@ -171,7 +171,8 @@
           ],
           "checklist": [],
           "id": 7,
-          "created": "2026-05-05"
+          "created": "2026-05-05",
+          "filePath": ""
         },
         {
           "title": "Carter Jo Proposal",
