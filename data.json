@@ -879,16 +879,17 @@
           "title": "Lantana - Commercial",
           "assignee": "",
           "bucket": "To Do (Misc.)",
-          "due": "2026-05-22",
+          "due": "2026-05-29",
           "priority": "Medium",
           "pct": 0,
-          "notes": "Winstead answer to dissolve and exit ASAP?",
+          "notes": "Winstead answer to dissolve and exit ASAP?\n\nOption 2 = delegate rights to others and get out.",
           "labels": [
             "FOR Court"
           ],
           "checklist": [],
           "id": 67,
-          "created": "2026-05-13"
+          "created": "2026-05-13",
+          "filePath": ""
         },
         {
           "title": "Jason Jones (DHI) - P&Z",
