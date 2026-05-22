@@ -518,14 +518,15 @@
           "title": "Legacy Fields - Geotech",
           "assignee": "",
           "bucket": "In Progress",
-          "due": "2026-05-21",
+          "due": "2026-05-28",
           "priority": "Medium",
           "pct": 0,
-          "notes": "Working with Beth to get updated bores.\n\nSet for drilling thursday (05/07/2026)",
+          "notes": "Working with Beth to get updated bores.\n\nSet for drilling thursday (05/07/2026)\n\nSummer followed up 05/21",
           "labels": [],
           "checklist": [],
           "id": 31,
-          "created": "2026-05-05"
+          "created": "2026-05-05",
+          "filePath": ""
         },
         {
           "title": "Lantana - Disposition",
