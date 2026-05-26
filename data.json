@@ -1126,6 +1126,22 @@
           "assignee": "Rian",
           "due": "",
           "notes": "Draft easement that honors prescriptive ROW shown in deeds?"
+        },
+        {
+          "title": "Lonestar 2A  - ALTA",
+          "assignee": "",
+          "bucket": "In Progress",
+          "due": "2026-05-29",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Waiting for this to get certified to FOR",
+          "filePath": "",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 85,
+          "created": "2026-05-26"
         }
       ],
       "notes": [
@@ -1211,7 +1227,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 85,
+      "nextId": 86,
       "nextNoteId": 23,
       "darkMode": false,
       "compact": false,
