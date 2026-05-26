@@ -1149,10 +1149,15 @@
           "bucket": "To Do (Misc.)",
           "priority": "Medium",
           "pct": 0,
-          "labels": [],
+          "labels": [
+            "FOR Court"
+          ],
           "checklist": [],
           "filePath": "",
-          "created": "2026-05-26"
+          "created": "2026-05-26",
+          "assignee": "",
+          "due": "2026-05-28",
+          "notes": "Rebecca sent invoice. Need to complete"
         }
       ],
       "notes": [
