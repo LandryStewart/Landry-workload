@@ -1142,6 +1142,17 @@
           "checklist": [],
           "id": 85,
           "created": "2026-05-26"
+        },
+        {
+          "id": 86,
+          "title": "Ponder Invoice",
+          "bucket": "To Do (Misc.)",
+          "priority": "Medium",
+          "pct": 0,
+          "labels": [],
+          "checklist": [],
+          "filePath": "",
+          "created": "2026-05-26"
         }
       ],
       "notes": [
@@ -1227,7 +1238,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 86,
+      "nextId": 87,
       "nextNoteId": 23,
       "darkMode": false,
       "compact": false,
