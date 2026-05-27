@@ -1178,6 +1178,22 @@
           "assignee": "",
           "due": "2026-06-03",
           "notes": "Kevin to produce schedule and get meeting set up"
+        },
+        {
+          "title": "Time and Effort - Protocol",
+          "assignee": "",
+          "bucket": "To Do (ASAP)",
+          "due": "2026-05-29",
+          "priority": "Critical",
+          "pct": 0,
+          "notes": "Descretionary... How did we come up with these? $$ / day? $$ / task??",
+          "filePath": "",
+          "labels": [
+            "FOR Court"
+          ],
+          "checklist": [],
+          "id": 89,
+          "created": "2026-05-27"
         }
       ],
       "notes": [
@@ -1272,7 +1288,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 89,
+      "nextId": 90,
       "nextNoteId": 24,
       "darkMode": false,
       "compact": false,
