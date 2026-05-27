@@ -703,16 +703,17 @@
           "title": "Legacy Fields - CCN / TRA / Pump",
           "assignee": "",
           "bucket": "In Progress",
-          "due": "2026-05-25",
+          "due": "2026-06-03",
           "priority": "Medium",
           "pct": 50,
-          "notes": "Email sent to Drew 05/11.\n\nFollowed up 05/18 regarding TRA fees, Pump station, and CCN.\n\nDrew provided response 05/18",
+          "notes": "Email sent to Drew 05/11.\n\nFollowed up 05/18 regarding TRA fees, Pump station, and CCN.\n\nDrew provided response 05/18\n\nResponded 05/27",
           "labels": [
             "Waiting on Response"
           ],
           "checklist": [],
           "id": 49,
-          "created": "2026-05-07"
+          "created": "2026-05-07",
+          "filePath": ""
         },
         {
           "title": "Terra Trace - Lien",
