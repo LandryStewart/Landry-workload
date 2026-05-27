@@ -1158,6 +1158,17 @@
           "assignee": "",
           "due": "2026-05-28",
           "notes": "Rebecca sent invoice. Need to complete"
+        },
+        {
+          "id": 87,
+          "title": "Lonestar - Development Bond",
+          "bucket": "To Do (Misc.)",
+          "priority": "Medium",
+          "pct": 0,
+          "labels": [],
+          "checklist": [],
+          "filePath": "",
+          "created": "2026-05-27"
         }
       ],
       "notes": [
@@ -1243,7 +1254,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 87,
+      "nextId": 88,
       "nextNoteId": 23,
       "darkMode": false,
       "compact": false,
