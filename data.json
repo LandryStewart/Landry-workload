@@ -798,16 +798,17 @@
           "title": "BVRT - O&M Agreement",
           "assignee": "",
           "bucket": "In Progress",
-          "due": "2026-05-25",
+          "due": "2026-06-01",
           "priority": "Critical",
           "pct": 0,
-          "notes": "Need Chelsea blessing before sending to BVRT.\n\nSend to BVRT 05/18",
+          "notes": "Need Chelsea blessing before sending to BVRT.\n\nSend to BVRT 05/18\n\nWaiting for response",
           "labels": [
             "Waiting on Response"
           ],
           "checklist": [],
           "id": 57,
-          "created": "2026-05-11"
+          "created": "2026-05-11",
+          "filePath": ""
         },
         {
           "title": "Saddleside - SUA Exhibit Update",
