@@ -1162,13 +1162,18 @@
         {
           "id": 87,
           "title": "Lonestar - Development Bond",
-          "bucket": "To Do (Misc.)",
+          "bucket": "In Progress",
           "priority": "Medium",
           "pct": 0,
-          "labels": [],
+          "labels": [
+            "Waiting on Response"
+          ],
           "checklist": [],
           "filePath": "",
-          "created": "2026-05-27"
+          "created": "2026-05-27",
+          "assignee": "",
+          "due": "2026-06-03",
+          "notes": "Sent email to Leonel asking for updated bond release letter."
         }
       ],
       "notes": [
