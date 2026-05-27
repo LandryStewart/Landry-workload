@@ -178,15 +178,16 @@
         {
           "title": "Carter Jo Proposal",
           "assignee": "",
-          "bucket": "In Progress",
-          "due": "2026-05-19",
+          "bucket": "Completed",
+          "due": "",
           "priority": "Medium",
           "pct": 25,
           "notes": "Send email to Pape-Dawson\n\nWaiting for response",
           "labels": [],
           "checklist": [],
           "id": 8,
-          "created": "2026-05-05"
+          "created": "2026-05-05",
+          "filePath": ""
         },
         {
           "title": "MVRK WSA",
