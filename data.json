@@ -576,16 +576,17 @@
           "title": "Legacy Fields - Trail Creek Lane",
           "assignee": "",
           "bucket": "In Progress",
-          "due": "2026-05-25",
+          "due": "2026-06-03",
           "priority": "Medium",
           "pct": 75,
-          "notes": "width of Trail Creek Road\n\nEmail sent 05/11\n\nFollowed up 05/18",
+          "notes": "width of Trail Creek Road\n\nEmail sent 05/11\n\nFollowed up 05/18\n\nSent email to Matthew regarding sewer at their WWTP 05/27",
           "labels": [
             "Waiting on Response"
           ],
           "checklist": [],
           "id": 39,
-          "created": "2026-05-06"
+          "created": "2026-05-06",
+          "filePath": ""
         },
         {
           "title": "Summer Creek - Contract",
