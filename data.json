@@ -1178,6 +1178,17 @@
           "assignee": "",
           "due": "2026-06-03",
           "notes": "Sent email to Leonel asking for updated bond release letter."
+        },
+        {
+          "id": 88,
+          "title": "Carter Jo - Entitlements",
+          "bucket": "In Progress",
+          "priority": "Medium",
+          "pct": 0,
+          "labels": [],
+          "checklist": [],
+          "filePath": "",
+          "created": "2026-05-27"
         }
       ],
       "notes": [
@@ -1272,7 +1283,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 88,
+      "nextId": 89,
       "nextNoteId": 24,
       "darkMode": false,
       "compact": false,
