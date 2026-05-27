@@ -1179,6 +1179,15 @@
       ],
       "notes": [
         {
+          "id": 23,
+          "title": "Azle (05/27/2026)",
+          "content": "",
+          "folderId": 7,
+          "linkedTaskId": null,
+          "created": "2026-05-27T15:05:49.385Z",
+          "updated": "2026-05-27T15:05:55.815Z"
+        },
+        {
           "id": 22,
           "title": "Madera Grand Opening (05/19/2026)",
           "content": "**Can it automatically lump notes by week / month / year?**\n\nevent held at amenity center, go through model to register for grand prize, Food truck will serve up to 75, \n\n\n",
@@ -1261,7 +1270,7 @@
         }
       ],
       "nextId": 88,
-      "nextNoteId": 23,
+      "nextNoteId": 24,
       "darkMode": false,
       "compact": false,
       "myName": "",
@@ -1301,9 +1310,15 @@
           "name": "Acquisition Meetings",
           "created": "2026-05-19T14:07:31.098Z",
           "updated": "2026-05-19T14:07:31.098Z"
+        },
+        {
+          "id": 7,
+          "name": "Prospective",
+          "created": "2026-05-27T15:05:44.519Z",
+          "updated": "2026-05-27T15:05:44.519Z"
         }
       ],
-      "nextFolderId": 7,
+      "nextFolderId": 8,
       "filterPresets": [
         {
           "name": "Items to Complete",
