@@ -1183,13 +1183,16 @@
         {
           "id": 88,
           "title": "Carter Jo - Entitlements",
-          "bucket": "In Progress",
+          "bucket": "Get Scheduled",
           "priority": "Medium",
           "pct": 0,
           "labels": [],
           "checklist": [],
           "filePath": "",
-          "created": "2026-05-27"
+          "created": "2026-05-27",
+          "assignee": "",
+          "due": "2026-06-03",
+          "notes": "Kevin to produce schedule and get meeting set up"
         }
       ],
       "notes": [
