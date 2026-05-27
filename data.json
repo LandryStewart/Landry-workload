@@ -1344,7 +1344,7 @@
           "dueDate": "today"
         }
       ],
-      "sidebarCollapsed": false
+      "sidebarCollapsed": true
     },
     "personal": {
       "projectName": "My Project",
