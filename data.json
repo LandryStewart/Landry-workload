@@ -1037,11 +1037,11 @@
         {
           "id": 82,
           "title": "Terra Trace - ROW Easement",
-          "bucket": "To Do (ASAP)",
+          "bucket": "To Do (Misc.)",
           "priority": "High",
           "pct": 0,
           "labels": [
-            "FOR Court"
+            "Waiting on Response"
           ],
           "checklist": [],
           "filePath": "",
