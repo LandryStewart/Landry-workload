@@ -1040,13 +1040,15 @@
           "bucket": "To Do (ASAP)",
           "priority": "High",
           "pct": 0,
-          "labels": [],
+          "labels": [
+            "FOR Court"
+          ],
           "checklist": [],
           "filePath": "",
           "created": "2026-05-20",
           "assignee": "",
-          "due": "2026-05-27",
-          "notes": "Need to get this updated and signed by Stephen. Why do we need this?\n\nWaiting for revised easement from CoFW."
+          "due": "2026-05-28",
+          "notes": "Need to get this updated and signed by Stephen. Why do we need this?\n\nWaiting for revised easement from CoFW.\n\nNeed notarized"
         },
         {
           "title": "Legacy Fields - Waterline Easements",
