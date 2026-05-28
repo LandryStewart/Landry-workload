@@ -829,14 +829,12 @@
         {
           "title": "Lonestar 2A - ESA",
           "assignee": "",
-          "bucket": "In Progress",
-          "due": "2026-05-27",
+          "bucket": "Completed",
+          "due": "",
           "priority": "High",
           "pct": 50,
           "notes": "Daniel Roebke (Aptim) for ESA\n\nFollowed up 05/13 - Received verbal 05/19",
-          "labels": [
-            "Waiting on Response"
-          ],
+          "labels": [],
           "checklist": [],
           "id": 59,
           "created": "2026-05-12",
