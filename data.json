@@ -1183,15 +1183,13 @@
         {
           "title": "Time and Effort - Protocol",
           "assignee": "",
-          "bucket": "To Do (ASAP)",
-          "due": "2026-05-29",
+          "bucket": "Completed",
+          "due": "",
           "priority": "Critical",
           "pct": 0,
           "notes": "Descretionary... How did we come up with these? $$ / day? $$ / task??",
           "filePath": "",
-          "labels": [
-            "FOR Court"
-          ],
+          "labels": [],
           "checklist": [],
           "id": 89,
           "created": "2026-05-27"
