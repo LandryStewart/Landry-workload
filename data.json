@@ -1195,6 +1195,17 @@
           "checklist": [],
           "id": 89,
           "created": "2026-05-27"
+        },
+        {
+          "id": 90,
+          "title": "Alpha Ranch - Final Acq. Budget",
+          "bucket": "To Do (ASAP)",
+          "priority": "Medium",
+          "pct": 0,
+          "labels": [],
+          "checklist": [],
+          "filePath": "",
+          "created": "2026-05-28"
         }
       ],
       "notes": [
@@ -1289,7 +1300,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 90,
+      "nextId": 91,
       "nextNoteId": 24,
       "darkMode": false,
       "compact": false,
