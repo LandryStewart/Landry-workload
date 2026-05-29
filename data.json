@@ -1208,15 +1208,17 @@
           "created": "2026-05-28"
         },
         {
-          "title": "Alpha Ranch - Sewer Tees",
+          "title": "Alpha Ranch - Final Acquisition Budget",
           "assignee": "",
           "bucket": "To Do (ASAP)",
           "due": "2026-06-01",
           "priority": "Medium",
           "pct": 0,
-          "notes": "Is Canatser installing?",
+          "notes": "Is Canatser installing tees?\n\nDo we have pre plat comments that show / indicate what the sewer or water fees will be.",
           "filePath": "",
-          "labels": [],
+          "labels": [
+            "FOR Court"
+          ],
           "checklist": [],
           "id": 91,
           "created": "2026-05-29"
