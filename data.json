@@ -1122,10 +1122,10 @@
           "title": "Lonestar 2A  - ALTA",
           "assignee": "",
           "bucket": "In Progress",
-          "due": "2026-05-29",
+          "due": "2026-06-02",
           "priority": "Medium",
           "pct": 0,
-          "notes": "Waiting for this to get certified to FOR",
+          "notes": "Waiting for this to get certified to FOR with correct entity",
           "filePath": "",
           "labels": [
             "Waiting on Response"
