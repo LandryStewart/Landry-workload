@@ -1233,6 +1233,20 @@
           "checklist": [],
           "filePath": "",
           "created": "2026-05-29"
+        },
+        {
+          "title": "Cooks Tree Survey",
+          "assignee": "",
+          "bucket": "Get Scheduled",
+          "due": "2026-06-05",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Summer to follow up with REServices for tree survey payment",
+          "filePath": "",
+          "labels": [],
+          "checklist": [],
+          "id": 93,
+          "created": "2026-05-29"
         }
       ],
       "notes": [
@@ -1327,7 +1341,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 93,
+      "nextId": 94,
       "nextNoteId": 24,
       "darkMode": false,
       "compact": false,
