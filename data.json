@@ -1039,17 +1039,15 @@
         {
           "id": 82,
           "title": "Terra Trace - ROW Easement",
-          "bucket": "To Do (Misc.)",
+          "bucket": "Completed",
           "priority": "High",
           "pct": 0,
-          "labels": [
-            "Waiting on Response"
-          ],
+          "labels": [],
           "checklist": [],
           "filePath": "",
           "created": "2026-05-20",
           "assignee": "",
-          "due": "2026-06-01",
+          "due": "",
           "notes": "Need to get this updated and signed by Stephen. Why do we need this?\n\nWaiting for revised easement from CoFW.\n\nNeed notarized"
         },
         {
