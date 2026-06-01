@@ -1247,6 +1247,15 @@
       ],
       "notes": [
         {
+          "id": 24,
+          "title": "",
+          "content": "",
+          "folderId": null,
+          "linkedTaskId": null,
+          "created": "2026-06-01T14:36:00.397Z",
+          "updated": "2026-06-01T14:36:00.397Z"
+        },
+        {
           "id": 23,
           "title": "Effluent (05/28/2026)",
           "content": "What will we have going out? What does effluent number look like at peak? How much is going back in and what can we commit to?\n\n\nCan we sell effluent rights to Denton?\n\n\n\n\n",
@@ -1338,7 +1347,7 @@
         }
       ],
       "nextId": 94,
-      "nextNoteId": 24,
+      "nextNoteId": 25,
       "darkMode": false,
       "compact": false,
       "myName": "",
