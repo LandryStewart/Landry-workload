@@ -973,22 +973,6 @@
           "notes": ""
         },
         {
-          "title": "Saddleside - SUA / Enlink Title Email",
-          "assignee": "",
-          "bucket": "To Do (ASAP)",
-          "due": "2026-05-19",
-          "priority": "Medium",
-          "pct": 0,
-          "notes": "Send email to title asking if amended SUA and Enlink amendment will remove title objection for pulte / risewell",
-          "filePath": "",
-          "labels": [
-            "FOR Court"
-          ],
-          "checklist": [],
-          "id": 78,
-          "created": "2026-05-19"
-        },
-        {
           "id": 79,
           "title": "Saddleside - phase 2 common (BRW)",
           "bucket": "To Do (ASAP)",
