@@ -945,18 +945,16 @@
         {
           "id": 72,
           "title": "Lone Star - Coserv Prelim",
-          "bucket": "In Progress",
+          "bucket": "Completed",
           "priority": "Medium",
           "pct": 50,
-          "labels": [
-            "Waiting on Response"
-          ],
+          "labels": [],
           "checklist": [],
           "filePath": "",
           "created": "2026-05-18",
           "assignee": "",
-          "due": "2026-06-01",
-          "notes": "Dean working on. Summer following up"
+          "due": "",
+          "notes": "Dean working on. Summer following up\n\nReceived 05/21 from Ron"
         },
         {
           "id": 75,
