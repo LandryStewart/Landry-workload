@@ -1004,15 +1004,13 @@
         {
           "title": "BVRT - NSSA Amendment",
           "assignee": "",
-          "bucket": "To Do (Misc.)",
-          "due": "2026-05-29",
+          "bucket": "Completed",
+          "due": "",
           "priority": "Critical",
           "pct": 0,
-          "notes": "Email sent to Josh for 50-year term instead of 25\n\nIn BVRT's court.",
+          "notes": "Email sent to Josh for 50-year term instead of 25\n\nIn BVRT's court.\n\nBVRT good with changes. ",
           "filePath": "",
-          "labels": [
-            "Waiting on Response"
-          ],
+          "labels": [],
           "checklist": [],
           "id": 81,
           "created": "2026-05-19"
