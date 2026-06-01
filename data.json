@@ -209,13 +209,12 @@
         {
           "title": "Saddleside - First Amendment SUA",
           "assignee": "",
-          "bucket": "Internal Legal Review",
-          "due": "2026-05-25",
+          "bucket": "Outside Counsel Review",
+          "due": "2026-06-03",
           "priority": "High",
           "pct": 25,
-          "notes": "Follow up for word document\n\nFollowed up 05/07. If we dont get by 05/08, take it into our own hands\n\nSent to Chelsea 05/11. Followed up 05/18.",
+          "notes": "Follow up for word document\n\nFollowed up 05/07. If we dont get by 05/08, take it into our own hands\n\nSent to Chelsea 05/11. Followed up 05/18.\n\nemail from Chelsea to JAE 05/27",
           "labels": [
-            "FOR Court",
             "Waiting on Response"
           ],
           "checklist": [
@@ -999,7 +998,7 @@
           "filePath": "",
           "created": "2026-05-19",
           "assignee": "",
-          "due": "2026-05-25",
+          "due": "2026-06-04",
           "notes": "Email sent to Marilyn. Waiting for response\n\nFollowed up with Marilyn 05/22. Acreage seems off with Rollbacks"
         },
         {
