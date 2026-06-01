@@ -482,14 +482,15 @@
           "title": "TRA Alignment",
           "assignee": "",
           "bucket": "To Do (Misc.)",
-          "due": "2026-06-01",
+          "due": "2026-06-11",
           "priority": "Medium",
           "pct": 50,
           "notes": "Respond to TRA. Waiting for MBaacke Response\n\nResponded to TRA. Waiting for TRA to confirm.\n\nFollowed up 5/11. Good for now. Follow up \n\n",
           "labels": [],
           "checklist": [],
           "id": 28,
-          "created": "2026-05-05"
+          "created": "2026-05-05",
+          "filePath": ""
         },
         {
           "title": "Cooks Lane - MTP Rate Study??",
