@@ -1201,6 +1201,22 @@
           "checklist": [],
           "id": 93,
           "created": "2026-05-29"
+        },
+        {
+          "title": "Frederick Street - Drainage",
+          "assignee": "",
+          "bucket": "In Progress",
+          "due": "2026-06-05",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Follow up with town if no response by Friday",
+          "filePath": "",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 94,
+          "created": "2026-06-01"
         }
       ],
       "notes": [
@@ -1304,7 +1320,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 94,
+      "nextId": 95,
       "nextNoteId": 25,
       "darkMode": false,
       "compact": false,
