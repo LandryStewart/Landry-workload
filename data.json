@@ -1100,10 +1100,10 @@
           "title": "Lonestar 2A  - ALTA",
           "assignee": "",
           "bucket": "In Progress",
-          "due": "2026-06-02",
+          "due": "2026-06-09",
           "priority": "Medium",
           "pct": 0,
-          "notes": "Waiting for this to get certified to FOR with correct entity",
+          "notes": "Waiting for this to get certified to FOR with correct entity\n\nSent to Roger to include title comments 06/01",
           "filePath": "",
           "labels": [
             "Waiting on Response"
