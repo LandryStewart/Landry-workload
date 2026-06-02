@@ -1217,6 +1217,22 @@
           "checklist": [],
           "id": 94,
           "created": "2026-06-01"
+        },
+        {
+          "title": "MVRK - WSA Review",
+          "assignee": "",
+          "bucket": "To Do (ASAP)",
+          "due": "2026-06-02",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Touch base with Chelsea",
+          "filePath": "",
+          "labels": [
+            "FOR Court"
+          ],
+          "checklist": [],
+          "id": 95,
+          "created": "2026-06-02"
         }
       ],
       "notes": [
@@ -1320,7 +1336,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 95,
+      "nextId": 96,
       "nextNoteId": 25,
       "darkMode": false,
       "compact": false,
