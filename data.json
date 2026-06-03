@@ -1266,6 +1266,22 @@
           "checklist": [],
           "id": 97,
           "created": "2026-06-03"
+        },
+        {
+          "title": "Terra Trace - CMT invoices",
+          "assignee": "",
+          "bucket": "In Progress",
+          "due": "2026-06-08",
+          "priority": "High",
+          "pct": 0,
+          "notes": "Sent email to Rone. Waiting for them to provide invoices so we can send to city.",
+          "filePath": "",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 98,
+          "created": "2026-06-03"
         }
       ],
       "notes": [
@@ -1369,7 +1385,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 98,
+      "nextId": 99,
       "nextNoteId": 25,
       "darkMode": false,
       "compact": false,
