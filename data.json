@@ -1248,6 +1248,22 @@
           "checklist": [],
           "id": 96,
           "created": "2026-06-03"
+        },
+        {
+          "title": "Terra Trace - ROW Easement",
+          "assignee": "",
+          "bucket": "In Progress",
+          "due": "2026-06-15",
+          "priority": "Medium",
+          "pct": 50,
+          "notes": "Follow up with email sent to Landon (Sara) on status of ROW easement",
+          "filePath": "",
+          "labels": [
+            "Waiting on Response"
+          ],
+          "checklist": [],
+          "id": 97,
+          "created": "2026-06-03"
         }
       ],
       "notes": [
@@ -1351,7 +1367,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 97,
+      "nextId": 98,
       "nextNoteId": 25,
       "darkMode": false,
       "compact": false,
