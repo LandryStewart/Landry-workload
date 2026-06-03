@@ -1234,6 +1234,20 @@
           "checklist": [],
           "id": 95,
           "created": "2026-06-02"
+        },
+        {
+          "title": "Carter Jo - OPC",
+          "assignee": "",
+          "bucket": "To Do (ASAP)",
+          "due": "2026-06-15",
+          "priority": "Medium",
+          "pct": 0,
+          "notes": "Kicked PD off on OPC ",
+          "filePath": "",
+          "labels": [],
+          "checklist": [],
+          "id": 96,
+          "created": "2026-06-03"
         }
       ],
       "notes": [
@@ -1337,7 +1351,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 96,
+      "nextId": 97,
       "nextNoteId": 25,
       "darkMode": false,
       "compact": false,
