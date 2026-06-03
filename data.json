@@ -1238,13 +1238,15 @@
         {
           "title": "Carter Jo - OPC",
           "assignee": "",
-          "bucket": "To Do (ASAP)",
-          "due": "2026-06-15",
+          "bucket": "In Progress",
+          "due": "2026-06-09",
           "priority": "Medium",
           "pct": 0,
-          "notes": "Kicked PD off on OPC ",
+          "notes": "Kicked PD off on OPC 05/26. See when we can expect deliverable.",
           "filePath": "",
-          "labels": [],
+          "labels": [
+            "Waiting on Response"
+          ],
           "checklist": [],
           "id": 96,
           "created": "2026-06-03"
