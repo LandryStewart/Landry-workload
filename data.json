@@ -1149,13 +1149,15 @@
           "bucket": "Get Scheduled",
           "priority": "Medium",
           "pct": 0,
-          "labels": [],
+          "labels": [
+            "Waiting on Response"
+          ],
           "checklist": [],
           "filePath": "",
           "created": "2026-05-27",
           "assignee": "",
-          "due": "2026-06-03",
-          "notes": "Kevin to produce schedule and get meeting set up"
+          "due": "2026-06-12",
+          "notes": "Kevin to produce schedule and get meeting set up\n\nWaiting to get PDC set up with city staff for direction forward. "
         },
         {
           "title": "Time and Effort - Protocol",
