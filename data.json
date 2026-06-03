@@ -467,7 +467,7 @@
         {
           "title": "Saddleside - Oncor",
           "assignee": "",
-          "bucket": "Title Objections",
+          "bucket": "To Do (ASAP)",
           "due": "2026-07-31",
           "priority": "High",
           "pct": 0,
@@ -1281,20 +1281,6 @@
           ],
           "checklist": [],
           "id": 98,
-          "created": "2026-06-03"
-        },
-        {
-          "title": "Oncor - Easement Abandonment",
-          "assignee": "",
-          "bucket": "To Do (ASAP)",
-          "due": "",
-          "priority": "Medium",
-          "pct": 0,
-          "notes": "",
-          "filePath": "",
-          "labels": [],
-          "checklist": [],
-          "id": 99,
           "created": "2026-06-03"
         }
       ],
