@@ -455,11 +455,12 @@
           "due": "2026-07-31",
           "priority": "High",
           "pct": 0,
-          "notes": "Need to record final plat before they clear easement",
+          "notes": "Need to record final plat before they clear easement\n\n\nSent email to Jason / Ally asking to begin drafting easement release",
           "labels": [],
           "checklist": [],
           "id": 27,
-          "created": "2026-05-05"
+          "created": "2026-05-05",
+          "filePath": ""
         },
         {
           "title": "TRA Alignment",
