@@ -359,7 +359,6 @@ input,select,textarea{font-family:inherit;color:var(--text);}
 ::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px;}
 @media print{.auth-overlay,.topbar,.sidebar,.bulk-bar,.modal-overlay,.settings-overlay,.toast-container,.add-bucket-col{display:none!important;}body{overflow:visible;height:auto;}.board{overflow:visible;flex-wrap:wrap;}.card{break-inside:avoid;box-shadow:none;border:1px solid #ccc;}}
 
-
 .btn-fp{background:var(--bg2,#374151);color:var(--text,#e5e7eb);border:1px solid var(--border,#4b5563);border-radius:6px;padding:5px 12px;cursor:pointer;font-size:13px;white-space:nowrap;transition:background .15s;}
 .btn-fp:hover{background:var(--accent,#3b82f6);color:#fff;}
 .card-filepath{display:flex;align-items:center;gap:4px;font-size:11px;color:var(--muted,#9ca3af);margin-top:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:pointer;}
@@ -494,44 +493,19 @@ input,select,textarea{font-family:inherit;color:var(--text);}
   .cal-day-hdr{font-size:8px;padding:4px 1px;}
 }
 
-
 /* Voice Mic */
 .voice-mic-btn{background:var(--accent);color:#fff;border:1px solid var(--accent);font-weight:600;}
 .voice-mic-btn:hover{background:var(--pri-d);border-color:var(--pri-d);}
 .voice-mic-btn.recording{background:#dc2626;border-color:#dc2626;animation:mic-pulse 1.2s infinite;}
 @keyframes mic-pulse{0%,100%{box-shadow:0 0 0 0 rgba(220,38,38,.5);}50%{box-shadow:0 0 0 8px rgba(220,38,38,0);}}
-/* AI Summarize */
-.ai-summarize-btn{background:linear-gradient(135deg,#8b5cf6,#6366f1);color:#fff;border:none;padding:4px 12px;border-radius:5px;font-size:.78rem;font-weight:600;cursor:pointer;transition:all .15s;white-space:nowrap;}
-.ai-summarize-btn:hover{background:linear-gradient(135deg,#7c3aed,#4f46e5);transform:translateY(-1px);}
-.ai-summarize-btn:disabled{opacity:.5;cursor:wait;transform:none;}
-/* AI Chat View */
-.ai-view{flex:1;display:none;overflow:hidden;min-height:0;}
-.ai-container{display:flex;flex-direction:column;height:100%;min-height:0;}
-.ai-header{padding:12px 16px;border-bottom:1px solid var(--border);background:var(--card);font-size:14px;font-weight:700;display:flex;align-items:center;gap:8px;flex-shrink:0;}
-.ai-header .ai-icon{font-size:20px;}
-.ai-header .ai-clear{margin-left:auto;background:none;border:1px solid var(--border);border-radius:6px;padding:4px 10px;font-size:11px;color:var(--text2);cursor:pointer;}
-.ai-header .ai-clear:hover{border-color:var(--crit);color:var(--crit);}
-.ai-messages{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:12px;}
-.ai-msg{max-width:85%;padding:10px 14px;border-radius:12px;font-size:13px;line-height:1.6;word-wrap:break-word;white-space:pre-wrap;}
-.ai-msg.user{align-self:flex-end;background:var(--pri);color:#fff;border-bottom-right-radius:4px;}
-.ai-msg.assistant{align-self:flex-start;background:var(--card);border:1px solid var(--border);border-bottom-left-radius:4px;}
-.ai-msg.system{align-self:center;background:var(--bg);color:var(--muted);font-size:11px;font-style:italic;padding:6px 12px;border-radius:20px;}
-.ai-input-bar{display:flex;gap:8px;padding:12px 16px;border-top:1px solid var(--border);background:var(--card);flex-shrink:0;}
-.ai-input-bar input{flex:1;padding:10px 14px;border:1px solid var(--border);border-radius:8px;font-size:14px;background:var(--bg);color:var(--text);outline:none;}
-.ai-input-bar input:focus{border-color:var(--pri);box-shadow:0 0 0 2px rgba(26,107,90,.15);}
-.ai-send-btn{background:var(--pri);color:#fff;border:none;padding:10px 18px;border-radius:8px;font-weight:600;font-size:13px;cursor:pointer;transition:background .15s;}
-.ai-send-btn:hover{background:var(--pri-d);}
-.ai-send-btn:disabled{opacity:.5;cursor:wait;}
-.ai-suggestions{display:flex;flex-wrap:wrap;gap:6px;padding:8px 16px;background:var(--card);flex-shrink:0;}
-.ai-suggestion{padding:6px 12px;border:1px solid var(--border);border-radius:20px;font-size:11px;cursor:pointer;background:var(--bg);color:var(--text2);transition:all .15s;}
-.ai-suggestion:hover{border-color:var(--pri);color:var(--pri);background:var(--pri-l);}
-.ai-typing{display:flex;gap:4px;align-items:center;padding:8px 14px;}
-.ai-typing span{width:6px;height:6px;border-radius:50%;background:var(--muted);animation:ai-dot .6s infinite alternate;}
-.ai-typing span:nth-child(2){animation-delay:.2s;}
-.ai-typing span:nth-child(3){animation-delay:.4s;}
-@keyframes ai-dot{to{opacity:.3;transform:translateY(-3px);}}
-.ai-sett-label{font-size:10px;font-weight:600;text-transform:uppercase;color:var(--text2);letter-spacing:.4px;margin-bottom:2px;margin-top:6px;display:block;}
 
+
+/* ── Drag Indicator for Card Reordering ── */
+.drag-indicator{height:2px;background:var(--accent,#1a6b5a);border-radius:2px;margin:4px 0;transition:opacity .15s;box-shadow:0 0 4px rgba(26,107,90,.4);}
+.card.dragging{opacity:0.4;transform:rotate(1deg);}
+/* ── Legal Tracker Button ── */
+.legal-tracker-btn{color:#fff;border:1px solid rgba(255,255,255,.2);border-radius:6px;transition:opacity .2s,background .2s;text-decoration:none;font-size:11px;opacity:0.6;padding:4px 8px;display:flex;align-items:center;gap:4px;white-space:nowrap;}
+.legal-tracker-btn:hover{opacity:1 !important;background:rgba(255,255,255,.2);}
 </style>
 </head>
 <body>
@@ -569,6 +543,7 @@ input,select,textarea{font-family:inherit;color:var(--text);}
  <button class="top-btn" onclick="document.getElementById('importFile').click()" title="Import">📤</button>
  <input type="file" id="importFile" accept=".json" class="hidden" onchange="importJSON(event)">
  <button class="top-btn" onclick="openShortcuts()" title="Keyboard shortcuts">?</button>
+ <a href="https://landrystewart.github.io/Weekly-Legal-Priorities/" target="_blank" class="top-btn legal-tracker-btn" title="Weekly Legal Priorities">⚖ Legal Tracker</a>
  <button class="top-btn logout" onclick="doLogout()">🚪</button>
 </div>
 <div class="app-body">
@@ -583,8 +558,7 @@ input,select,textarea{font-family:inherit;color:var(--text);}
    <div class="nav-item" id="navList" onclick="setView('list')"><span class="nav-icon">📄</span><span>List</span></div>
    <div class="nav-item" id="navCalendar" onclick="setView('calendar')"><span class="nav-icon">📅</span><span>Calendar</span></div>
    <div class="nav-item" id="navNotes" onclick="setView('notes')"><span class="nav-icon">📝</span><span>Notes</span></div>
-   <div class="nav-item" id="navAi" onclick="setView('ai')"><span class="nav-icon">🤖</span><span>AI Assistant</span></div>
-  </div>
+</div>
   <div class="sidebar-section">
    <div class="sidebar-section-title">Filters</div>
    <div class="sidebar-filter">
@@ -646,31 +620,7 @@ input,select,textarea{font-family:inherit;color:var(--text);}
      </div>
     </div>
    </div>
- <div class="ai-view" id="aiView">
-  <div class="ai-container">
-   <div class="ai-header">
-    <span class="ai-icon">🤖</span> AI Assistant
-    <span style="font-weight:400;font-size:12px;color:var(--muted);margin-left:4px">— Ask about your tasks, notes, or anything</span>
-    <button class="ai-clear" onclick="clearAiChat()">Clear Chat</button>
-   </div>
-   <div class="ai-messages" id="aiMessages">
-    <div class="ai-msg system">Hi! I can help with your tasks and notes. Ask me anything or try a suggestion below.</div>
-   </div>
-   <div class="ai-suggestions" id="aiSuggestions">
-    <span class="ai-suggestion" onclick="aiAsk(this.textContent)">Summarize my overdue tasks</span>
-    <span class="ai-suggestion" onclick="aiAsk(this.textContent)">What should I prioritize this week?</span>
-    <span class="ai-suggestion" onclick="aiAsk(this.textContent)">Draft a status update email</span>
-    <span class="ai-suggestion" onclick="aiAsk(this.textContent)">Summarize all my notes</span>
-    <span class="ai-suggestion" onclick="aiAsk(this.textContent)">What tasks are assigned to me?</span>
-   </div>
-   <div class="ai-input-bar">
-    <input type="text" id="aiInput" placeholder="Ask AI anything about your workload..." onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendAiMessage();}">
-    <button class="ai-send-btn" id="aiSendBtn" onclick="sendAiMessage()">Send</button>
-   </div>
-  </div>
- </div>
-
-  </div>
+</div>
  </div>
 </div>
 </div>
@@ -686,8 +636,7 @@ input,select,textarea{font-family:inherit;color:var(--text);}
 <div class="settings-section"><h3>Labels</h3><div class="sett-list" id="settLabels"></div><button class="sett-add" onclick="addLabelSetting()">+ Add Label</button></div>
 <div class="settings-section"><h3>Preferences</h3><div class="toggle-row"><span>🌙 Dark Mode</span><label class="switch"><input type="checkbox" id="togDark" onchange="toggleDark()"><span class="slider"></span></label></div><div class="toggle-row"><span>📐 Compact Cards</span><label class="switch"><input type="checkbox" id="togCompact" onchange="toggleCompact()"><span class="slider"></span></label></div><div style="margin-top:8px"><label style="font-size:11px;font-weight:600;text-transform:uppercase;color:var(--text2)">My Name</label><input type="text" id="settMyName" style="width:100%;padding:6px 10px;border:1px solid var(--border);border-radius:6px;font-size:13px;background:var(--bg);margin-top:4px" placeholder="e.g. Landry Stewart"></div></div>
 <div class="settings-section"><h3>☁ Cloud Sync (GitHub)</h3><p style="font-size:11px;color:var(--text2);margin-bottom:8px">Enter a GitHub Personal Access Token to sync data across all devices.</p><input type="password" class="cloud-input" id="settGhToken" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"><div class="cloud-msg" id="cloudMsg"></div><button class="btn-save" onclick="testCloud()" style="width:100%;margin-top:6px;padding:8px">Test & Save Token</button></div>
-<div class="settings-section"><h3>🤖 AI Assistant</h3><p style="font-size:11px;color:var(--text2);margin-bottom:8px">Choose your AI provider. Keys stay in your browser only.</p><span class="ai-sett-label">Provider</span><select id="settAiProvider" class="cloud-input" onchange="toggleAiFields()" style="margin-bottom:8px"><option value="gemini">Google Gemini (Free)</option><option value="openai">OpenAI (api.openai.com)</option><option value="azure">Azure OpenAI (Copilot-powered)</option></select><div id="aiOpenaiFields"><span class="ai-sett-label">API Key</span><input type="password" class="cloud-input" id="settAiKey" placeholder="sk-xxxxxxxxxxxxxxxxxxxx"></div><div id="aiAzureFields" style="display:none"><span class="ai-sett-label">Azure Endpoint</span><input type="text" class="cloud-input" id="settAzureEndpoint" placeholder="https://YOUR-RESOURCE.openai.azure.com" style="margin-bottom:6px"><span class="ai-sett-label">API Key</span><input type="password" class="cloud-input" id="settAzureKey" placeholder="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" style="margin-bottom:6px"><span class="ai-sett-label">Deployment Name</span><input type="text" class="cloud-input" id="settAzureDeployment" placeholder="gpt-4o-mini" style="margin-bottom:6px"><p style="font-size:10px;color:var(--muted)">Find these in Azure Portal &rarr; your OpenAI resource &rarr; Keys and Endpoint</p></div><div id="aiGeminiFields"><span class="ai-sett-label">Gemini API Key</span><input type="password" class="cloud-input" id="settGeminiKey" placeholder="AIzaSy...your-gemini-key"><p style="font-size:10px;color:var(--muted);margin-top:4px">Get your free key at <a href="https://aistudio.google.com/apikey" target="_blank" style="color:var(--pri)">aistudio.google.com/apikey</a></p></div><div class="cloud-msg" id="aiKeyMsg"></div><button class="btn-save" onclick="saveAiSettings()" style="width:100%;margin-top:6px;padding:8px">Save AI Settings</button></div>
-<div class="settings-section" style="border:none"><button class="btn-delete" onclick="clearAllData()" style="width:100%;padding:10px">🗑 Clear All Data</button></div></div></div>
+</div>
 <div class="shortcuts-modal" id="shortcutsModal">
  <div class="shortcuts-panel">
   <div class="shortcuts-hdr"><h2>⌨ Keyboard Shortcuts</h2><button class="sc-close" onclick="closeShortcuts()">×</button></div>
@@ -757,7 +706,7 @@ function escAttr(s){return String(s||'').replace(/'/g,"\\'").replace(/"/g,'&quot
 function avatarColor(name){if(!name)return'var(--pri)';let h=0;for(let i=0;i<name.length;i++)h=name.charCodeAt(i)+((h<<5)-h);const c=['#8b5cf6','#0891b2','#ec4899','#f97316','#16a34a','#dc2626','#2563eb','#d97706','#7c3aed','#059669'];return c[Math.abs(h)%c.length];}
 function todayStr(){const n=new Date();return n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0')+'-'+String(n.getDate()).padStart(2,'0');}
 let currentView='board';
-function setView(v){currentView=v;if(isMobile())closeMobileSidebar();['board','list','calendar','notes','ai'].forEach(t=>{const el=document.getElementById('nav'+t.charAt(0).toUpperCase()+t.slice(1));if(el)el.classList.toggle('active',v===t);});document.getElementById('boardView').style.display=v==='board'?'flex':'none';document.getElementById('listView').style.display=v==='list'?'block':'none';document.getElementById('calendarView').style.display=v==='calendar'?'flex':'none';document.getElementById('notesView').style.display=v==='notes'?'flex':'none';var aiEl=document.getElementById('aiView');if(aiEl)aiEl.style.display=v==='ai'?'flex':'none';render();}
+function setView(v){currentView=v;if(isMobile())closeMobileSidebar();['board','list','calendar','notes'].forEach(t=>{const el=document.getElementById('nav'+t.charAt(0).toUpperCase()+t.slice(1));if(el)el.classList.toggle('active',v===t);});document.getElementById('boardView').style.display=v==='board'?'flex':'none';document.getElementById('listView').style.display=v==='list'?'block':'none';document.getElementById('calendarView').style.display=v==='calendar'?'flex':'none';document.getElementById('notesView').style.display=v==='notes'?'flex':'none';render();}
 function render(){document.querySelectorAll('.workspace-tab').forEach(t=>{t.classList.toggle('active',t.dataset.ws===currentWorkspace);});updateFilters();updateStats();updateFilterChips();updateTodayBadge();renderPresets();if(currentView==='board')renderBoard();else if(currentView==='list')renderList();else if(currentView==='calendar')renderCalendar();else renderNotesView();save();}
 function switchWorkspace(ws){if(ws===currentWorkspace)return;save();currentWorkspace=ws;load();render();updateDarkIcon();}
 function isMobile(){return window.innerWidth<=768;}
@@ -839,15 +788,16 @@ function closeCalDay(){document.getElementById('calDayModal').classList.remove('
 function updateTodayBadge(){const ts=todayStr(),count=state.tasks.filter(t=>t.due===ts&&(t.pct||0)<100).length;document.getElementById('todayBadge').textContent=count+' today';}
 let dragId=null;
 function dragStart(e,id){dragId=id;e.target.classList.add('dragging');e.dataTransfer.effectAllowed='move';}
-function dragEnd(e){e.target.classList.remove('dragging');dragId=null;document.querySelectorAll('.bucket-cards').forEach(c=>c.classList.remove('over'));}
-function dragOver(e){e.preventDefault();}
+function dragEnd(e){e.target.classList.remove('dragging');dragId=null;document.querySelectorAll('.bucket-cards').forEach(c=>c.classList.remove('over'));document.querySelectorAll('.drag-indicator').forEach(el=>el.remove());}
+function dragOver(e){e.preventDefault();var container=e.currentTarget;container.querySelectorAll('.drag-indicator').forEach(el=>el.remove());var afterEl=getDragAfterElement(container,e.clientY);var indicator=document.createElement('div');indicator.className='drag-indicator';if(afterEl){container.insertBefore(indicator,afterEl);}else{container.appendChild(indicator);}}
+function getDragAfterElement(container,y){var cards=[...container.querySelectorAll('.card:not(.dragging)')];var closest={offset:Number.POSITIVE_INFINITY,element:null};cards.forEach(function(card){var box=card.getBoundingClientRect();var offset=y-box.top-box.height/2;if(offset<0&&Math.abs(offset)<closest.offset){closest={offset:Math.abs(offset),element:card};}});return closest.element;}
 function dragEnter(e){e.preventDefault();e.currentTarget.classList.add('over');}
 function dragLeave(e){e.currentTarget.classList.remove('over');}
-function drop(e){e.preventDefault();e.currentTarget.classList.remove('over');if(dragId==null)return;const b=e.currentTarget.dataset.bucket,t=state.tasks.find(x=>x.id===dragId);if(t)t.bucket=b;dragId=null;render();}
+function drop(e){e.preventDefault();e.currentTarget.classList.remove('over');document.querySelectorAll('.drag-indicator').forEach(function(el){el.remove();});if(dragId==null)return;var b=e.currentTarget.dataset.bucket;var t=state.tasks.find(function(x){return x.id===dragId;});if(!t)return;t.bucket=b;var container=e.currentTarget;var afterEl=getDragAfterElement(container,e.clientY);var bucketTasks=state.tasks.filter(function(x){return x.bucket===b&&x.id!==dragId;});var newIndex;if(afterEl){var onds=afterEl.getAttribute('ondragstart');var m=onds?onds.match(/dragStart\(event,(\d+)\)/):null;if(m){var afterId=parseInt(m[1]);var afterTask=state.tasks.find(function(x){return x.id===afterId;});newIndex=state.tasks.indexOf(afterTask);}else{newIndex=state.tasks.length;}}else{var lastTask=bucketTasks.length?bucketTasks[bucketTasks.length-1]:null;newIndex=lastTask?state.tasks.indexOf(lastTask)+1:state.tasks.length;}state.tasks=state.tasks.filter(function(x){return x.id!==dragId;});if(newIndex>state.tasks.length)newIndex=state.tasks.length;state.tasks.splice(newIndex,0,t);dragId=null;render();}
 let activeNoteId=null,noteTimer=null,activeFolderFilter=null;
 function renderNotesView(){renderNotesSidebar();renderNoteEditor();}
 function renderNotesSidebar(){var tabsEl=document.getElementById('notesFolderTabs'),listEl=document.getElementById('notesListContent');if(!tabsEl||!listEl)return;var q=(document.getElementById('noteSearch')||{}).value||'';var ql=q.toLowerCase();var tabs='<div class="folder-tab '+(activeFolderFilter===null?'active':'')+'" onclick="selectFolder(null)"><span class="tab-icon">📋</span><span class="tab-name">All</span><span class="tab-count">'+state.notes.length+'</span></div>';for(var fi=0;fi<state.folders.length;fi++){var f=state.folders[fi];var cnt=0;for(var ni=0;ni<state.notes.length;ni++){if(state.notes[ni].folderId===f.id)cnt++;}tabs+='<div class="folder-tab '+(activeFolderFilter===f.id?'active':'')+'" onclick="selectFolder('+f.id+')" draggable="true" ondragstart="folderDragStart(event,'+f.id+')" ondragend="folderDragEnd(event)" ondragover="folderDragOver(event)" ondragenter="folderDragEnterForNote(event);folderDragEnter(event)" ondragleave="folderDragLeave(event)" ondrop="folderDrop(event,'+f.id+');noteDropOnFolder(event,'+f.id+')"><span class="tab-icon">📁</span><span class="tab-name" ondblclick="event.stopPropagation();renameFolder('+f.id+')">'+esc(f.name)+'</span><span class="tab-count">'+cnt+'</span><span class="tab-del" onclick="event.stopPropagation();deleteFolder('+f.id+')" title="Delete folder">✕</span></div>';}var unfiledCnt=0;for(var ui=0;ui<state.notes.length;ui++){if(!state.notes[ui].folderId)unfiledCnt++;}tabs+='<div class="folder-tab '+(activeFolderFilter==="unfiled"?'active':'')+'" onclick="selectFolder(\'unfiled\')" ondragover="folderDragOver(event)" ondragenter="folderDragEnterForNote(event)" ondragleave="folderDragLeave(event)" ondrop="noteDropOnFolder(event,null)"><span class="tab-icon">📄</span><span class="tab-name">Unfiled</span><span class="tab-count">'+unfiledCnt+'</span></div>';tabsEl.innerHTML=tabs;var notes=state.notes.slice();if(ql)notes=notes.filter(n=>(n.title||'').toLowerCase().indexOf(ql)>=0||(n.content||'').toLowerCase().indexOf(ql)>=0);else if(activeFolderFilter==='unfiled')notes=notes.filter(n=>!n.folderId);else if(activeFolderFilter!==null){var afId=activeFolderFilter;notes=notes.filter(n=>n.folderId===afId);}notes.sort((a,b)=>(b.updated||'').localeCompare(a.updated||''));var html='';if(!notes.length)html='<div class="notes-empty-sb">'+(ql?'No matching notes':'No notes here yet')+'</div>';else notes.forEach(n=>{var folder=state.folders.find(f=>f.id===n.folderId);var folderLabel=folder?folder.name:'Unfiled';var preview=(n.content||'').substring(0,80).replace(/\n/g,' ');html+='<div class="note-item '+(n.id===activeNoteId?'active':'')+'" onclick="selectNote('+n.id+')" draggable="true" ondragstart="noteDragStartSB(event,'+n.id+')" ondragend="noteDragEndSB(event)" ondragover="noteDragOverItem(event)" ondragenter="noteDragEnterItem(event)" ondragleave="noteDragLeaveItem(event)" ondrop="noteDropOnItem(event,'+n.id+')"><div class="note-item-title">'+esc(n.title||'Untitled')+'</div><div class="note-item-preview">'+esc(preview)+'</div><div class="note-item-meta"><span>'+esc(folderLabel)+'</span><span>'+new Date(n.updated||n.created).toLocaleDateString()+'</span>'+(n.linkedTaskId?'<span>🔗 Linked</span>':'')+'</div></div>';});listEl.innerHTML=html+'<div class="notes-resize-handle" id="notesResizeHandle"></div>';initNotesResize();}
-function renderNoteEditor(){var editorArea=document.getElementById('noteEditorArea');if(!editorArea)return;var note=state.notes.find(n=>n.id===activeNoteId);if(!note){editorArea.innerHTML='<div class="notes-empty">Select a note or create a new one</div>';return;}var folder=state.folders.find(f=>f.id===note.folderId);var folderName=folder?folder.name:'Unfiled';var folderOptions='<option value="">Unfiled</option>';state.folders.forEach(f=>{folderOptions+='<option value="'+f.id+'" '+(f.id===note.folderId?'selected':'')+'>'+esc(f.name)+'</option>';});var taskOptions='<option value="">No linked task</option>';state.tasks.forEach(t=>{taskOptions+='<option value="'+t.id+'" '+(t.id===note.linkedTaskId?'selected':'')+'>'+esc(t.title)+'</option>';});editorArea.innerHTML='<div class="note-editor-header"><div class="note-breadcrumb"><span class="bc-folder">'+esc(folderName)+'</span><span class="bc-sep">›</span><span class="bc-note">'+esc(note.title||'Untitled')+'</span></div><div class="note-editor-actions"><select class="note-link-select" onchange="linkNoteToTask('+note.id+',this.value)" title="Link to task">'+taskOptions+'</select><select class="note-move-select" onchange="moveNoteToFolder('+note.id+',this.value)" title="Move to folder">'+folderOptions+'</select><button class="note-del-btn" onclick="deleteNote()" title="Delete note">🗑️</button></div></div><div class="note-fmt-toolbar"><button class="fmt-btn" onclick="fmtBold()" title="Bold"><b>B</b></button><button class="fmt-btn" onclick="fmtItalic()" title="Italic"><i>I</i></button><div class="fmt-sep"></div><button class="fmt-btn" onclick="fmtHeading()" title="Heading">H</button><button class="fmt-btn" onclick="fmtBullet()" title="Bullet List">•</button><button class="fmt-btn" onclick="fmtNumbered()" title="Numbered List">#</button><div class="fmt-sep"></div><button class="ai-summarize-btn" onclick="aiSummarizeNote()" id="aiSumBtn" title="AI Summarize">\u2728 Summarize</button></div><input class="note-title-input" id="noteTitleInput" value="'+esc(note.title||'')+'" placeholder="Note title..." oninput="autoSaveNote()"><textarea class="note-content-input" id="noteContentInput" placeholder="Start typing... (supports **bold**, *italic*, ## headings)" oninput="autoSaveNote()">'+esc(note.content||'')+'</textarea>';}
+function renderNoteEditor(){var editorArea=document.getElementById('noteEditorArea');if(!editorArea)return;var note=state.notes.find(n=>n.id===activeNoteId);if(!note){editorArea.innerHTML='<div class="notes-empty">Select a note or create a new one</div>';return;}var folder=state.folders.find(f=>f.id===note.folderId);var folderName=folder?folder.name:'Unfiled';var folderOptions='<option value="">Unfiled</option>';state.folders.forEach(f=>{folderOptions+='<option value="'+f.id+'" '+(f.id===note.folderId?'selected':'')+'>'+esc(f.name)+'</option>';});var taskOptions='<option value="">No linked task</option>';state.tasks.forEach(t=>{taskOptions+='<option value="'+t.id+'" '+(t.id===note.linkedTaskId?'selected':'')+'>'+esc(t.title)+'</option>';});editorArea.innerHTML='<div class="note-editor-header"><div class="note-breadcrumb"><span class="bc-folder">'+esc(folderName)+'</span><span class="bc-sep">›</span><span class="bc-note">'+esc(note.title||'Untitled')+'</span></div><div class="note-editor-actions"><select class="note-link-select" onchange="linkNoteToTask('+note.id+',this.value)" title="Link to task">'+taskOptions+'</select><select class="note-move-select" onchange="moveNoteToFolder('+note.id+',this.value)" title="Move to folder">'+folderOptions+'</select><button class="note-del-btn" onclick="deleteNote()" title="Delete note">🗑️</button></div></div><div class="note-fmt-toolbar"><button class="fmt-btn" onclick="fmtBold()" title="Bold"><b>B</b></button><button class="fmt-btn" onclick="fmtItalic()" title="Italic"><i>I</i></button><div class="fmt-sep"></div><button class="fmt-btn" onclick="fmtHeading()" title="Heading">H</button><button class="fmt-btn" onclick="fmtBullet()" title="Bullet List">•</button><button class="fmt-btn" onclick="fmtNumbered()" title="Numbered List">#</button><div class="fmt-sep"></div></div><input class="note-title-input" id="noteTitleInput" value="'+esc(note.title||'')+'" placeholder="Note title..." oninput="autoSaveNote()"><textarea class="note-content-input" id="noteContentInput" placeholder="Start typing... (supports **bold**, *italic*, ## headings)" oninput="autoSaveNote()">'+esc(note.content||'')+'</textarea>';}
 function fmtWrap(prefix,suffix){var ta=document.getElementById('noteContentInput');if(!ta)return;var start=ta.selectionStart,end=ta.selectionEnd,text=ta.value;var selected=text.substring(start,end)||'text';ta.value=text.substring(0,start)+prefix+selected+suffix+text.substring(end);ta.selectionStart=start+prefix.length;ta.selectionEnd=start+prefix.length+selected.length;ta.focus();autoSaveNote();}
 function fmtBold(){fmtWrap('**','**');}
 function fmtItalic(){fmtWrap('*','*');}
@@ -890,7 +840,7 @@ document.getElementById('mFilePath').value=t.filePath||'';document.getElementByI
 function addChecklistItem(text,done){const cl=document.getElementById('mChecklist'),div=document.createElement('div');div.className='cl-item';const cb=document.createElement('input');cb.type='checkbox';cb.checked=!!done;const inp=document.createElement('input');inp.type='text';inp.value=text||'';inp.placeholder='Checklist item...';const rm=document.createElement('button');rm.className='cl-rm';rm.innerHTML='×';rm.onclick=()=>div.remove();div.appendChild(cb);div.appendChild(inp);div.appendChild(rm);cl.appendChild(div);}
 function saveTask(){const title=document.getElementById('mTitle').value.trim();if(!title){showToast('Task title is required.');return;}const data={title,assignee:document.getElementById('mAssignee').value.trim(),bucket:document.getElementById('mBucket').value,due:document.getElementById('mDue').value,priority:document.getElementById('mPriority').value,pct:parseInt(document.getElementById('mPct').value)||0,notes:document.getElementById('mNotes').value,filePath:document.getElementById('mFilePath').value.trim(),labels:[...document.querySelectorAll('#mLabels .label-chip.selected')].map(e=>e.dataset.label),checklist:[...document.querySelectorAll('#mChecklist .cl-item')].map(e=>({text:e.querySelector('input[type=text]').value,done:e.querySelector('input[type=checkbox]').checked}))};if(editingId!=null)Object.assign(state.tasks.find(x=>x.id===editingId),data);else{data.id=state.nextId++;data.created=new Date().toISOString().split('T')[0];state.tasks.push(data);}closeTaskModal();render();}
 function deleteTask(){const t=state.tasks.find(x=>x.id===editingId);if(!t)return;const removed=t,idx=state.tasks.indexOf(t);state.tasks=state.tasks.filter(x=>x.id!==editingId);closeTaskModal();render();showToast('Task "'+removed.title+'" deleted',function(){state.tasks.splice(idx,0,removed);render();});}
-function openSettings(){document.getElementById('settBuckets').innerHTML=state.buckets.map((b,i)=>'<div class="sett-item"><input type="text" value="'+esc(b)+'" data-idx="'+i+'"><button class="sett-rm" onclick="removeBucket('+i+')">×</button></div>').join('');document.getElementById('settLabels').innerHTML=state.labels.map((l,i)=>'<div class="sett-item"><input type="color" value="'+l.color+'"><input type="text" value="'+esc(l.name)+'"><button class="sett-rm" onclick="removeLabel('+i+')">×</button></div>').join('');document.getElementById('settMyName').value=state.myName||'';document.getElementById('settGhToken').value=getToken();loadAiSettings();document.getElementById('cloudMsg').textContent='';document.getElementById('settingsOverlay').classList.add('show');}
+function openSettings(){document.getElementById('settBuckets').innerHTML=state.buckets.map((b,i)=>'<div class="sett-item"><input type="text" value="'+esc(b)+'" data-idx="'+i+'"><button class="sett-rm" onclick="removeBucket('+i+')">×</button></div>').join('');document.getElementById('settLabels').innerHTML=state.labels.map((l,i)=>'<div class="sett-item"><input type="color" value="'+l.color+'"><input type="text" value="'+esc(l.name)+'"><button class="sett-rm" onclick="removeLabel('+i+')">×</button></div>').join('');document.getElementById('settMyName').value=state.myName||'';document.getElementById('settGhToken').value=getToken();document.getElementById('cloudMsg').textContent='';document.getElementById('settingsOverlay').classList.add('show');}
 function closeSettings(){const overlay=document.getElementById('settingsOverlay');if(!overlay||!overlay.classList.contains('show'))return;const bi=document.querySelectorAll('#settBuckets input[type=text]'),nb=[...bi].map(i=>i.value.trim()).filter(Boolean);bi.forEach(inp=>{const idx=parseInt(inp.dataset.idx);if(isNaN(idx))return;const old=state.buckets[idx],nw=inp.value.trim();if(old&&nw&&old!==nw)state.tasks.forEach(t=>{if(t.bucket===old)t.bucket=nw;});});state.buckets=nb.length?nb:[...DEFAULT_BUCKETS];state.tasks.forEach(t=>{if(!state.buckets.includes(t.bucket))t.bucket=state.buckets[0];});const ln=document.querySelectorAll('#settLabels input[type=text]'),lc=document.querySelectorAll('#settLabels input[type=color]');state.labels=[...ln].map((inp,i)=>({name:inp.value.trim(),color:lc[i].value})).filter(l=>l.name);state.myName=document.getElementById('settMyName').value.trim();document.getElementById('settingsOverlay').classList.remove('show');render();}
 function addBucketSetting(){const sb=document.getElementById('settBuckets'),div=document.createElement('div');div.className='sett-item';div.innerHTML='<input type="text" value="New Bucket" data-idx="'+sb.children.length+'"><button class="sett-rm" onclick="this.parentElement.remove()">×</button>';sb.appendChild(div);}
 function removeBucket(i){const items=document.querySelectorAll('#settBuckets .sett-item');if(items.length<=1){showToast('Need at least one bucket.');return;}items[i].remove();}
@@ -959,143 +909,7 @@ if(bestMatch&&bestScore>=3)note.folderId=bestMatch.id;
 }
 
 /* ── AI Settings (OpenAI + Azure OpenAI) ── */
-function getAiConfig(){
-return{
-provider:localStorage.getItem('wm_ai_provider')||'gemini',
-key:localStorage.getItem('wm_ai_key')||'',
-azureEndpoint:localStorage.getItem('wm_ai_azure_endpoint')||'',
-azureKey:localStorage.getItem('wm_ai_azure_key')||'',
-azureDeployment:localStorage.getItem('wm_ai_azure_deployment')||'gpt-4o-mini',
-geminiKey:localStorage.getItem('wm_ai_gemini_key')||''
-};
-}
-function saveAiSettings(){
-var provider=document.getElementById('settAiProvider').value;
-var msg=document.getElementById('aiKeyMsg');
-localStorage.setItem('wm_ai_provider',provider);
-if(provider==='openai'){
-var k=document.getElementById('settAiKey').value.trim();
-if(!k){msg.style.color='var(--crit)';msg.textContent='Enter an API key.';return;}
-localStorage.setItem('wm_ai_key',k);
-}else if(provider==='azure'){
-var ep=document.getElementById('settAzureEndpoint').value.trim();
-var ak=document.getElementById('settAzureKey').value.trim();
-var dep=document.getElementById('settAzureDeployment').value.trim()||'gpt-4o-mini';
-if(!ep||!ak){msg.style.color='var(--crit)';msg.textContent='Enter endpoint and API key.';return;}
-localStorage.setItem('wm_ai_azure_endpoint',ep);
-localStorage.setItem('wm_ai_azure_key',ak);
-localStorage.setItem('wm_ai_azure_deployment',dep);
-}else if(provider==='gemini'){
-var gk=document.getElementById('settGeminiKey').value.trim();
-if(!gk){msg.style.color='var(--crit)';msg.textContent='Enter your Gemini API key.';return;}
-localStorage.setItem('wm_ai_gemini_key',gk);
-}
-msg.style.color='var(--low)';msg.textContent='AI settings saved!';showToast('\u2705 AI settings saved!');
-}
-function loadAiSettings(){
-var cfg=getAiConfig();
-var provEl=document.getElementById('settAiProvider');if(provEl)provEl.value=cfg.provider;
-var keyEl=document.getElementById('settAiKey');if(keyEl)keyEl.value=cfg.key;
-var epEl=document.getElementById('settAzureEndpoint');if(epEl)epEl.value=cfg.azureEndpoint;
-var akEl=document.getElementById('settAzureKey');if(akEl)akEl.value=cfg.azureKey;
-var depEl=document.getElementById('settAzureDeployment');if(depEl)depEl.value=cfg.azureDeployment;
-var gkEl=document.getElementById('settGeminiKey');if(gkEl)gkEl.value=cfg.geminiKey;
-toggleAiFields();
-}
-function toggleAiFields(){
-var p=document.getElementById('settAiProvider').value;
-var oF=document.getElementById('aiOpenaiFields');
-var aF=document.getElementById('aiAzureFields');
-var gF=document.getElementById('aiGeminiFields');
-if(oF)oF.style.display=p==='openai'?'block':'none';
-if(aF)aF.style.display=p==='azure'?'block':'none';
-if(gF)gF.style.display=p==='gemini'?'block':'none';
-}
-
 /* ── AI Core ── */
-var aiChatHistory=[];
-
-function buildContext(){
-var ctx='You are an AI assistant for a workload/project management app. Here is the user\'s current data:\n';
-ctx+='\nProject: '+(state.projectName||'My Project');
-ctx+='\nBuckets: '+state.buckets.join(', ');
-var active=state.tasks.filter(function(t){return(t.pct||0)<100;});
-var done=state.tasks.filter(function(t){return(t.pct||0)>=100;});
-var overdueTasks=active.filter(function(t){return isOverdue(t);});
-ctx+='\n\nActive Tasks ('+active.length+'):';
-active.slice(0,50).forEach(function(t){ctx+='\n- '+t.title+' ['+t.bucket+'] '+(t.priority||'Medium')+' '+(t.due?'due:'+t.due:'no due date')+' '+(t.pct||0)+'%'+(t.assignee?' assigned:'+t.assignee:'');});
-if(done.length>0)ctx+='\n\nCompleted: '+done.length+' tasks';
-if(overdueTasks.length>0)ctx+='\n\nOVERDUE ('+overdueTasks.length+'): '+overdueTasks.map(function(t){return t.title+' (due '+t.due+')';}).join(', ');
-if(state.notes.length>0){ctx+='\n\nNotes ('+state.notes.length+'):';state.notes.slice(0,20).forEach(function(n){var folder=state.folders.find(function(f){return f.id===n.folderId;});ctx+='\n- '+(n.title||'Untitled')+' ['+(folder?folder.name:'Unfiled')+'] '+(n.content||'').substring(0,150);});}
-ctx+='\n\nBe concise and helpful. Use bullet points and emojis for readability. Reference specific task names.';
-return ctx;
-}
-
-async function callAI(messages){
-var cfg=getAiConfig();
-var url,headers,body;
-if(cfg.provider==='azure'){
-if(!cfg.azureEndpoint||!cfg.azureKey){showToast('Set your Azure OpenAI settings in Settings first.');return null;}
-var ep=cfg.azureEndpoint.replace(/\/$/,'');
-url=ep+'/openai/deployments/'+encodeURIComponent(cfg.azureDeployment)+'/chat/completions?api-version=2024-08-01-preview';
-headers={'api-key':cfg.azureKey,'Content-Type':'application/json'};
-body=JSON.stringify({messages:messages,max_tokens:1000,temperature:0.7});
-}else if(cfg.provider==='gemini'){
-if(!cfg.geminiKey){showToast('Set your Gemini API key in Settings first.');return null;}
-url='https://gemini-proxy.landrystewart.workers.dev?key='+encodeURIComponent(cfg.geminiKey);
-headers={'Content-Type':'application/json'};
-var sysMsg='';var gemContents=[];
-messages.forEach(function(m){if(m.role==='system'){sysMsg+=m.content+'\n';}else{gemContents.push({role:m.role==='assistant'?'model':'user',parts:[{text:m.content}]});}});
-var gemBody={contents:gemContents,generationConfig:{maxOutputTokens:1000,temperature:0.7}};
-if(sysMsg)gemBody.systemInstruction={parts:[{text:sysMsg.trim()}]};
-body=JSON.stringify(gemBody);
-}else{
-if(!cfg.key){showToast('Set your OpenAI API key in Settings first.');return null;}
-url='https://api.openai.com/v1/chat/completions';
-headers={'Authorization':'Bearer '+cfg.key,'Content-Type':'application/json'};
-body=JSON.stringify({model:'gpt-4o-mini',messages:messages,max_tokens:1000,temperature:0.7});
-}
-try{
-var r=await fetch(url,{method:'POST',headers:headers,body:body});
-if(!r.ok){var err=await r.json().catch(function(){return {};});showToast('AI error: '+(err.error?err.error.message:'Request failed ('+r.status+')'));return null;}
-var d=await r.json();
-if(cfg.provider==='gemini'){try{return d.candidates[0].content.parts[0].text;}catch(e2){showToast('AI error: Unexpected Gemini response');return null;}}
-return d.choices[0].message.content;
-}catch(e){showToast('AI request failed: '+e.message);return null;}
-}
-
-function renderAiMessages(){
-var el=document.getElementById('aiMessages');if(!el)return;
-var html='<div class="ai-msg system">Hi! I can help with your tasks and notes. Ask me anything or try a suggestion below.</div>';
-aiChatHistory.forEach(function(m){if(m.role==='user')html+='<div class="ai-msg user">'+esc(m.content)+'</div>';else if(m.role==='assistant')html+='<div class="ai-msg assistant">'+esc(m.content)+'</div>';});
-el.innerHTML=html;el.scrollTop=el.scrollHeight;
-}
-function addTypingIndicator(){var el=document.getElementById('aiMessages');if(!el)return;el.innerHTML+='<div class="ai-typing" id="aiTyping"><span></span><span></span><span></span></div>';el.scrollTop=el.scrollHeight;}
-function removeTypingIndicator(){var t=document.getElementById('aiTyping');if(t)t.remove();}
-
-async function sendAiMessage(){
-var input=document.getElementById('aiInput');var q=input.value.trim();if(!q)return;input.value='';
-aiChatHistory.push({role:'user',content:q});renderAiMessages();
-addTypingIndicator();document.getElementById('aiSendBtn').disabled=true;
-var msgs=[{role:'system',content:buildContext()}].concat(aiChatHistory.slice(-20));
-var reply=await callAI(msgs);
-removeTypingIndicator();document.getElementById('aiSendBtn').disabled=false;
-if(reply){aiChatHistory.push({role:'assistant',content:reply});renderAiMessages();}
-}
-function aiAsk(text){document.getElementById('aiInput').value=text;sendAiMessage();}
-function clearAiChat(){aiChatHistory=[];renderAiMessages();}
-
-async function aiSummarizeNote(){
-var note=state.notes.find(function(n){return n.id===activeNoteId;});
-if(!note||!note.content||!note.content.trim()){showToast('No note content to summarize.');return;}
-var btn=document.getElementById('aiSumBtn');if(btn)btn.disabled=true;
-showToast('\u2728 Summarizing...');
-var msgs=[{role:'system',content:'Summarize the following note concisely. Use bullet points for key takeaways. Keep it short and actionable. If it looks like meeting notes, extract action items.'},{role:'user',content:'Note Title: '+(note.title||'Untitled')+'\n\nContent:\n'+note.content}];
-var summary=await callAI(msgs);
-if(btn)btn.disabled=false;
-if(summary){var sep='\n\n---\n\u2728 AI Summary:\n'+summary;note.content=note.content+sep;note.updated=new Date().toISOString();save();renderNotesView();showToast('\u2705 Summary added to note!');}
-}
-
 </script>
 </body>
 </html>
