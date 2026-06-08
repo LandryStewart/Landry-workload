@@ -1254,10 +1254,10 @@
           "title": "Terra Trace - CMT invoices",
           "assignee": "",
           "bucket": "In Progress",
-          "due": "2026-06-08",
+          "due": "2026-06-11",
           "priority": "High",
           "pct": 0,
-          "notes": "Sent email to Rone. Waiting for them to provide invoices so we can send to city.",
+          "notes": "Sent email to Rone. Waiting for them to provide invoices so we can send to city.\n\nSent to Melissa 06/04",
           "filePath": "",
           "labels": [
             "Waiting on Response"
