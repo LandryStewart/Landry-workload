@@ -1282,6 +1282,17 @@
           "checklist": [],
           "id": 100,
           "created": "2026-06-05"
+        },
+        {
+          "id": 101,
+          "title": "Legacy Fields - SUA Attorney for Draft",
+          "bucket": "To Do (ASAP)",
+          "priority": "Medium",
+          "pct": 0,
+          "labels": [],
+          "checklist": [],
+          "filePath": "",
+          "created": "2026-06-09"
         }
       ],
       "notes": [
@@ -1385,7 +1396,7 @@
           "linkedTaskId": null
         }
       ],
-      "nextId": 101,
+      "nextId": 102,
       "nextNoteId": 25,
       "darkMode": false,
       "compact": false,
