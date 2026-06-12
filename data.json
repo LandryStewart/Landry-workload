@@ -1557,7 +1557,10 @@
       "compact": false,
       "myName": "",
       "filterPresets": [],
-      "sidebarCollapsed": false
+      "sidebarCollapsed": false,
+      "scheduleProjects": [],
+      "nextProjectId": 1,
+      "nextScheduleTaskId": 1
     }
   },
   "activeWorkspace": "work"
